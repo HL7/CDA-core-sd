@@ -1,5 +1,17 @@
 ## CDA FHIR Definition
 
+{% raw %}
+<blockquote class="note-to-balloters">
+<p>
+	This Implementation Guide is a representation of the Clinical Document Architecture (CDA) specification using FHIR Logical Models expressed as FHIR StructureDefinition instances.
+</p>
+<p>
+	Any feedback on this Implementation Guide SHALL be restricted to whether the Logical Model and StructureDefinitions accurately represent the CDA specification.  No changes to the CDA specification will be made via JIRA issues against this guide.
+</p>
+</blockquote>
+{% endraw %}
+
+
 This FHIR Implementation Guide represents CDA using the FHIR Type Definition Framework
 
 <table class="cda-table">

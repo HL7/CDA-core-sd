@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="https://build.fhir.org/ig/HL7/CDA-core-2.0" defaultVersion="current" defaultWorkgroup="" url="http://hl7.org/cda/stds/core">
 <version code="current" url="https://build.fhir.org/ig/HL7/CDA-core-2.0"/>
+<version code="2.0.1" url="http://hl7.org/cda/stds/core/"/>
 <version code="2.1.0-draft1" url="http://hl7.org/cda/stds/core/draft1"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -44,6 +45,8 @@
 <artifact id="StructureDefinition/Encounter" key="StructureDefinition-Encounter" name="Encounter (CDA Class)"/>
 <artifact id="StructureDefinition/EncounterParticipant" key="StructureDefinition-EncounterParticipant" name="EncounterParticipant (CDA Class)"/>
 <artifact id="StructureDefinition/Entity" key="StructureDefinition-Entity" name="Entity (CDA Class)"/>
+<artifact id="StructureDefinition/Entry" key="StructureDefinition-Entry" name="Entry (CDA Class)"/>
+<artifact id="StructureDefinition/EntryRelationship" key="StructureDefinition-EntryRelationship" name="EntryRelationship (CDA Class)"/>
 <artifact id="Binary/clinicaldocument-example" key="Binary-clinicaldocument-example" name="Example CDA document"/>
 <artifact id="StructureDefinition/ExternalAct" key="StructureDefinition-ExternalAct" name="ExternalAct (CDA Class)"/>
 <artifact id="StructureDefinition/ExternalDocument" key="StructureDefinition-ExternalDocument" name="ExternalDocument (CDA Class)"/>
@@ -82,6 +85,7 @@
 <artifact id="StructureDefinition/Organization" key="StructureDefinition-Organization" name="Organization (CDA Class)"/>
 <artifact id="StructureDefinition/OrganizationPartOf" key="StructureDefinition-OrganizationPartOf" name="OrganizationPartOf (CDA Class)"/>
 <artifact id="StructureDefinition/Organizer" key="StructureDefinition-Organizer" name="Organizer (CDA Class)"/>
+<artifact id="StructureDefinition/OrganizerComponent" key="StructureDefinition-OrganizerComponent" name="OrganizerComponent (CDA Class)"/>
 <artifact id="StructureDefinition/PIVL-TS" key="StructureDefinition-PIVL-TS" name="PIVL_TS: PeriodicIntervalOfTime (V3 Data Type)"/>
 <artifact id="StructureDefinition/PN" key="StructureDefinition-PN" name="PN: PersonName (V3 Data Type)"/>
 <artifact id="StructureDefinition/PQ" key="StructureDefinition-PQ" name="PQ: PhysicalQuantity (V3 Data Type)"/>
@@ -103,6 +107,7 @@
 <artifact id="StructureDefinition/REAL" key="StructureDefinition-REAL" name="REAL: RealNumber (V3 Data Type)"/>
 <artifact id="StructureDefinition/RTO-PQ-PQ" key="StructureDefinition-RTO-PQ-PQ" name="RTO_PQ_PQ: Ratio (V3 Data Type)"/>
 <artifact id="StructureDefinition/RecordTarget" key="StructureDefinition-RecordTarget" name="RecordTarget (CDA Class)"/>
+<artifact id="StructureDefinition/Reference" key="StructureDefinition-Reference" name="Reference (CDA Class)"/>
 <artifact id="StructureDefinition/RegionOfInterest" key="StructureDefinition-RegionOfInterest" name="RegionOfInterest (CDA Class)"/>
 <artifact id="StructureDefinition/RelatedDocument" key="StructureDefinition-RelatedDocument" name="RelatedDocument (CDA Class)"/>
 <artifact id="StructureDefinition/RelatedEntity" key="StructureDefinition-RelatedEntity" name="RelatedEntity (CDA Class)"/>
