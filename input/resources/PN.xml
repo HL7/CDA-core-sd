@@ -42,7 +42,7 @@
         <key value="pn-no-ls"/>
         <severity value="error"/>
         <human value="No PN name part may have a qualifier of LS."/>
-        <expression value="(delimiter | family | given | prefix | suffix).where(qualifier = 'LS').empty()"/>
+        <expression value="(delimiter | family | given | prefix | suffix).where(qualifier.where($this = 'LS')).empty()"/>
       </constraint>
     </element>
   </differential>
