@@ -1,0 +1,13 @@
+canonical: http://hl7.org/cda/stds/core
+fhirVersion: 5.0.0
+FSHOnly: true
+applyExtensionMetadataToRoot: false
+# id: hl7.cda.us.ccda
+# name: CCDA
+# status: draft
+version: "2.0"
+dependencies:
+  hl7.terminology:
+    version: 5.2.0
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
+    id: terminology

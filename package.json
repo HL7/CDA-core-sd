@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "sushi": "sushi ./fsh-tank && npm run sushi-post",
+    "sushi-post": "node scripts/jsonToXml.js"
+  },
+  "devDependencies": {
+    "fhir": "^4.12.0",
+    "fsh-sushi": "^3.5.0",
+    "xml-formatter": "^3.5.0",
+    "xml2js": "^0.6.2"
+  }
+}

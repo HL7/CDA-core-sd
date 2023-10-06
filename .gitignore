@@ -7,11 +7,12 @@ input-cache/schemas/
 input-cache/workgroups.xml
 input-cache/txcache/
 input-cache/publisher.jar
+fsh-tank/fsh-generated
+
 
 # Local development
 node_modules
 toc.js
-package*.json
 
 # Local validation
 _updateValidator.sh
