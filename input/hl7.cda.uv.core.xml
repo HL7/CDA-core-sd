@@ -881,6 +881,11 @@
 				<reference value="ValueSet/BinaryDataEncoding" />
 			</reference>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDACompressionAlgorithm" />
+			</reference>
+		</resource>
 		<page>
 			<sourceUrl value="index.html"/>
 			<name value="index.html"/>
