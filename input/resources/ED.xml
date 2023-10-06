@@ -131,6 +131,10 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/BinaryDataEncoding"/>
+      </binding>
     </element>
     <element id="ED.xmlText">
       <path value="ED.xmlText"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="BinaryDataEncoding"/>
+    <url value="http://hl7.org/cda/stds/core/CodeSystem/BinaryDataEncoding"/>
+    <name value="BinaryDataEncoding"/>
+    <title value="Binary Data Encoding"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Identifies the representation of binary data in a text field"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <count value="2"/>
+    <concept>
+        <code value="B64"/>
+        <display value="Base64-encoded text"/>
+    </concept>
+    <concept>
+        <code value="TXT"/>
+        <display value="Plain text"/>
+    </concept>
+</CodeSystem>

@@ -870,6 +870,17 @@
 			</reference>
 			<groupingId value="datatypes-xml"/>
 		</resource>
+		<!-- Vocabulary -->
+		<resource>
+			<reference>
+				<reference value="CodeSystem/BinaryDataEncoding" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/BinaryDataEncoding" />
+			</reference>
+		</resource>
 		<page>
 			<sourceUrl value="index.html"/>
 			<name value="index.html"/>
