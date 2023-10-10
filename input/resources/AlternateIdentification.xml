@@ -41,7 +41,6 @@
         <valueUri value="urn:hl7-org:v3"/>
       </extension>
       <path value="AlternateIdentification.classCode" />
-      <definition value="Element AlternateIdentification.classCode"/>
       <representation value="xmlAttr" />
       <min value="1" />
       <max value="1" />
@@ -60,7 +59,6 @@
         <valueUri value="urn:hl7-org:v3"/>
       </extension>
       <path value="AlternateIdentification.id" />
-      <definition value="Element AlternateIdentification.id"/>
       <min value="1" />
       <max value="1" />
       <type>

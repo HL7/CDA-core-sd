@@ -85,7 +85,6 @@
     <element id="AD.delimiter.partType">
       <path value="AD.delimiter.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       <!--<base>
@@ -101,7 +100,6 @@
     </element>
     <element id="AD.country">
       <path value="AD.country"/>
-      <definition value="Country"/>
       <min value="0"/>
       <max value="*"/>
      <!-- <base>
@@ -116,7 +114,6 @@
     <element id="AD.country.partType">
       <path value="AD.country.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
      <!-- <base>
@@ -147,7 +144,6 @@
     <element id="AD.state.partType">
       <path value="AD.state.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
     <!--  <base>
@@ -178,7 +174,6 @@
     <element id="AD.county.partType">
       <path value="AD.county.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
     <!--  <base>
@@ -209,7 +204,6 @@
     <element id="AD.city.partType">
       <path value="AD.city.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
     <!--  <base>
@@ -240,7 +234,6 @@
     <element id="AD.postalCode.partType">
       <path value="AD.postalCode.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
     <!--  <base>
@@ -256,7 +249,6 @@
     </element>
     <element id="AD.streetAddressLine">
       <path value="AD.streetAddressLine"/>
-      <definition value="Street address line"/>
       <min value="0"/>
       <max value="*"/>
      <!-- <base>
@@ -271,7 +263,6 @@
     <element id="AD.streetAddressLine.partType">
       <path value="AD.streetAddressLine.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
      <!-- <base>
@@ -302,7 +293,6 @@
     <element id="AD.houseNumber.partType">
       <path value="AD.houseNumber.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
     <!--  <base>
@@ -333,7 +323,6 @@
     <element id="AD.houseNumberNumeric.partType">
       <path value="AD.houseNumberNumeric.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
      <!-- <base>
@@ -364,7 +353,6 @@
     <element id="AD.direction.partType">
       <path value="AD.direction.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
      <!-- <base>
@@ -395,7 +383,6 @@
     <element id="AD.streetName.partType">
       <path value="AD.streetName.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
      <!-- <base>
@@ -426,7 +413,6 @@
     <element id="AD.streetNameBase.partType">
       <path value="AD.streetNameBase.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       <!--<base>
@@ -457,7 +443,6 @@
     <element id="AD.streetNameType.partType">
       <path value="AD.streetNameType.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -480,7 +465,6 @@
     <element id="AD.additionalLocator.partType">
       <path value="AD.additionalLocator.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -503,7 +487,6 @@
     <element id="AD.unitID.partType">
       <path value="AD.unitID.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -526,7 +509,6 @@
     <element id="AD.unitType.partType">
       <path value="AD.unitType.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -549,7 +531,6 @@
     <element id="AD.careOf.partType">
       <path value="AD.careOf.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -572,7 +553,6 @@
     <element id="AD.censusTract.partType">
       <path value="AD.censusTract.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -595,7 +575,6 @@
     <element id="AD.deliveryAddressLine.partType">
       <path value="AD.deliveryAddressLine.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -618,7 +597,6 @@
     <element id="AD.deliveryInstallationType.partType">
       <path value="AD.deliveryInstallationType.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -641,7 +619,6 @@
     <element id="AD.deliveryInstallationArea.partType">
       <path value="AD.deliveryInstallationArea.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -664,7 +641,6 @@
     <element id="AD.deliveryInstallationQualifier.partType">
       <path value="AD.deliveryInstallationQualifier.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -687,7 +663,6 @@
     <element id="AD.deliveryMode.partType">
       <path value="AD.deliveryMode.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -710,7 +685,6 @@
     <element id="AD.deliveryModeIdentifier.partType">
       <path value="AD.deliveryModeIdentifier.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -733,7 +707,6 @@
     <element id="AD.buildingNumberSuffix.partType">
       <path value="AD.buildingNumberSuffix.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -756,7 +729,6 @@
     <element id="AD.postBox.partType">
       <path value="AD.postBox.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       
@@ -779,7 +751,6 @@
     <element id="AD.precinct.partType">
       <path value="AD.precinct.partType"/>
       <representation value="xmlAttr"/>
-      <definition value="Specifies the type of the address part"/>
       <min value="0"/>
       <max value="1"/>
       

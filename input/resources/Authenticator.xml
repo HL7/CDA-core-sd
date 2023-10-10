@@ -120,7 +120,6 @@
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
         <valueString value="signatureText"/>
       </extension>
-      <definition value="Element Authenticator.sdtcSignatureText"/>
       <path value="Authenticator.sdtcSignatureText"/>
       <min value="0"/>
       <max value="1"/>

@@ -44,7 +44,6 @@
         <valueUri value="urn:hl7-org:v3"/>
       </extension>
       <path value="IdentifiedBy.typeCode" />
-      <definition value="Element IdentifiedBy.typeCode"/>
       <representation value="xmlAttr" />
       <min value="1" />
       <max value="1" />
@@ -65,7 +64,6 @@
         <valueString value="alternateIdentification"/>
       </extension>
       <path value="IdentifiedBy.sdtcAlternateIdentification" />
-      <definition value="Element IdentifiedBy.sdtcAlternateIdentification"/>
       <min value="1" />
       <max value="1" />
       <type>

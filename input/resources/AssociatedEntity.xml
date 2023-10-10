@@ -75,7 +75,6 @@
       </extension><extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
         <valueString value="identifiedBy"/>
       </extension>
-      <definition value="Element AssociatedEntity.sdtcIdentifiedBy"/>
       <path value="AssociatedEntity.sdtcIdentifiedBy"/>
       <min value="0"/>
       <max value="*"/>

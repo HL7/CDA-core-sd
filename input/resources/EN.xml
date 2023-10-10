@@ -89,7 +89,6 @@
     </element>
     <element id="EN.suffix">
       <path value="EN.suffix"/>
-      <definition value="Element EN.family"/>
       <min value="0"/>
       <max value="*"/>
       <type>

@@ -72,7 +72,6 @@
         <valueString value="identifiedBy"/>
       </extension>
       <path value="OrganizationPartOf.sdtcIdentifiedBy"/>
-      <definition value="Element OrganizationPartOf.isdtcIdentifiedByd"/>
       <min value="0"/>
       <max value="*"/>
       <type>
