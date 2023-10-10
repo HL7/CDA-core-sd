@@ -76,7 +76,7 @@
       <constraint>
         <key value="AD-1"/>
         <severity value="error"/>
-        <human value="Can only have only one of `path`, `forEach`, `forEachOrNull`, and `union`"/>
+        <human value="Can only have only one of the possible item elements in each choice"/>
         <expression value="(delimiter | country | state | county | city | postalCode | streetAddressLine | houseNumber | houseNumberNumeric | direction | streetName | streetNameBase | streetNameType | additionalLocator | unitID | unitType | careOf | censusTract | deliveryAddressLine | deliveryInstallationType | deliveryInstallationArea | deliveryInstallationQualifier | deliveryMode | deliveryModeIdentifier | buildingNumberSuffix | postBox | precinct | xmlText).count() = 1"/>
       </constraint>
     </element>
