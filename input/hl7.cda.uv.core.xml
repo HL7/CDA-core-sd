@@ -919,6 +919,27 @@
       </code>
       <value value="false"/>
     </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="logging"/>
+      </code>
+      <value value="init"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="logging"/>
+      </code>
+      <value value="progress"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="logging"/>
+      </code>
+      <value value="generate"/>
+    </parameter>
 		
 	</definition>
 </ImplementationGuide>
