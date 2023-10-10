@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="PlannedAct"/>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+        <valueBoolean>
+            <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                <valueCode value="not-applicable"/>
+            </extension>
+        </valueBoolean>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+        <valueUri value="urn:hl7-org:v3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+        <valueUri value="act"/>
+    </extension>
+    <url value="http://hl7.org/cda/stds/core/StructureDefinition/PlannedAct"/>
+    <identifier>
+        <value value="urn:hl7ii:2.16.840.1.113883.10.20.22.4.39:2014-06-09"/>
+    </identifier>
+    <version value="2014-06-09"/>
+    <name value="PlannedAct"/>
+    <title value="Planned Act"/>
+    <status value="draft"/>
+    <description value="This template represents planned acts that are not classified as an observation or a procedure according to the HL7 RIM. Examples of these acts are a dressing change, the teaching or feeding of a patient or the providing of comfort measures. &#xA;The priority of the activity to the patient and provider is communicated through Priority Preference. The effectiveTime indicates the time when the activity is intended to take place."/>
+    <fhirVersion value="5.0.0"/>
+    <mapping>
+        <identity value="rim"/>
+        <uri value="http://hl7.org/v3"/>
+        <name value="RIM Mapping"/>
+    </mapping>
+    <kind value="logical"/>
+    <abstract value="false"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Act">
+            <path value="Act"/>
+            <constraint>
+                <key value="should-effectiveTime"/>
+                <severity value="warning"/>
+                <human value="SHOULD contain effectiveTime"/>
+                <expression value="effectiveTime.exists()"/>
+                <source value="http://hl7.org/cda/stds/core/StructureDefinition/PlannedAct"/>
+            </constraint>
+        </element>
+        <element id="Act.classCode">
+            <path value="Act.classCode"/>
+            <comment value="SHALL contain exactly one [1..1] @classCode=&quot;ACT&quot; (CodeSystem: HL7ActClass urn:oid:2.16.840.1.113883.5.6 STATIC) (CONF:1098-8538)."/>
+            <fixedCode value="ACT"/>
+        </element>
+        <element id="Act.moodCode">
+            <path value="Act.moodCode"/>
+            <comment value="SHALL contain exactly one [1..1] @moodCode, which SHALL be selected from ValueSet Planned moodCode (Act/Encounter/Procedure) urn:oid:2.16.840.1.113883.11.20.9.23 STATIC 2014-09-01 (CONF:1098-8539)."/>
+            <binding>
+                <strength value="required"/>
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.23"/>
+            </binding>
+        </element>
+        <element id="Act.templateId">
+            <path value="Act.templateId"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="root"/>
+                </discriminator>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="extension"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+            <min value="1"/>
+        </element>
+        <element id="Act.templateId:planned-act">
+            <path value="Act.templateId"/>
+            <sliceName value="planned-act"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Act.templateId:planned-act.root">
+            <path value="Act.templateId.root"/>
+            <min value="1"/>
+            <patternString value="2.16.840.1.113883.10.20.22.4.39"/>
+        </element>
+        <element id="Act.templateId:planned-act.extension">
+            <path value="Act.templateId.extension"/>
+            <min value="1"/>
+            <patternString value="2014-06-09"/>
+        </element>
+        <element id="Act.id">
+            <path value="Act.id"/>
+            <comment value="SHALL contain at least one [1..*] id (CONF:1098-8546)."/>
+            <min value="1"/>
+        </element>
+        <element id="Act.code">
+            <path value="Act.code"/>
+            <comment value="SHALL contain exactly one [1..1] code (CONF:1098-31687)."/>
+            <constraint>
+                <key value="1098-32030"/>
+                <severity value="warning"/>
+                <human value="This code in a Planned Act **SHOULD** be selected from LOINC (CodeSystem: 2.16.840.1.113883.6.1) *OR* SNOMED CT (CodeSystem: 2.16.840.1.113883.6.96) (CONF:1098-32030)."/>
+                <source value="http://hl7.org/cda/stds/core/StructureDefinition/PlannedAct"/>
+            </constraint>
+        </element>
+        <element id="Act.statusCode">
+            <path value="Act.statusCode"/>
+            <comment value="SHALL contain exactly one [1..1] statusCode (CONF:1098-30432)."/>
+            <min value="1"/>
+        </element>
+        <element id="Act.statusCode.code">
+            <path value="Act.statusCode.code"/>
+            <comment value="This statusCode SHALL contain exactly one [1..1] @code=&quot;active&quot; Active (CodeSystem: HL7ActStatus urn:oid:2.16.840.1.113883.5.14) (CONF:1098-32019)."/>
+            <min value="1"/>
+            <fixedCode value="active"/>
+        </element>
+        <element id="Act.effectiveTime">
+            <path value="Act.effectiveTime"/>
+            <short value="The effectiveTime in a planned act represents the time that the act should occur."/>
+            <comment value="SHOULD contain zero or one [0..1] effectiveTime (CONF:1098-30433)."/>
+        </element>
+        <element id="Act.performer">
+            <path value="Act.performer"/>
+            <short value="The clinician who is expected to carry out the act could be identified using act/performer."/>
+            <comment value="MAY contain zero or more [0..*] performer (CONF:1098-30435)."/>
+        </element>
+        <element id="Act.author">
+            <path value="Act.author"/>
+            <short value="The author in a planned act represents the clinician who is requesting or planning the act."/>
+            <comment value="SHOULD contain zero or one [0..1] Author Participation (identifier: urn:oid:2.16.840.1.113883.10.20.22.4.119) (CONF:1098-32020)."/>
+            <max value="1"/>
+            <type>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
+                <!-- <profile value="http://hl7.org/cda/stds/core/StructureDefinition/AuthorParticipation"/> -->
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>
