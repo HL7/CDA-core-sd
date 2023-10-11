@@ -31,7 +31,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="Section">
@@ -48,25 +48,6 @@
         <code value="id"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/xs-ID"/>
       </type>
-    </element>
-    <element id="Section.nullFlavor">
-      <path value="Section.nullFlavor"/>
-      <representation value="xmlAttr"/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="ANY.nullFlavor"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="code"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-      <binding>
-        <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-NullFlavor"/>
-      </binding>
     </element>
     <element id="Section.classCode">
       <path value="Section.classCode"/>
@@ -97,15 +78,6 @@
         <strength value="required"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActMood"/>
       </binding>
-    </element>
-    <element id="Section.templateId">
-      <path value="Section.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
     </element>
     <element id="Section.id">
       <path value="Section.id"/>

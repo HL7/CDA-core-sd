@@ -31,7 +31,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Procedure"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="Procedure">
@@ -63,31 +63,6 @@
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-    </element>
-    <element id="Procedure.realmCode">
-      <path value="Procedure.realmCode"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
-      </type>
-    </element>
-    <element id="Procedure.typeId">
-      <path value="Procedure.typeId"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
-    </element>
-    <element id="Procedure.templateId">
-      <path value="Procedure.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
     <element id="Procedure.id">

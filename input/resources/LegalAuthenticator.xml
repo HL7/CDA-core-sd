@@ -32,29 +32,13 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="LegalAuthenticator">
       <path value="LegalAuthenticator"/>
       <min value="1"/>
       <max value="1"/>
-    </element>
-    <element id="LegalAuthenticator.nullFlavor">
-      <path value="LegalAuthenticator.nullFlavor"/>
-      <representation value="xmlAttr"/>
-      <label value="Exceptional Value Detail"/>
-      <definition value="If a value is an exceptional value (NULL-value), this specifies in what way and why proper information is missing."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="code"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-      <binding>
-        <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-NullFlavor"/>
-      </binding>
     </element>
     <element id="LegalAuthenticator.typeCode">
       <path value="LegalAuthenticator.typeCode"/>
@@ -82,38 +66,10 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
       <fixedCode value="OP"/>
-      
       <binding>
         <strength value="required"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ContextControl"/>
       </binding>
-    </element>
-    <element id="LegalAuthenticator.realmCode">
-      <path value="LegalAuthenticator.realmCode"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of realm-specific constraints. The value of this attribute identifies the realm in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
-      </type>
-    </element>
-    <element id="LegalAuthenticator.typeId">
-      <path value="LegalAuthenticator.typeId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of constraints defined in an HL7-specified message type. This might be a common type (also known as CMET in the messaging communication environment), or content included within a wrapper. The value of this attribute provides a unique identifier for the type in question."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
-    </element>
-    <element id="LegalAuthenticator.templateId">
-      <path value="LegalAuthenticator.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
     </element>
     <element id="LegalAuthenticator.time">
       <path value="LegalAuthenticator.time"/>

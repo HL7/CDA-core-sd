@@ -32,22 +32,13 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/LanguageCommunication"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="LanguageCommunication">
       <path value="LanguageCommunication"/>
       <min value="1"/>
       <max value="1"/>
-    </element>
-    <element id="LanguageCommunication.templateId">
-      <path value="LanguageCommunication.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
     </element>
     <element id="LanguageCommunication.languageCode">
       <path value="LanguageCommunication.languageCode"/>

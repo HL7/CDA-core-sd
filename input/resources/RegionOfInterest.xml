@@ -31,7 +31,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/RegionOfInterest"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="RegionOfInterest">
@@ -80,31 +80,6 @@
         <strength value="required"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActMood"/>
       </binding>
-    </element>
-    <element id="RegionOfInterest.realmCode">
-      <path value="RegionOfInterest.realmCode"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
-      </type>
-    </element>
-    <element id="RegionOfInterest.typeId">
-      <path value="RegionOfInterest.typeId"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
-    </element>
-    <element id="RegionOfInterest.templateId">
-      <path value="RegionOfInterest.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
     </element>
     <element id="RegionOfInterest.id">
       <path value="RegionOfInterest.id"/>

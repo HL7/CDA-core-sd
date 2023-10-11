@@ -30,29 +30,13 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/DataEnterer"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="DataEnterer">
       <path value="DataEnterer"/>
       <min value="1"/>
       <max value="1"/>
-    </element>
-    <element id="DataEnterer.nullFlavor">
-      <path value="DataEnterer.nullFlavor"/>
-      <representation value="xmlAttr"/>
-      <label value="Exceptional Value Detail"/>
-      <definition value="If a value is an exceptional value (NULL-value), this specifies in what way and why proper information is missing."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="code"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-      <binding>
-        <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-NullFlavor"/>
-      </binding>
     </element>
     <element id="DataEnterer.typeCode">
       <path value="DataEnterer.typeCode"/>
@@ -83,33 +67,6 @@
         <strength value="required"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ContextControl"/>
       </binding>
-    </element>
-    <element id="DataEnterer.realmCode">
-      <path value="DataEnterer.realmCode"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of realm-specific constraints. The value of this attribute identifies the realm in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
-      </type>
-    </element>
-    <element id="DataEnterer.typeId">
-      <path value="DataEnterer.typeId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of constraints defined in an HL7-specified message type. This might be a common type (also known as CMET in the messaging communication environment), or content included within a wrapper. The value of this attribute provides a unique identifier for the type in question."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
-    </element>
-    <element id="DataEnterer.templateId">
-      <path value="DataEnterer.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
     </element>
     <element id="DataEnterer.time">
       <path value="DataEnterer.time"/>
