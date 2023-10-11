@@ -115,7 +115,6 @@
       <type>
         <code value="xhtml"/>
       </type>
-      <mustSupport value="true"/>
     </element>
     <element id="Section.confidentialityCode">
       <path value="Section.confidentialityCode"/>
