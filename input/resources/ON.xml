@@ -17,6 +17,9 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-xml-no-order">
+    <valueBoolean value="true"/>
+  </extension>
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ON"/>
   <name value="ON"/>
   <title value="ON: OrganizationName (V3 Data Type)"/>
@@ -36,12 +39,12 @@
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="ON.item.family">
-      <path value="ON.item.family"/>
+    <element id="ON.family">
+      <path value="ON.family"/>
       <max value="0"/>
     </element>
-    <element id="ON.item.given">
-      <path value="ON.item.given"/>
+    <element id="ON.given">
+      <path value="ON.given"/>
       <max value="0"/>
     </element>
   </differential>
