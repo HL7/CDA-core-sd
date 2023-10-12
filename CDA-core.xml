@@ -20,6 +20,8 @@
 <artifact id="StructureDefinition/AuthoringDevice" key="StructureDefinition-AuthoringDevice" name="AuthoringDevice (CDA Class)"/>
 <artifact id="StructureDefinition/Authorization" key="StructureDefinition-Authorization" name="Authorization (CDA Class)"/>
 <artifact id="StructureDefinition/BL" key="StructureDefinition-BL" name="BL: Boolean (V3 Data Type)"/>
+<artifact id="ValueSet/BinaryDataEncoding" key="ValueSet-BinaryDataEncoding" name="Binary Data Encoding"/>
+<artifact id="CodeSystem/BinaryDataEncoding" key="CodeSystem-BinaryDataEncoding" name="Binary Data Encoding"/>
 <artifact id="StructureDefinition/Birthplace" key="StructureDefinition-Birthplace" name="Birthplace (CDA Class)"/>
 <artifact id="StructureDefinition/CD" key="StructureDefinition-CD" name="CD: ConceptDescriptor (V3 Data Type)"/>
 <artifact id="StructureDefinition/CE" key="StructureDefinition-CE" name="CE: CodedWithEquivalents (V3 Data Type)"/>
@@ -30,6 +32,7 @@
 <artifact id="StructureDefinition/ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
 <artifact id="StructureDefinition/Component" key="StructureDefinition-Component" name="Component (CDA Class)"/>
 <artifact id="StructureDefinition/ComponentOf" key="StructureDefinition-ComponentOf" name="ComponentOf (CDA Class)"/>
+<artifact id="ValueSet/CDACompressionAlgorithm" key="ValueSet-CDACompressionAlgorithm" name="CompressionAlgorithm"/>
 <artifact id="StructureDefinition/Consent" key="StructureDefinition-Consent" name="Consent (CDA Class)"/>
 <artifact id="StructureDefinition/Criterion" key="StructureDefinition-Criterion" name="Criterion (CDA Class)"/>
 <artifact id="StructureDefinition/Custodian" key="StructureDefinition-Custodian" name="Custodian (CDA Class)"/>
