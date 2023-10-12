@@ -58,6 +58,25 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
+    <element id="InfrastructureRoot.typeId.root">
+      <path value="InfrastructureRoot.typeId.root"/>
+      <representation value="xmlAttr"/>
+      <definition value="Identifies the type as an HL7 Registered model"/>
+      <min value="1"/>
+      <max value="1"/>
+      <fixedString value="2.16.840.1.113883.1.3" />
+    </element>
+    <element id="InfrastructureRoot.typeId.extension">
+      <path value="InfrastructureRoot.typeId.extension"/>
+      <representation value="xmlAttr"/>
+      <definition value="A character string as a unique identifier within the scope of the identifier root."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
+      </type>
+    </element>
     <element id="InfrastructureRoot.templateId">
       <path value="InfrastructureRoot.templateId"/>
       <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
