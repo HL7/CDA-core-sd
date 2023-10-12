@@ -35,35 +35,6 @@
       <definition value="A quantity specifying a point on the axis of natural time. A point in time is most often represented as a calendar expression."></definition>
       <min value="1"/>
       <max value="*"/>
-      
-      <!-- <constraint>
-          <key value="ts-shall-timezone"/>
-          <severity value="error"/>
-          <human value="If more precise than minute, **SHALL** include time-zone offset"/>
-          <expression value="nullFlavor.exists() or value.length() &lt;= 8 or value.matches('[+-][0-9]{2,4}')"/>
-      </constraint>
-      
-      <constraint>
-          <key value="ts-a-timezone"/>
-          <severity value="error"/>
-          <human value="If more precise than minute, **SHALL** include time-zone offset"/>
-          <expression value="nullFlavor.exists() or value.length() &lt;= 8 or value.matches('.*[+-][0-9]{2,4}')"/>
-      </constraint>
-      
-      <constraint>
-          <key value="ts-b-timezone"/>
-          <severity value="error"/>
-          <human value="If more precise than minute, **SHALL** include time-zone offset"/>
-          <expression value="nullFlavor.exists() or value.length() &lt;= 8 or value.matches('.*[+-][0-9]{2,4}$')"/>
-      </constraint>
-      
-      <constraint>
-          <key value="ts-c-timezone"/>
-          <severity value="error"/>
-          <human value="If more precise than minute, **SHALL** include time-zone offset"/>
-          <expression value="nullFlavor.exists() or value.length() &lt;= 8 or value.contains('-') or value.contains('+')"/>
-      </constraint> -->
-
     </element>
     <element id="TS.value">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/elementdefinition-date-format">
