@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="SubstanceAdministration"/> 
-  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
-    <valueBoolean>
-      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-        <valueCode value="not-applicable"/>
-      </extension>
-    </valueBoolean>
-  </extension>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,6 +10,13 @@
       <p>The capture of medication-related information also involves the interrelationship of SubstanceAdministration with several other classes. The consumable participation is used to bring in the LabeledDrug or Material entity that describes the administered substance. The LabeledDrug class, which is an Entity class playing the Role of Manufactured Product, identifies the drug that is consumed in the substance administration. The medication is identified by means of the LabeledDrug.code or the LabeledDrug.name. The Material entity is used to identify non-drug administered substances such as vaccines and blood products.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
@@ -33,7 +33,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="SubstanceAdministration">
@@ -65,31 +65,6 @@
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-    </element>
-    <element id="SubstanceAdministration.realmCode">
-      <path value="SubstanceAdministration.realmCode"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
-      </type>
-    </element>
-    <element id="SubstanceAdministration.typeId">
-      <path value="SubstanceAdministration.typeId"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
-    </element>
-    <element id="SubstanceAdministration.templateId">
-      <path value="SubstanceAdministration.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
     <element id="SubstanceAdministration.id">

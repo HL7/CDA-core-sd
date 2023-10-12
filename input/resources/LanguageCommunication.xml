@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="LanguageCommunication"/> 
-  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
-    <valueBoolean>
-      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-        <valueCode value="not-applicable"/>
-      </extension>
-    </valueBoolean>
-  </extension>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -16,6 +9,13 @@
       <p>A patient who originally came from Mexico may have fluent language capabilities to speak, read and write in Spanish, and rudimentary capabilities in English. A person from Russia may have the capability to communicate equally well in spoken language in Russian, Armenian or Ukrainian, and a preference to speak in Armenian.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
@@ -32,22 +32,13 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/LanguageCommunication"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="LanguageCommunication">
       <path value="LanguageCommunication"/>
       <min value="1"/>
       <max value="1"/>
-    </element>
-    <element id="LanguageCommunication.templateId">
-      <path value="LanguageCommunication.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
     </element>
     <element id="LanguageCommunication.languageCode">
       <path value="LanguageCommunication.languageCode"/>

@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Observation"/> 
-  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
-    <valueBoolean>
-      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-        <valueCode value="not-applicable"/>
-      </extension>
-    </valueBoolean>
-  </extension>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -15,6 +8,13 @@
       <p>Observation.negationInd, when set to "true", is a positive assertion that the Observation as a whole is negated. Some properties such as Observation.id, Observation.moodCode, and the participations are not negated. These properties always have the same meaning: i.e., the author remains the author of the negative Observation. An observation statement with negationInd is still a statement about the specific fact described by the Observation. For instance, a negated "finding of wheezing on July 1" means that the author positively denies that there was wheezing on July 1, and that he takes the same responsibility for such statement and the same requirement to have evidence for such statement than if he had not used negation.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
@@ -31,7 +31,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="Observation">
@@ -71,31 +71,6 @@
       <type>
         <code value="boolean"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/bl-simple"/>
-      </type>
-    </element>
-    <element id="Observation.realmCode">
-      <path value="Observation.realmCode"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
-      </type>
-    </element>
-    <element id="Observation.typeId">
-      <path value="Observation.typeId"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
-      </type>
-    </element>
-    <element id="Observation.templateId">
-      <path value="Observation.templateId"/>
-      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
     <element id="Observation.id">

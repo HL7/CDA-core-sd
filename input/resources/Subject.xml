@@ -36,7 +36,6 @@
   <differential>
     <element id="Subject.typeCode">
       <path value="Subject.typeCode"/>
-      <definition value="Element Act.typeCode"/>
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
@@ -52,7 +51,6 @@
     </element>
     <element id="Subject.contextControlCode">
       <path value="Subject.contextControlCode"/>
-      <definition value="Element Act.contextControlCode"/>
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
