@@ -1,14 +1,11 @@
 {
   "package-id" : "hl7.cda.uv.core",
-  "version" : "2.0.1",
-  "path" : "http://hl7.org/cda/stds/core/",
+  "version" : "2.0.0-sd-ballot",
+  "path" : "http://hl7.org/cda/stds/core/2.0.0-sd-ballot",
   "milestone" : false,
-  "status" : "draft",
+  "mode": "working",
+  "status" : "ballot",
   "sequence" : "CDA2",
   "desc" : "A representation of the CDA specification using FHIR Logical Models and Structure Definitions.",
-  "title" : "CDA: Clinical Document Architecture",
-  "ci-build" : "https://build.fhir.org/ig/HL7/CDA-core-sd",
-  "category" : "CDA",
-  "first" : true,
-  "introduction" : "The base CDA specification republished using the FHIR publication tooling"
+  "first" : true
 }
