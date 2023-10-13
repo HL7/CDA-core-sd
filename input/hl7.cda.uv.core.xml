@@ -897,6 +897,12 @@
 				<title value="Downloads"/>
 				<generation value="markdown"/>
 			</page>
+			<page>
+				<sourceUrl value="cda-rmim.html"/>
+				<name value="cda-rmim.html"/>
+				<title value="Clickable CDA Diagram"/>
+				<generation value="html"/>
+			</page>
 		</page>
 		<parameter>
 			<code>
