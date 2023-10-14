@@ -152,5 +152,7 @@
 <page key="cda-rmim" name="Clickable CDA Diagram"/>
 <page key="downloads" name="Downloads"/>
 <page key="index" name="IG Home Page"/>
+<page key="narrative" name="Narrative Block"/>
+<page key="overview" name="Overview"/>
 <page key="toc" name="Table of Contents"/>
 </specification>
