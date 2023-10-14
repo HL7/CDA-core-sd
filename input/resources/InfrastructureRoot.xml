@@ -22,6 +22,9 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
     <valueUri value="infrastructureRoot"/>
   </extension> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-style">
+    <valueUri value="cda"/>
+  </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <name value="InfrastructureRoot"/>
   <title value="InfrastructureRoot (Base Type for all CDA Classes)"/>
