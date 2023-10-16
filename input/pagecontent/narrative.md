@@ -49,9 +49,9 @@ The `<content>` element contains an optional "revised" attribute that can be val
 
 The CDA `<linkHtml>` is a generic referencing mechanism, similar, but not identical, to the HTML anchor tag. It can be used to reference identifiers that are either internal or external to the document.
 
-Multimedia that is integral to a document, and part of the attestable content of the document requires the use of the ObservationMedia CDA entry, which is referenced by the `<renderMultiMedia>` element (see [`<renderMultiMedia>`](#rendermultimedia)). Multimedia that is simply referenced by the document and not an integral part of the document can use `<linkHtml>`.
+Multimedia that is integral to a document, and part of the attestable content of the document requires the use of the [ObservationMedia](StructureDefinition-ObservationMedia.html) CDA entry, which is referenced by the `<renderMultiMedia>` element (see [&lt;renderMultiMedia&gt;](#rendermultimedia)). Multimedia that is simply referenced by the document and not an integral part of the document can use `<linkHtml>`.
 
-The source of a link uses the linkHtml.href attribute. The target of an internal reference is an identifier of type XML ID, which can exist on other elements in the same or a different narrative block, or XML ID attributes that have been added to the `<section>`, `<ObservationMedia>`, or `<renderMultiMedia>` elements of the CDA Schema. The linkHtml.name attribute is deprecated, because attributes of type XML ID provide an alternative and more consistent target for referencing. Following the conventions of HTML, an internal link is prefaced with the pound sign, as shown in the following example.
+The source of a link uses the linkHtml.href attribute. The target of an internal reference is an identifier of type XML ID, which can exist on other elements in the same or a different narrative block, or XML ID attributes that have been added to the [&lt;section&gt;](StructureDefinition-Section.html), [&lt;observationMedia&gt;](StructureDefinition-ObservationMedia.html), or [&lt;renderMultiMedia&gt;](#rendermultimedia) elements of the CDA Schema. The linkHtml.name attribute is deprecated, because attributes of type XML ID provide an alternative and more consistent target for referencing. Following the conventions of HTML, an internal link is prefaced with the pound sign, as shown in the following example.
 
 Example 6
 ```xml
@@ -100,7 +100,7 @@ Receivers are required to interpret these elements when rendering by visually di
 
 The CDA `<renderMultiMedia>` element references external multimedia that is integral to a document, and part of the attestable content of the document, and serves to show where the referenced multimedia is to be rendered.
 
-The `<renderMultiMedia>` element has an optional `<caption>`, and contains a required referencedObject attribute (of type XML IDREFS), the values of which must equal the XML ID value(s) of ObservationMedia or RegionOfInterest CDA entries within the same document.
+The `<renderMultiMedia>` element has an optional `<caption>`, and contains a required referencedObject attribute (of type XML IDREFS), the values of which must equal the XML ID value(s) of [ObservationMedia](StructureDefinition-ObservationMedia.html) or [RegionOfInterest](StructureDefinition-RegionOfInterest.html) CDA entries within the same document.
 
 Example 7
 ```xml
@@ -124,7 +124,7 @@ Example 7
 
 Multimedia that is simply referenced by the document and not an integral part of the document must use `<linkHtml>`.
 
-The expected behavior is that the referenced multimedia should be rendered or referenced at the point of reference. Where a caption is present, it must also be rendered. `<renderMultiMedia>` can either reference a single ObservationMedia, or one or more RegionOfInterest. If `<renderMultiMedia>` references a single ObservationMedia, that ObservationMedia should be rendered or referenced at the point of reference. If `<renderMultiMedia>` references one or more RegionOfInterest, all RegionOfInterests should be rendered or referenced at the point of reference, atop the multimedia they are regions of. If `<renderMultiMedia>` references more than one RegionOfInterest, each RegionOfInterest must be a region on the same multimedia.
+The expected behavior is that the referenced multimedia should be rendered or referenced at the point of reference. Where a caption is present, it must also be rendered. `<renderMultiMedia>` can either reference a single [ObservationMedia](StructureDefinition-ObservationMedia.html), or one or more [RegionOfInterest](StructureDefinition-RegionOfInterest.html). If `<renderMultiMedia>` references a single ObservationMedia, that ObservationMedia should be rendered or referenced at the point of reference. If `<renderMultiMedia>` references one or more RegionOfInterest, all RegionOfInterests should be rendered or referenced at the point of reference, atop the multimedia they are regions of. If `<renderMultiMedia>` references more than one RegionOfInterest, each RegionOfInterest must be a region on the same multimedia.
 
 ### &lt;paragraph&gt;
 
