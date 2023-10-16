@@ -1,6 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <body>
-    <div>This is an incomplete draft of a clicable CDA R-MIM (Refined Message Information Model) diagram. 
+    <div>This is an incomplete draft of a clickable CDA R-MIM (Refined Message Information Model) diagram. 
       Clicking on various areas will take you to the corresponding StructureDefinition.
     </div>
     <img src="L-POCD_RM000040.gif" usemap="#image-map" />
