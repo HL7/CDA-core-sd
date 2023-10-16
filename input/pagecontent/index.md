@@ -19,7 +19,7 @@ This FHIR Implementation Guide represents CDA using the FHIR Type Definition Fra
 	<tr>
 		<td>
 			<h3>CDA Classes</h3>
-			<ul>
+			<ul style="columns:2; column-gap:5em">
 				<li><a href="StructureDefinition-ClinicalDocument.html"><strong>ClinicalDocument</strong></a></li>
 				<li><a href="StructureDefinition-Act.html">Act</a></li>
 				<li><a href="StructureDefinition-AlternateIdentification.html">AlternateIdentification</a></li>
@@ -55,6 +55,7 @@ This FHIR Implementation Guide represents CDA using the FHIR Type Definition Fra
 				<li><a href="StructureDefinition-HealthCareFacility.html">HealthCareFacility</a></li>
 				<li><a href="StructureDefinition-IdentifiedBy.html">IdentifiedBy</a></li>
 				<li><a href="StructureDefinition-InFulfillmentOf.html">InFulfillmentOf</a></li>
+				<li><a href="StructureDefinition-InFulfillmentOf1.html">InFulfillmentOf1</a></li>
 				<li><a href="StructureDefinition-Informant.html">Informant</a></li>
 				<li><a href="StructureDefinition-InformationRecipient.html">InformationRecipient</a></li>
 				<li><a href="StructureDefinition-InfrastructureRoot.html">InfrastructureRoot</a></li>
@@ -166,8 +167,6 @@ This FHIR Implementation Guide represents CDA using the FHIR Type Definition Fra
 				<li><a href="StructureDefinition-url.html">url: Universal Resource Locator</a></li>
 				<li><a href="StructureDefinition-uuid.html">uuid: DCE Universal Unique Identifier</a></li>
 			</ul>
-		</td>
-		<td>
 			<h3>XML Data Types</h3>
 			<ul>
 				<li><a href="StructureDefinition-xs-ID.html">xs:ID</a></li>

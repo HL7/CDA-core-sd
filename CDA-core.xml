@@ -68,6 +68,7 @@
 <artifact id="StructureDefinition/IVXB-TS" key="StructureDefinition-IVXB-TS" name="IVXB_TS: Interval Boundary PointInTime (V3 Data Type)"/>
 <artifact id="StructureDefinition/IdentifiedBy" key="StructureDefinition-IdentifiedBy" name="IdentifiedBy (CDA Class)"/>
 <artifact id="StructureDefinition/InFulfillmentOf" key="StructureDefinition-InFulfillmentOf" name="InFulfillmentOf (CDA Class)"/>
+<artifact id="StructureDefinition/InFulfillmentOf1" key="StructureDefinition-InFulfillmentOf1" name="InFulfillmentOf1 (CDA Class)"/>
 <artifact id="StructureDefinition/Informant" key="StructureDefinition-Informant" name="Informant (CDA Class)"/>
 <artifact id="StructureDefinition/InformationRecipient" key="StructureDefinition-InformationRecipient" name="InformationRecipient (CDA Class)"/>
 <artifact id="StructureDefinition/InfrastructureRoot" key="StructureDefinition-InfrastructureRoot" name="InfrastructureRoot (Base Type for all CDA Classes)"/>

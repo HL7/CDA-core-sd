@@ -386,6 +386,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/InFulfillmentOf1" />
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/INT" />
 			</reference>
 			<groupingId value="datatypes-complex"/>
