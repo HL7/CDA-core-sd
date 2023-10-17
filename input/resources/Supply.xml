@@ -277,14 +277,14 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Precondition"/>
       </type>
     </element>
-    <element id="Supply.sdtcinFulfillmentOf1">
+    <element id="Supply.sdtcInFulfillmentOf1">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
         <valueString value="inFulfillmentOf1"/>
       </extension>
-      <path value="Supply.inFulfillmentOf1"/>
+      <path value="Supply.sdtcInFulfillmentOf1"/>
       <min value="0"/>
       <max value="*"/>
       <type>

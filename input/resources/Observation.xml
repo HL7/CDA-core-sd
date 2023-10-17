@@ -392,14 +392,14 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ObservationRange"/>
       </type>
     </element>
-    <element id="Observation.sdtcinFulfillmentOf1">
+    <element id="Observation.sdtcInFulfillmentOf1">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
         <valueString value="inFulfillmentOf1"/>
       </extension>
-      <path value="Observation.inFulfillmentOf1"/>
+      <path value="Observation.sdtcInFulfillmentOf1"/>
       <min value="0"/>
       <max value="*"/>
       <type>
