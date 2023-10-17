@@ -153,5 +153,33 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
       </type>
     </element>
+    <element id="SubjectPerson.sdtcMultipleBirthInd">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+        <valueString value="multipleBirthInd"/>
+      </extension>
+      <path value="SubjectPerson.sdtcMultipleBirthInd"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
+      </type>
+    </element>
+    <element id="SubjectPerson.sdtcMultipleBirthOrderNumber">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+        <valueString value="multipleBirthOrderNumber"/>
+      </extension>
+      <path value="SubjectPerson.sdtcMultipleBirthOrderNumber"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT-POS"/>
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
