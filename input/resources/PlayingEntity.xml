@@ -99,6 +99,7 @@
         <valueUri value="birthTime"/>
       </extension>
       <path value="PlayingEntity.sdtcBirthTime"/>
+      <definition value="The purpose of this extension is to allow the recording of the subscriber or member of a health plan in cases where the health plan eligibility system has different information on file than the provider does for the patient."/>
       <min value="0"/>
       <max value="1"/>
       <type>

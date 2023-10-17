@@ -107,6 +107,7 @@
         <valueString value="admissionReferralSourceCode"/>
       </extension>
       <path value="EncompassingEncounter.sdtcAdmissionReferralSourceCode"/>
+      <definition value="This element is a coded concept that represents the type of referral. Its RIM source class is PatientEncounter."/>
       <min value="0"/>
       <max value="1"/>
       <type>

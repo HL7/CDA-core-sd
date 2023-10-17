@@ -78,10 +78,13 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
-    <element id="OrganizerComponent.priorityNumber">
-      <path value="OrganizerComponent.priorityNumber"/>
+    <element id="OrganizerComponent.sdtcPriorityNumber">
+      <path value="OrganizerComponent.sdtcPriorityNumber"/>
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+        <valueString value="priorityNumber"/>
       </extension>
       <min value="0"/>
       <max value="1"/>

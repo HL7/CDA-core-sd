@@ -4,8 +4,7 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>Alternate Identifier for a role</p>
-      <p>The id field SHALL match an id in the linked role.</p>
+      <p>The alternateIdentification extension provides additional information about an identifier found in the linked role. The extensions augment the id information in the linked role.  The id in the alternateIdentification extension SHALL match an id in the linked role. The alternateIdentification provides additional information about a particular identifier, such as its type. As an extension it needs to be safe for implementers to ignore this additional information.</p>
     </div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
@@ -24,7 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
-  <description value="Alternate Identifier for a role"/>
+  <description value="The alternateIdentification extension provides additional information about an identifier found in the linked role. The extensions augment the id information in the linked role.  The id in the alternateIdentification extension SHALL match an id in the linked role. The alternateIdentification provides additional information about a particular identifier, such as its type. As an extension it needs to be safe for implementers to ignore this additional information."/>
   <kind value="logical"/>
   <abstract value="true"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/AlternateIdentification"/>

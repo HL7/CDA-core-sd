@@ -100,6 +100,7 @@
         <valueString value="asPatientRelationship"/>
       </extension>
       <path value="Person.sdtcAsPatientRelationship"/>
+      <definition value="Each participant role other than an informant/relatedEntity may have zero or more relationship roles with the patient. Each of these roles can be expressed with an asPatientRelationship element which further describes the type of role using a code element."/>
       <min value="0"/>
       <max value="*"/>
       <type>
