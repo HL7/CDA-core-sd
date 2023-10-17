@@ -51,7 +51,16 @@
         <!-- Body Entities (Green boxes off of Clinical Statements) -->
 
         <!-- Body Relationships (Red arrows and boxes off of Clinical Statements) -->
-
+        <area target="" alt="Observation.ReferenceRange" title="Observation.ReferenceRange" href="StructureDefinition-Observation.html" coords="3599,158,3781,193" shape="rect" />
+        <area target="" alt="ObservationRange" title="ObservationRange" href="StructureDefinition-ObservationRange.html" coords="3780,88,4098,188" shape="rect" />
+        <area target="" alt="Precondition" title="Precondition" href="StructureDefinition-Precondition.html" coords="3614,384,3781,416" shape="rect" />
+        <area target="" alt="Criterion" title="Criterion" href="StructureDefinition-Criterion.html" coords="3785,328,4102,414" shape="rect" />
+        <area target="" alt="Reference" title="Reference" href="StructureDefinition-Reference.html" coords="3618,1129,4102,1172" shape="rect" />
+        <area target="" alt="ExternalAct" title="ExternalAct" href="StructureDefinition-ExternalAct.html" coords="4116,1026,4326,1110" shape="rect" />
+        <area target="" alt="ExternalObservation" title="ExternalObservation" href="StructureDefinition-ExternalObservation.html" coords="4121,1126,4326,1210" shape="rect" />
+        <area target="" alt="SubjectPerson" title="SubjectPerson" href="StructureDefinition-ExternalProcedure.html" coords="4124,1226,4326,1310" shape="rect" />
+        <area target="" alt="ExternalDocument" title="ExternalDocument" href="StructureDefinition-ExternalDocument.html" coords="4116,1326,4326,1438" shape="rect" />
+        <area target="" alt="OrganizerComponent" title="OrganizerComponent" href="StructureDefinition-OrganizerComponent.html" coords="3600,1363,3795,1473" shape="rect" />
     </map>
   </body>
 </html>
