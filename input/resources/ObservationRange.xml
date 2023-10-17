@@ -163,5 +163,61 @@
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ObservationInterpretation"/>
       </binding>
     </element>
+    <element id="ObservationRange.sdtcPrecondition1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+        <valueString value="precondition1"/>
+      </extension>
+      <path value="ObservationRange.sdtcPrecondition1"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
+      </type>
+    </element>
+    <element id="ObservationRange.sdtcPrecondition1.typeCode">
+      <path value="ObservationRange.sdtcPrecondition1.typeCode"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActRelationshipType"/>
+      </binding>
+      <fixedCode value="PRCN" />
+    </element>
+    <element id="ObservationRange.sdtcPrecondition1.conjunctionCode">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <path value="ObservationRange.sdtcPrecondition1.conjunctionCode"/>
+      <definition value="A code specifying the logical conjunction of the criteria among all the condition-links of Acts (e.g., and, or, exclusive-or).&#10;All AND criteria must be true.&#10;If OR and AND criteria occur together, one criterion out of the OR-group must be true and all AND criteria must be true also.&#10;If XOR criteria occur together with OR and AND criteria, exactly one of the XOR criteria must be true, and at least one of the OR criteria and all AND criteria must be true.&#10;In other words, the sets of AND, OR, and XOR criteria are in turn combined by a logical AND operator (all AND criteria and at least one OR criterion and exactly one XOR criterion)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-RelationshipConjunction|2.0.0"/>
+      </binding>
+    </element>
+    <element id="ObservationRange.sdtcPrecondition1.criterion1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <path value="ObservationRange.sdtcPrecondition1.criterion1"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Criterion"/>
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
