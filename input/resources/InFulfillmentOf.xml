@@ -21,7 +21,7 @@
     <valueUri value="inFulfillmentOf"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf"/>
-  <name value="CDAR2.InFulfillmentOf"/>
+  <name value="InFulfillmentOf"/>
   <title value="InFulfillmentOf (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

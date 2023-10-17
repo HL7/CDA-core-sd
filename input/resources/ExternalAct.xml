@@ -21,7 +21,7 @@
     <valueUri value="externalAct"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ExternalAct"/>
-  <name value="CDAR2.ExternalAct"/>
+  <name value="ExternalAct"/>
   <title value="ExternalAct (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

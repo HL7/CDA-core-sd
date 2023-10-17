@@ -21,7 +21,7 @@
     <valueUri value="consent"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Consent"/>
-  <name value="CDAR2.Consent"/>
+  <name value="Consent"/>
   <title value="Consent (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

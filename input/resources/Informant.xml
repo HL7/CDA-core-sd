@@ -21,7 +21,7 @@
     <valueUri value="informant"/>
   </extension>
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Informant"/>
-  <name value="CDAR2.Informant"/>
+  <name value="Informant"/>
   <title value="Informant (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

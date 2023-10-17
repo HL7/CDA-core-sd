@@ -15,7 +15,7 @@
     <valueUri value="criterion"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Criterion"/>
-  <name value="CDAR2.Criterion"/>
+  <name value="Criterion"/>
   <title value="Criterion (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

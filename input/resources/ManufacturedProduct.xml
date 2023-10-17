@@ -15,7 +15,7 @@
     <valueUri value="manufacturedProduct"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ManufacturedProduct"/>
-  <name value="CDAR2.ManufacturedProduct"/>
+  <name value="ManufacturedProduct"/>
   <title value="ManufacturedProduct (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

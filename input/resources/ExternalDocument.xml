@@ -21,7 +21,7 @@
     <valueUri value="externalDocument"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ExternalDocument"/>
-  <name value="CDAR2.ExternalDocument"/>
+  <name value="ExternalDocument"/>
   <title value="ExternalDocument (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

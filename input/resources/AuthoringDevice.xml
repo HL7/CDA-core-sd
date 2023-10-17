@@ -15,7 +15,7 @@
     <valueUri value="authoringDevice"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/AuthoringDevice"/>
-  <name value="CDAR2.AuthoringDevice"/>
+  <name value="AuthoringDevice"/>
   <title value="AuthoringDevice (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

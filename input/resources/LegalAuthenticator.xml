@@ -23,7 +23,7 @@
     <valueUri value="legalAuthenticator"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator"/>
-  <name value="CDAR2.LegalAuthenticator"/>
+  <name value="LegalAuthenticator"/>
   <title value="LegalAuthenticator (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

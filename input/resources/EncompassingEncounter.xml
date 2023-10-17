@@ -23,7 +23,7 @@
     <valueUri value="encompassingEncounter"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/EncompassingEncounter"/>
-  <name value="CDAR2.EncompassingEncounter"/>
+  <name value="EncompassingEncounter"/>
   <title value="EncompassingEncounter (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -22,7 +22,7 @@
     <valueUri value="author"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
-  <name value="CDAR2.Author"/>
+  <name value="Author"/>
   <title value="Author (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

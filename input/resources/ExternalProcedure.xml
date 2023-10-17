@@ -21,7 +21,7 @@
     <valueUri value="externalProcedure"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ExternalProcedure"/>
-  <name value="CDAR2.ExternalProcedure"/>
+  <name value="ExternalProcedure"/>
   <title value="ExternalProcedure (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

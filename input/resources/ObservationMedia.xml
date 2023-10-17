@@ -23,7 +23,7 @@
     <valueUri value="observationMedia"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ObservationMedia"/>
-  <name value="CDAR2.ObservationMedia"/>
+  <name value="ObservationMedia"/>
   <title value="ObservationMedia (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

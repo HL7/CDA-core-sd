@@ -21,7 +21,7 @@
     <valueUri value="specimen"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Specimen"/>
-  <name value="CDAR2.Specimen"/>
+  <name value="Specimen"/>
   <title value="Specimen (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

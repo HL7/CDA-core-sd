@@ -23,7 +23,7 @@
     <valueUri value="entity"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Entity"/>
-  <name value="CDAR2.Entity"/>
+  <name value="Entity"/>
   <title value="Entity (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

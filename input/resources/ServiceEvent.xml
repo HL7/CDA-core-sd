@@ -23,7 +23,7 @@
     <valueUri value="serviceEvent"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent"/>
-  <name value="CDAR2.ServiceEvent"/>
+  <name value="ServiceEvent"/>
   <title value="ServiceEvent (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

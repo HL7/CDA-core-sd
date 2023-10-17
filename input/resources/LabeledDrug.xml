@@ -21,7 +21,7 @@
     <valueUri value="labeledDrug"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/LabeledDrug"/>
-  <name value="CDAR2.LabeledDrug"/>
+  <name value="LabeledDrug"/>
   <title value="LabeledDrug (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

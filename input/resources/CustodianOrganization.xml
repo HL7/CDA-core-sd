@@ -21,7 +21,7 @@
     <valueUri value="custodianOrganization"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/CustodianOrganization"/>
-  <name value="CDAR2.CustodianOrganization"/>
+  <name value="CustodianOrganization"/>
   <title value="CustodianOrganization (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

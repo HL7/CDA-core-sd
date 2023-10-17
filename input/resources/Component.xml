@@ -21,7 +21,7 @@
     <valueUri value="component"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Component"/>
-  <name value="CDAR2.Component"/>
+  <name value="Component"/>
   <title value="Component (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

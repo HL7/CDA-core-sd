@@ -24,7 +24,7 @@
     <valueUri value="material"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Material"/>
-  <name value="CDAR2.Material"/>
+  <name value="Material"/>
   <title value="Material (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

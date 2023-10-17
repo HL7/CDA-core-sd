@@ -22,7 +22,7 @@
     <valueUri value="structuredBody"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/StructuredBody"/>
-  <name value="CDAR2.StructuredBody"/>
+  <name value="StructuredBody"/>
   <title value="StructuredBody (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

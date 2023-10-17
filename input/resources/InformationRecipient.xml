@@ -23,7 +23,7 @@
     <valueUri value="informationRecipient"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient"/>
-  <name value="CDAR2.InformationRecipient"/>
+  <name value="InformationRecipient"/>
   <title value="InformationRecipient (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

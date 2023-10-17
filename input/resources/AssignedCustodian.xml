@@ -21,7 +21,7 @@
     <valueUri value="assignedCustodian"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedCustodian"/>
-  <name value="CDAR2.AssignedCustodian"/>
+  <name value="AssignedCustodian"/>
   <title value="AssignedCustodian (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

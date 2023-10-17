@@ -22,7 +22,7 @@
     <valueUri value="act"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-  <name value="CDAR2.Act"/>
+  <name value="Act"/>
   <title value="Act (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

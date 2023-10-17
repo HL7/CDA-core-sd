@@ -15,7 +15,7 @@
     <valueUri value="intendedRecipient"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/IntendedRecipient"/>
-  <name value="CDAR2.IntendedRecipient"/>
+  <name value="IntendedRecipient"/>
   <title value="IntendedRecipient (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

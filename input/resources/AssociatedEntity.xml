@@ -21,7 +21,7 @@
     <valueUri value="associatedEntity"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity"/>
-  <name value="CDAR2.AssociatedEntity"/>
+  <name value="AssociatedEntity"/>
   <title value="AssociatedEntity (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

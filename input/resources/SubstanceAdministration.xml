@@ -24,7 +24,7 @@
     <valueUri value="substanceAdministration"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration"/>
-  <name value="CDAR2.SubstanceAdministration"/>
+  <name value="SubstanceAdministration"/>
   <title value="SubstanceAdministration (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

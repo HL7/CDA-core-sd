@@ -25,7 +25,7 @@
     <valueUri value="recordTarget"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget"/>
-  <name value="CDAR2.RecordTarget"/>
+  <name value="RecordTarget"/>
   <title value="RecordTarget (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

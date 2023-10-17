@@ -22,7 +22,7 @@
     <valueUri value="custodian"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Custodian"/>
-  <name value="CDAR2.Custodian"/>
+  <name value="Custodian"/>
   <title value="Custodian (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

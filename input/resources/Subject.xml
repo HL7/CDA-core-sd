@@ -22,7 +22,7 @@
     <valueUri value="subject"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Subject"/>
-  <name value="CDAR2.Subject"/>
+  <name value="Subject"/>
   <title value="Subject (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

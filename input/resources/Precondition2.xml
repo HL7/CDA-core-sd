@@ -21,7 +21,7 @@
     <valueUri value="precondition"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Precondition2"/>
-  <name value="CDAR2.Precondition2"/>
+  <name value="Precondition2"/>
   <title value="Precondition2 (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

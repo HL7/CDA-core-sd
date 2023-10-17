@@ -22,7 +22,7 @@
     <valueUri value="organization"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Organization"/>
-  <name value="CDAR2.Organization"/>
+  <name value="Organization"/>
   <title value="Organization (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

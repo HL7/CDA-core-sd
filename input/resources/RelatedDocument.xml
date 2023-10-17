@@ -21,7 +21,7 @@
     <valueUri value="relatedDocument"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument"/>
-  <name value="CDAR2.RelatedDocument"/>
+  <name value="RelatedDocument"/>
   <title value="RelatedDocument (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -21,7 +21,7 @@
     <valueUri value="documentationOf"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf"/>
-  <name value="CDAR2.DocumentationOf"/>
+  <name value="DocumentationOf"/>
   <title value="DocumentationOf (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

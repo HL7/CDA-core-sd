@@ -21,7 +21,7 @@
     <valueUri value="assignedAuthor"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor"/>
-  <name value="CDAR2.AssignedAuthor"/>
+  <name value="AssignedAuthor"/>
   <title value="AssignedAuthor (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

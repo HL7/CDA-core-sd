@@ -22,7 +22,7 @@
     <valueUri value="regionOfInterest"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/RegionOfInterest"/>
-  <name value="CDAR2.RegionOfInterest"/>
+  <name value="RegionOfInterest"/>
   <title value="RegionOfInterest (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

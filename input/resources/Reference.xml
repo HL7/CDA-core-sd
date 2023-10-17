@@ -23,7 +23,7 @@
     <valueUri value="reference"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Reference"/>
-  <name value="CDAR2.Reference"/>
+  <name value="Reference"/>
   <title value="Reference (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

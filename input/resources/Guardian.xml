@@ -22,7 +22,7 @@
     <valueUri value="guardian"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Guardian"/>
-  <name value="CDAR2.Guardian"/>
+  <name value="Guardian"/>
   <title value="Guardian (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -22,7 +22,7 @@
     <valueUri value="authenticator"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Authenticator"/>
-  <name value="CDAR2.Authenticator"/>
+  <name value="Authenticator"/>
   <title value="Authenticator (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -21,7 +21,7 @@
     <valueUri value="birthplace"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Birthplace"/>
-  <name value="CDAR2.Birthplace"/>
+  <name value="Birthplace"/>
   <title value="Birthplace (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

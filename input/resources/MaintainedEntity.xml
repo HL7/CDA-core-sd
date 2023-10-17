@@ -22,7 +22,7 @@
     <valueUri value="maintainedEntity"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/MaintainedEntity"/>
-  <name value="CDAR2.MaintainedEntity"/>
+  <name value="MaintainedEntity"/>
   <title value="MaintainedEntity (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

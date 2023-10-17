@@ -21,7 +21,7 @@
     <valueUri value="encounterParticipant"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/EncounterParticipant"/>
-  <name value="CDAR2.EncounterParticipant"/>
+  <name value="EncounterParticipant"/>
   <title value="EncounterParticipant (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -23,7 +23,7 @@
     <valueUri value="supply"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Supply"/>
-  <name value="CDAR2Supply"/>
+  <name value="Supply"/>
   <title value="Supply (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

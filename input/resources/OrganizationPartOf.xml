@@ -15,7 +15,7 @@
     <valueUri value="organizationPartOf"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/OrganizationPartOf"/>
-  <name value="CDAR2.OrganizationPartOf"/>
+  <name value="OrganizationPartOf"/>
   <title value="OrganizationPartOf (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

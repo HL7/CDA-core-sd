@@ -21,7 +21,7 @@
     <valueUri value="dataEnterer"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/DataEnterer"/>
-  <name value="CDAR2.DataEnterer"/>
+  <name value="DataEnterer"/>
   <title value="DataEnterer (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

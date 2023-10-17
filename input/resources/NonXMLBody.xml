@@ -22,7 +22,7 @@
     <valueUri value="nonXMLBody"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/NonXMLBody"/>
-  <name value="CDAR2.NonXMLBody"/>
+  <name value="NonXMLBody"/>
   <title value="NonXMLBody (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

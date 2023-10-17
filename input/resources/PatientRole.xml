@@ -21,7 +21,7 @@
     <valueUri value="patientRole"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/PatientRole"/>
-  <name value="CDAR2.PatientRole"/>
+  <name value="PatientRole"/>
   <title value="PatientRole (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

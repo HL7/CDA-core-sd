@@ -27,7 +27,7 @@
     <valueUri value="cda"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
-  <name value="CDAR2.ClinicalDocument"/>
+  <name value="ClinicalDocument"/>
   <title value="ClinicalDocument (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

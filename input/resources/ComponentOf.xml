@@ -21,7 +21,7 @@
     <valueUri value="componentOf"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ComponentOf"/>
-  <name value="CDAR2.ComponentOf"/>
+  <name value="ComponentOf"/>
   <title value="ComponentOf (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

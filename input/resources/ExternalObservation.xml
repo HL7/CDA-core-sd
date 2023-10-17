@@ -21,7 +21,7 @@
     <valueUri value="externalObservation"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ExternalObservation"/>
-  <name value="CDAR2.ExternalObservation"/>
+  <name value="ExternalObservation"/>
   <title value="ExternalObservation (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

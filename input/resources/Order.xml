@@ -21,7 +21,7 @@
     <valueUri value="order"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Order"/>
-  <name value="CDAR2.Order"/>
+  <name value="Order"/>
   <title value="Order (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -21,7 +21,7 @@
     <valueUri value="relatedSubject"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedSubject"/>
-  <name value="CDAR2.RelatedSubject"/>
+  <name value="RelatedSubject"/>
   <title value="RelatedSubject (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

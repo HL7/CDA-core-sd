@@ -22,7 +22,7 @@
     <valueUri value="observation"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-  <name value="CDAR2.Observation"/>
+  <name value="Observation"/>
   <title value="Observation (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -23,7 +23,7 @@
     <valueUri value="languageCommunication"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/LanguageCommunication"/>
-  <name value="CDAR2.LanguageCommunication"/>
+  <name value="LanguageCommunication"/>
   <title value="LanguageCommunication (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

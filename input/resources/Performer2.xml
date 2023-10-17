@@ -21,7 +21,7 @@
     <valueUri value="performer"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Performer2"/>
-  <name value="CDAR2.Performer2"/>
+  <name value="Performer2"/>
   <title value="Performer2 (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

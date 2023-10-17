@@ -21,7 +21,7 @@
     <valueUri value="authorization"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Authorization"/>
-  <name value="CDAR2.Authorization"/>
+  <name value="Authorization"/>
   <title value="Authorization (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -15,7 +15,7 @@
     <valueUri value="healthCareFacility"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/HealthCareFacility"/>
-  <name value="CDAR2.HealthCareFacility"/>
+  <name value="HealthCareFacility"/>
   <title value="HealthCareFacility (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -22,7 +22,7 @@
     <valueUri value="person"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Person"/>
-  <name value="CDAR2.Person"/>
+  <name value="Person"/>
   <title value="Person (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
