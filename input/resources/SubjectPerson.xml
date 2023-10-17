@@ -99,6 +99,7 @@
         <valueString value="desc"/>
       </extension>
       <path value="SubjectPerson.sdtcDesc"/>
+      <definition value="The desc extension allows multimedia depictions of patients, healthcare providers, or other individuals to be included in a CDA document."/>
       <min value="0"/>
       <max value="1"/>
       <type>
