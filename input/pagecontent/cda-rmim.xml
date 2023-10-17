@@ -8,6 +8,18 @@
     <map name="image-map">
         <area target="" alt="ClinicalDocument" title="ClinicalDocument" href="StructureDefinition-ClinicalDocument.html" coords="1020,210,1304,1729" shape="rect" />
 
+        <!-- Header Participants (Blue arrows on left) -->
+
+        <!-- Header Roles (Yellow boses on left) -->
+
+        <!-- Header Entities (Green boxes on left + LanguageCommunication) -->
+
+        <!-- Header Relationships (Red arrows on right of ClinicalDocument) -->
+
+        <!-- Header Acts (Red boxes) -->
+
+        <!-- Header Act Participants, Roles, Entities -->
+
         <!-- Center channel -->
         <area target="" alt="NonXMLBody" title="NonXMLBody" href="StructureDefinition-NonXMLBody.html" coords="2185,916,2374,1049" shape="rect" />
         <area target="" alt="StructuredBody" title="StructuredBody" href="StructureDefinition-StructuredBody.html" coords="2182,1060,2379,1170" shape="rect" />
@@ -21,7 +33,7 @@
         
         <area target="" alt="Entry" title="Entry" href="StructureDefinition-Entry.html" coords="2446,1490,3290,1532" shape="rect" />
 
-        <!-- Primary Acts -->
+        <!-- Clinical Statements -->
         <area target="" alt="Observation" title="Observation" href="StructureDefinition-Observation.html" coords="3313,134,3597,360" shape="rect" />
         <area target="" alt="RegionofInterest" title="RegionofInterest" href="StructureDefinition-RegionofInterest.html" coords="3311,367,3593,454" shape="rect" />
         <area target="" alt="ObservationMedia" title="ObservationMedia" href="StructureDefinition-ObservationMedia.html" coords="3310,470,3593,555" shape="rect" />
@@ -31,6 +43,14 @@
         <area target="" alt="Encounter" title="Encounter" href="StructureDefinition-Encounter.html" coords="3314,1219,3589,1354" shape="rect" />
         <area target="" alt="Organizer" title="Organizer" href="StructureDefinition-Organizer.html" coords="3309,1366,3598,1491" shape="rect" />
         <area target="" alt="Act" title="Act" href="StructureDefinition-Act.html" coords="3314,1505,3607,1663" shape="rect" />
+
+        <!-- Body Participants (Blue arrows to left of Clinical Statements) -->
+
+        <!-- Body Roles (Yellow boxes off of Clinical Statements) -->
+
+        <!-- Body Entities (Green boxes off of Clinical Statements) -->
+
+        <!-- Body Relationships (Red arrows and boxes off of Clinical Statements) -->
 
     </map>
   </body>
