@@ -171,6 +171,7 @@
         <valueString value="precondition1"/>
       </extension>
       <path value="ObservationRange.sdtcPrecondition1"/>
+      <definition value="The sdtc:precondition1 extension allows for the association of a criterion with a reference range (ObservationRange), which allows the expression in a lab report that a reference range is conditional on some criterion such as patient sex or age (or a combination of criterion)."/>
       <min value="0"/>
       <max value="*"/>
       <type>
