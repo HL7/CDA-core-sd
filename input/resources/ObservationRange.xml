@@ -106,6 +106,9 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CO"/>
+      </type>
+      <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/SC"/>
       </type>
       <type>
