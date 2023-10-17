@@ -37,6 +37,12 @@
       <path value="AssignedAuthor"/>
       <min value="1"/>
       <max value="1"/>
+      <constraint>
+        <key value="assigned-author-choice"/>
+        <severity value="error"/>
+        <human value="assignedPerson and assignedAuthoringDevice are mutually exclusive"/>
+        <expression value="(assignedPerson | assignedAuthoringDevice).count() &lt;= 1"/>
+      </constraint>
     </element>
     <element id="AssignedAuthor.classCode">
       <path value="AssignedAuthor.classCode"/>

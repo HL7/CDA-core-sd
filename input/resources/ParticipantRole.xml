@@ -31,6 +31,12 @@
       <path value="ParticipantRole"/>
       <min value="1"/>
       <max value="1"/>
+      <constraint>
+        <key value="role-choice"/>
+        <severity value="error"/>
+        <human value="playingDevice and playingEntity are mutually exclusive"/>
+        <expression value="(playingDevice | playingEntity).count() &lt;= 1"/>
+      </constraint>
     </element>
     <element id="ParticipantRole.classCode">
       <path value="ParticipantRole.classCode"/>

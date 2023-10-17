@@ -38,6 +38,12 @@
       <path value="Guardian"/>
       <min value="1"/>
       <max value="1"/>
+      <constraint>
+        <key value="guardian-choice"/>
+        <severity value="error"/>
+        <human value="guardianPerson and guardianOrganization are mutually exclusive (one must be present)"/>
+        <expression value="(guardianPerson | guardianOrganization).count() = 1"/>
+      </constraint>
     </element>
     <element id="Guardian.classCode">
       <path value="Guardian.classCode"/>

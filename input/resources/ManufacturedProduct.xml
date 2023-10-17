@@ -31,6 +31,12 @@
       <path value="ManufacturedProduct"/>
       <min value="1"/>
       <max value="1"/>
+      <constraint>
+        <key value="product-choice"/>
+        <severity value="error"/>
+        <human value="manufacturedLabeledDrug and manufacturedMaterial are mutually exclusive (one must be present)"/>
+        <expression value="(manufacturedLabeledDrug | manufacturedMaterial).count() = 1"/>
+      </constraint>
     </element>
     <element id="ManufacturedProduct.classCode">
       <path value="ManufacturedProduct.classCode"/>

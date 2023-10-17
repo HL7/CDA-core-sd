@@ -41,7 +41,7 @@
         <key value="body-choice"/>
         <severity value="error"/>
         <human value="Choice of the body required."/>
-        <expression value="(nonXMLBody | structuredBody).count() &lt;= 1 and (nonXMLBody | structuredBody).count() &gt;= 1"/>
+        <expression value="(nonXMLBody | structuredBody).count() = 1"/>
       </constraint>
     </element>
     <element id="Component.typeCode">
