@@ -9,15 +9,15 @@
         <area target="" alt="ClinicalDocument" title="ClinicalDocument" href="StructureDefinition-ClinicalDocument.html" coords="1020,210,1304,1729" shape="rect" />
 
        <!-- Header Participants (Blue arrows on left) -->
-		<area target="" alt="authenticator" title="authenticator" href="StructureDefinition-Authenticator.html" coords="693,223,1026,278" shape="rect"/>
-		<area target="" alt="legalAuthenticator" title="legalAuthenticator" href="StructureDefinition-LegalAuthenticator.html" coords="703,292,1020,365" shape="rect"/>
-		<area target="" alt="informationRecipient" title="informationRecipient" href="StructureDefinition-InformationRecipient.html" coords="703,451,1026,499" shape="rect"/>
-		<area target="" alt="author" title="author" href="StructureDefinition-Author.html" coords="1026,609,703,542" shape="rect"/>
-		<area target="" alt="custodian" title="custodian" href="StructureDefinition-Custodian.html" coords="690,664,1020,713" shape="rect"/>
-		<area target="" alt="dataEnterer" title="dataEnterer" href="StructureDefinition-DataEnterer.html" coords="703,895,1020,956" shape="rect"/>
-		<area target="" alt="recordTarget" title="recordTarget" href="StructureDefinition-RecordTarget.html" coords="697,1102,1020,1157" shape="rect"/>
-		<area target="" alt="informant" title="informant" href="StructureDefinition-Informant.html" coords="727,1529,1026,1583" shape="rect"/>
-		<area target="" alt="participant" title="participant" href="StructureDefinition-Participant1.html" coords="715,1638,1020,1724" shape="rect"/>
+      <area target="" alt="authenticator" title="authenticator" href="StructureDefinition-Authenticator.html" coords="693,223,1026,278" shape="rect"/>
+      <area target="" alt="legalAuthenticator" title="legalAuthenticator" href="StructureDefinition-LegalAuthenticator.html" coords="703,292,1020,365" shape="rect"/>
+      <area target="" alt="informationRecipient" title="informationRecipient" href="StructureDefinition-InformationRecipient.html" coords="703,451,1026,499" shape="rect"/>
+      <area target="" alt="author" title="author" href="StructureDefinition-Author.html" coords="1026,609,703,542" shape="rect"/>
+      <area target="" alt="custodian" title="custodian" href="StructureDefinition-Custodian.html" coords="690,664,1020,713" shape="rect"/>
+      <area target="" alt="dataEnterer" title="dataEnterer" href="StructureDefinition-DataEnterer.html" coords="703,895,1020,956" shape="rect"/>
+      <area target="" alt="recordTarget" title="recordTarget" href="StructureDefinition-RecordTarget.html" coords="697,1102,1020,1157" shape="rect"/>
+      <area target="" alt="informant" title="informant" href="StructureDefinition-Informant.html" coords="727,1529,1026,1583" shape="rect"/>
+      <area target="" alt="participant" title="participant" href="StructureDefinition-Participant1.html" coords="715,1638,1020,1724" shape="rect"/>
 
 
 
