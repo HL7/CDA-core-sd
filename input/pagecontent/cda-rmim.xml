@@ -8,7 +8,11 @@
     <map name="image-map">
         <area target="" alt="ClinicalDocument" title="ClinicalDocument" href="StructureDefinition-ClinicalDocument.html" coords="1020,210,1304,1729" shape="rect" />
 
-        <!-- Header Participants (Blue arrows on left) -->
+       <!-- Header Participants (Blue arrows on left) -->
+		<area target="" alt="authenticator" title="authenticator" href="StructureDefinition-Authenticator.html" coords="693,223,1026,278" shape="rect"/>
+		<area target="" alt="legalAuthenticator" title="legalAuthenticator" href="StructureDefinition-LegalAuthenticator.html" coords="697,305,1020,365" shape="rect"/>
+		<area target="" alt="informationRecipient" title="informationRecipient" href="StructureDefinition-InformationRecipient.html" coords="703,451,1026,499" shape="rect"/>
+
 
         <!-- Header Roles (Yellow boses on left) -->
 
