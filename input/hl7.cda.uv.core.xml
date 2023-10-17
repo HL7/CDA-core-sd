@@ -632,6 +632,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/Precondition2" />
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/Procedure" />
 			</reference>
 			<groupingId value="classes"/>

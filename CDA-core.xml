@@ -106,6 +106,8 @@
 <artifact id="StructureDefinition/Place" key="StructureDefinition-Place" name="Place (CDA Class)"/>
 <artifact id="StructureDefinition/PlayingEntity" key="StructureDefinition-PlayingEntity" name="PlayingEntity (CDA Class)"/>
 <artifact id="StructureDefinition/Precondition" key="StructureDefinition-Precondition" name="Precondition (CDA Class)"/>
+<artifact id="StructureDefinition/Precondition2" key="StructureDefinition-Precondition2" name="Precondition2 (CDA Class)"/>
+<artifact id="StructureDefinition/PreconditionBase" key="StructureDefinition-PreconditionBase" name="PreconditionBase (CDA Class)"/>
 <artifact id="StructureDefinition/Procedure" key="StructureDefinition-Procedure" name="Procedure (CDA Class)"/>
 <artifact id="StructureDefinition/QTY" key="StructureDefinition-QTY" name="QTY: Quantity (V3 Data Type)"/>
 <artifact id="StructureDefinition/REAL" key="StructureDefinition-REAL" name="REAL: RealNumber (V3 Data Type)"/>
