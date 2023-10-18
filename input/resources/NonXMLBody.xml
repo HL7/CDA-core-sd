@@ -94,7 +94,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-HumanLanguage"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
       </binding>
     </element>
   </differential>

@@ -90,7 +90,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ObservationType"/>
       </binding>
     </element>
@@ -139,7 +139,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActPriority"/>
       </binding>
     </element>
@@ -160,7 +160,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-HumanLanguage"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
       </binding>
     </element>
     <element id="Observation.value">
@@ -261,7 +261,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ObservationMethod"/>
       </binding>
     </element>

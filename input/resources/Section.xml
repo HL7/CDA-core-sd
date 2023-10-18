@@ -95,7 +95,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-DocumentSectionType"/>
       </binding>
     </element>
@@ -133,7 +133,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-HumanLanguage"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
       </binding>
     </element>
     <element id="Section.subject">

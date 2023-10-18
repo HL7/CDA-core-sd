@@ -83,7 +83,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdministrationCode"/>
       </binding>
     </element>
@@ -149,7 +149,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActPriority"/>
       </binding>
     </element>
@@ -169,7 +169,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-RouteOfAdministration"/>
       </binding>
     </element>
@@ -181,7 +181,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActSite"/>
       </binding>
     </element>
@@ -217,7 +217,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-AdministrableDrugForm"/>
       </binding>
     </element>
