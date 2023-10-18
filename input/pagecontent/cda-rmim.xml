@@ -6,9 +6,9 @@
     <img src="L-POCD_RM000040.gif" usemap="#image-map" />
 
     <map name="image-map">
-        <area target="" alt="ClinicalDocument" title="ClinicalDocument" href="StructureDefinition-ClinicalDocument.html" coords="1020,210,1304,1729" shape="rect" />
+      <area target="" alt="ClinicalDocument" title="ClinicalDocument" href="StructureDefinition-ClinicalDocument.html" coords="1020,210,1304,1729" shape="rect" />
 
-       <!-- Header Participants (Blue arrows on left) -->
+      <!-- Header Participants (Blue arrows on left) -->
       <area target="" alt="authenticator" title="authenticator" href="StructureDefinition-Authenticator.html" coords="693,223,1026,278" shape="rect"/>
       <area target="" alt="legalAuthenticator" title="legalAuthenticator" href="StructureDefinition-LegalAuthenticator.html" coords="703,292,1020,365" shape="rect"/>
       <area target="" alt="informationRecipient" title="informationRecipient" href="StructureDefinition-InformationRecipient.html" coords="703,451,1026,499" shape="rect"/>
@@ -19,59 +19,110 @@
       <area target="" alt="informant" title="informant" href="StructureDefinition-Informant.html" coords="727,1529,1026,1583" shape="rect"/>
       <area target="" alt="participant" title="participant" href="StructureDefinition-Participant1.html" coords="715,1638,1020,1724" shape="rect"/>
 
+      <!-- Header Roles (Yellow boxes on left) -->
+      <area target="" alt="OrganizationPartOf" title="OrganizationPartOf" href="StructureDefinition-OrganizationPartOf.html" coords="497,149,692,46" shape="rect" />
+      <area target="" alt="AssignedEntity" title="AssignedEntity" href="StructureDefinition-AssignedEntity.html" coords="699,353,501,230" shape="rect" />
+      <area target="" alt="IntendedRecipient" title="IntendedRecipient" href="StructureDefinition-IntendedRecipient.html" coords="504,424,691,510" shape="rect" />
+      <area target="" alt="AssignedAuthor" title="AssignedAuthor" href="StructureDefinition-AssignedAuthor.html" coords="504,563,695,652" shape="rect" />
+      <area target="" alt="AssignedCustodian" title="AssignedCustodian" href="StructureDefinition-AssignedCustodian.html" coords="687,737,496,683" shape="rect" />
+      <area target="" alt="MaintainedEntry" title="MaintainedEntry" href="StructureDefinition-MaintainedEntry.html" coords="691,875,499,825" shape="rect" />
+      <area target="" alt="AssignedEntity2" title="AssignedEntity2" href="StructureDefinition-AssignedEntity.html" coords="496,906,691,963" shape="rect" />
+      <area target="" alt="PatientRole" title="PatientRole" href="StructureDefinition-PatientRole.html" coords="499,1121,691,1190" shape="rect" />
+      <area target="" alt="Guardian" title="Guardian" href="StructureDefinition-Guardian.html" coords="680,1435,488,1347" shape="rect" />
+      <area target="" alt="AssignedEntity3" title="AssignedEntity3" href="StructureDefinition-AssignedEntity.html" coords="473,1476,714,1516" shape="rect" />
+      <area target="" alt="RelatedEntity" title="RelatedEntity" href="StructureDefinition-RelatedEntity.html" coords="473,1524,714,1624" shape="rect" />
+      <area target="" alt="AssociatedEntity" title="AssociatedEntity" href="StructureDefinition-AssociatedEntity.html" coords="526,1658,714,1742" shape="rect" />
 
+      <!-- Header Entities (Green boxes on left + LanguageCommunication) -->
+      <area target="" alt="Organization" title="Organization" href="StructureDefinition-Organization.html" coords="97,92,308,219" shape="rect" />
+      <area target="" alt="Person1" title="Person1" href="StructureDefinition-Person.html" coords="204,253,327,326" shape="rect" />
+      <area target="" alt="Organization2" title="Organization2" href="StructureDefinition-Organization.html" coords="193,372,308,441" shape="rect" />
+      <area target="" alt="Person2" title="Person2" href="StructureDefinition-Person.html" coords="197,453,327,507" shape="rect"/>
+      <area target="" alt="Organization3" title="Organization3" href="StructureDefinition-Organization.html" coords="193,537,315,610" shape="rect"/>
+      <area target="" alt="Person" title="Person" href="StructureDefinition-Person.html" coords="89,645,434,710" shape="rect"/>
+      <area target="" alt="AuthoringDevice" title="AuthoringDevice" href="StructureDefinition-AuthoringDevice.html" coords="93,725,430,806" shape="rect"/>
+      <area target="" alt="Person3" title="Person3" href="StructureDefinition-Person.html" coords="220,848,335,921" shape="rect"/>
+      <area target="" alt="Place" title="Place" href="StructureDefinition-Place.html" coords="174,936,339,1009" shape="rect"/>
+      <area target="" alt="Organization4" title="Organization4" href="StructureDefinition-Organization.html" coords="338,1032,450,1098" shape="rect"/>
+      <area target="" alt="Birthplace" title="Birthplace" href="StructureDefinition-Birthplace.html" coords="16,1059,154,1102" shape="rect"/>
+      <area target="" alt="Patient" title="Patient" href="StructureDefinition-Patient.html" coords="55,1125,381,1282" shape="rect"/>
+      <area target="" alt="Person4" title="Person4" href="StructureDefinition-Person.html" coords="16,1328,131,1405" shape="rect"/>
+      <area target="" alt="Organization5" title="Organization5" href="StructureDefinition-Organization.html" coords="9,1416,135,1497" shape="rect"/>
+      <area target="" alt="Person5" title="Person5" href="StructureDefinition-Person.html" coords="200,1520,319,1593" shape="rect"/>
+      <area target="" alt="Organization6" title="Organization6" href="StructureDefinition-Organization.html" coords="185,1681,315,1635" shape="rect"/>
+      <area target="" alt="Person6" title="Person6" href="StructureDefinition-Person.html" coords="250,1685,369,1754" shape="rect"/>
+      <area target="" alt="LanguageCommunication" title="LanguageCommunication" href="StructureDefinition-LanguageCommunication.html" coords="664,1221,994,1309" shape="rect"/>
 
-        <!-- Header Roles (Yellow boses on left) -->
+      <!-- Header Relationships (Red arrows on right of ClinicalDocument) -->
+      <area target="" alt="relatedDocument" title="relatedDocument" href="StructureDefinition-relatedDocument.html" coords="1309,215,1539,242" shape="rect"/>
+      <area target="" alt="documentationOf" title="documentationOf" href="StructureDefinition-documentationOf.html" coords="1305,345,1546,372" shape="rect"/>
+      <area target="" alt="inFulfillmentOf" title="inFulfillmentOf" href="StructureDefinition-inFulfillmentOf.html" coords="1297,403,1546,430" shape="rect"/>
+      <area target="" alt="authorization" title="authorization" href="StructureDefinition-authorization.html" coords="1293,530,1543,564" shape="rect"/>
+      <area target="" alt="componentOf" title="componentOf" href="StructureDefinition-componentOf.html" coords="1301,656,1543,687" shape="rect"/>
+      <area target="" alt="component" title="component" href="StructureDefinition-component.html" coords="1301,1052,2164,1090" shape="rect"/>
 
-        <!-- Header Entities (Green boxes on left + LanguageCommunication) -->
+      <!-- Header Acts (Red boxes) -->
+      <area target="" alt="ParentDocument" title="ParentDocument" href="StructureDefinition-ParentDocument.html" coords="1545,179,1769,292" shape="rect" />
+      <area target="" alt="ServiceEvent" title="ServiceEvent" href="StructureDefinition-ServiceEvent.html" coords="1546,303,1765,391" shape="rect"/>
+      <area target="" alt="Order" title="Order" href="StructureDefinition-Order.html" coords="1546,411,1765,495" shape="rect"/>
+      <area target="" alt="Consent" title="Consent" href="StructureDefinition-Consent.html" coords="1550,510,1769,603" shape="rect"/>
+      <area target="" alt="EncompassingEncounter" title="EncompassingEncounter" href="StructureDefinition-EncompassingEncounter.html" coords="1546,618,1776,729" shape="rect"/>
 
-        <!-- Header Relationships (Red arrows on right of ClinicalDocument) -->
+      <!-- Header Act Participants, Roles, Entities (Center top blue, yellow, green) -->
+      <!-- Blue -->
+      <area target="" alt="performer" title="performer" href="StructureDefinition-performer.html" coords="1769,315,2049,361" shape="rect"/>
+      <area target="" alt="responsibleParty" title="responsibleParty" href="StructureDefinition-responsibleParty.html" coords="1780,622,2053,656" shape="rect"/>
+      <area target="" alt="encounterParticipant" title="encounterParticipant" href="StructureDefinition-encounterParticipant.html" coords="1780,691,2053,725" shape="rect"/>
+      <area target="" alt="location" title="location" href="StructureDefinition-location.html" coords="1627,737,1730,783" shape="rect"/>
+      <!-- Yellow -->
+      <area target="" alt="AssignedEntity4" title="AssignedEntity4" href="StructureDefinition-AssignedEntity.html" coords="2049,307,2217,368" shape="rect"/>
+      <area target="" alt="AssignedEntity5" title="AssignedEntity5" href="StructureDefinition-AssignedEntity.html" coords="2060,622,2217,745" shape="rect"/>
+      <area target="" alt="HealthCareFacility" title="HealthCareFacility" href="StructureDefinition-HealthCareFacility.html" coords="1516,787,1807,871" shape="rect"/>
+      <!-- Green -->
+      <area target="" alt="Organization7" title="Organization7" href="StructureDefinition-Organization.html" coords="1351,890,1466,963" shape="rect"/>
+      <area target="" alt="Place2" title="Place2" href="StructureDefinition-Place.html" coords="1646,902,1765,975" shape="rect"/>
 
-        <!-- Header Acts (Red boxes) -->
+      <!-- Center channel -->
+      <area target="" alt="NonXMLBody" title="NonXMLBody" href="StructureDefinition-NonXMLBody.html" coords="2185,916,2374,1049" shape="rect" />
+      <area target="" alt="StructuredBody" title="StructuredBody" href="StructureDefinition-StructuredBody.html" coords="2182,1060,2379,1170" shape="rect" />
+      <area target="" alt="StructuredBody/Component" title="StructuredBody/Component" href="StructureDefinition-StructuredBody.html" coords="2153,1170,2351,1289" shape="rect" />
+      <area target="" alt="Author" title="Author" href="StructureDefinition-Author.html" coords="2077,1316,2193,1347" shape="rect" />
+      <area target="" alt="Informant" title="Informant" href="StructureDefinition-Informant.html" coords="2076,1368,2193,1407" shape="rect" />
+      <area target="" alt="Subject" title="Subject" href="StructureDefinition-Subject.html" coords="1895,1440,2188,1500" shape="rect" />
+      <area target="" alt="RelatedSubject" title="RelatedSubject" href="StructureDefinition-RelatedSubject.html" coords="1618,1431,1885,1505" shape="rect" />
+      <area target="" alt="SubjectPerson" title="SubjectPerson" href="StructureDefinition-SubjectPerson.html" coords="1790,1547,2118,1638" shape="rect" />
+      <area target="" alt="Section" title="Section" href="StructureDefinition-Section.html" coords="2197,1290,2439,1620" shape="rect" />
 
-        <!-- Header Act Participants, Roles, Entities -->
+      <area target="" alt="Entry" title="Entry" href="StructureDefinition-Entry.html" coords="2446,1490,3290,1532" shape="rect" />
 
-        <!-- Center channel -->
-        <area target="" alt="NonXMLBody" title="NonXMLBody" href="StructureDefinition-NonXMLBody.html" coords="2185,916,2374,1049" shape="rect" />
-        <area target="" alt="StructuredBody" title="StructuredBody" href="StructureDefinition-StructuredBody.html" coords="2182,1060,2379,1170" shape="rect" />
-        <area target="" alt="StructuredBody/Component" title="StructuredBody/Component" href="StructureDefinition-StructuredBody.html" coords="2153,1170,2351,1289" shape="rect" />
-        <area target="" alt="Author" title="Author" href="StructureDefinition-Author.html" coords="2077,1316,2193,1347" shape="rect" />
-        <area target="" alt="Informant" title="Informant" href="StructureDefinition-Informant.html" coords="2076,1368,2193,1407" shape="rect" />
-        <area target="" alt="Subject" title="Subject" href="StructureDefinition-Subject.html" coords="1895,1440,2188,1500" shape="rect" />
-        <area target="" alt="RelatedSubject" title="RelatedSubject" href="StructureDefinition-RelatedSubject.html" coords="1618,1431,1885,1505" shape="rect" />
-        <area target="" alt="SubjectPerson" title="SubjectPerson" href="StructureDefinition-SubjectPerson.html" coords="1790,1547,2118,1638" shape="rect" />
-        <area target="" alt="Section" title="Section" href="StructureDefinition-Section.html" coords="2197,1290,2439,1620" shape="rect" />
-        
-        <area target="" alt="Entry" title="Entry" href="StructureDefinition-Entry.html" coords="2446,1490,3290,1532" shape="rect" />
+      <!-- Clinical Statements -->
+      <area target="" alt="Observation" title="Observation" href="StructureDefinition-Observation.html" coords="3313,134,3597,360" shape="rect" />
+      <area target="" alt="RegionofInterest" title="RegionofInterest" href="StructureDefinition-RegionofInterest.html" coords="3311,367,3593,454" shape="rect" />
+      <area target="" alt="ObservationMedia" title="ObservationMedia" href="StructureDefinition-ObservationMedia.html" coords="3310,470,3593,555" shape="rect" />
+      <area target="" alt="SubstanceAdministration" title="SubstanceAdministration" href="StructureDefinition-SubstanceAdministration.html" coords="3318,565,3593,812" shape="rect" />
+      <area target="" alt="Supply" title="Supply" href="StructureDefinition-Supply.html" coords="3313,833,3593,1007" shape="rect" />
+      <area target="" alt="Procedure" title="Procedure" href="StructureDefinition-Procedure.html" coords="3314,1019,3593,1210" shape="rect" />
+      <area target="" alt="Encounter" title="Encounter" href="StructureDefinition-Encounter.html" coords="3314,1219,3589,1354" shape="rect" />
+      <area target="" alt="Organizer" title="Organizer" href="StructureDefinition-Organizer.html" coords="3309,1366,3598,1491" shape="rect" />
+      <area target="" alt="Act" title="Act" href="StructureDefinition-Act.html" coords="3314,1505,3607,1663" shape="rect" />
 
-        <!-- Clinical Statements -->
-        <area target="" alt="Observation" title="Observation" href="StructureDefinition-Observation.html" coords="3313,134,3597,360" shape="rect" />
-        <area target="" alt="RegionofInterest" title="RegionofInterest" href="StructureDefinition-RegionofInterest.html" coords="3311,367,3593,454" shape="rect" />
-        <area target="" alt="ObservationMedia" title="ObservationMedia" href="StructureDefinition-ObservationMedia.html" coords="3310,470,3593,555" shape="rect" />
-        <area target="" alt="SubstanceAdministration" title="SubstanceAdministration" href="StructureDefinition-SubstanceAdministration.html" coords="3318,565,3593,812" shape="rect" />
-        <area target="" alt="Supply" title="Supply" href="StructureDefinition-Supply.html" coords="3313,833,3593,1007" shape="rect" />
-        <area target="" alt="Procedure" title="Procedure" href="StructureDefinition-Procedure.html" coords="3314,1019,3593,1210" shape="rect" />
-        <area target="" alt="Encounter" title="Encounter" href="StructureDefinition-Encounter.html" coords="3314,1219,3589,1354" shape="rect" />
-        <area target="" alt="Organizer" title="Organizer" href="StructureDefinition-Organizer.html" coords="3309,1366,3598,1491" shape="rect" />
-        <area target="" alt="Act" title="Act" href="StructureDefinition-Act.html" coords="3314,1505,3607,1663" shape="rect" />
+      <!-- Body Participants (Blue arrows to left of Clinical Statements) -->
 
-        <!-- Body Participants (Blue arrows to left of Clinical Statements) -->
+      <!-- Body Roles (Yellow boxes off of Clinical Statements) -->
 
-        <!-- Body Roles (Yellow boxes off of Clinical Statements) -->
+      <!-- Body Entities (Green boxes off of Clinical Statements) -->
 
-        <!-- Body Entities (Green boxes off of Clinical Statements) -->
-
-        <!-- Body Relationships (Red arrows and boxes off of Clinical Statements) -->
-        <area target="" alt="Observation.ReferenceRange" title="Observation.ReferenceRange" href="StructureDefinition-Observation.html" coords="3599,158,3781,193" shape="rect" />
-        <area target="" alt="ObservationRange" title="ObservationRange" href="StructureDefinition-ObservationRange.html" coords="3780,88,4098,188" shape="rect" />
-        <area target="" alt="Precondition" title="Precondition" href="StructureDefinition-Precondition.html" coords="3614,384,3781,416" shape="rect" />
-        <area target="" alt="Criterion" title="Criterion" href="StructureDefinition-Criterion.html" coords="3785,328,4102,414" shape="rect" />
-        <area target="" alt="Reference" title="Reference" href="StructureDefinition-Reference.html" coords="3618,1129,4102,1172" shape="rect" />
-        <area target="" alt="ExternalAct" title="ExternalAct" href="StructureDefinition-ExternalAct.html" coords="4116,1026,4326,1110" shape="rect" />
-        <area target="" alt="ExternalObservation" title="ExternalObservation" href="StructureDefinition-ExternalObservation.html" coords="4121,1126,4326,1210" shape="rect" />
-        <area target="" alt="SubjectPerson" title="SubjectPerson" href="StructureDefinition-ExternalProcedure.html" coords="4124,1226,4326,1310" shape="rect" />
-        <area target="" alt="ExternalDocument" title="ExternalDocument" href="StructureDefinition-ExternalDocument.html" coords="4116,1326,4326,1438" shape="rect" />
-        <area target="" alt="OrganizerComponent" title="OrganizerComponent" href="StructureDefinition-OrganizerComponent.html" coords="3600,1363,3795,1473" shape="rect" />
+      <!-- Body Relationships (Red arrows and boxes off of Clinical Statements) -->
+      <area target="" alt="Observation.ReferenceRange" title="Observation.ReferenceRange" href="StructureDefinition-Observation.html" coords="3599,158,3781,193" shape="rect" />
+      <area target="" alt="ObservationRange" title="ObservationRange" href="StructureDefinition-ObservationRange.html" coords="3780,88,4098,188" shape="rect" />
+      <area target="" alt="Precondition" title="Precondition" href="StructureDefinition-Precondition.html" coords="3614,384,3781,416" shape="rect" />
+      <area target="" alt="Criterion" title="Criterion" href="StructureDefinition-Criterion.html" coords="3785,328,4102,414" shape="rect" />
+      <area target="" alt="Reference" title="Reference" href="StructureDefinition-Reference.html" coords="3618,1129,4102,1172" shape="rect" />
+      <area target="" alt="ExternalAct" title="ExternalAct" href="StructureDefinition-ExternalAct.html" coords="4116,1026,4326,1110" shape="rect" />
+      <area target="" alt="ExternalObservation" title="ExternalObservation" href="StructureDefinition-ExternalObservation.html" coords="4121,1126,4326,1210" shape="rect" />
+      <area target="" alt="SubjectPerson" title="SubjectPerson" href="StructureDefinition-ExternalProcedure.html" coords="4124,1226,4326,1310" shape="rect" />
+      <area target="" alt="ExternalDocument" title="ExternalDocument" href="StructureDefinition-ExternalDocument.html" coords="4116,1326,4326,1438" shape="rect" />
+      <area target="" alt="OrganizerComponent" title="OrganizerComponent" href="StructureDefinition-OrganizerComponent.html" coords="3600,1363,3795,1473" shape="rect" />
     </map>
   </body>
 </html>
