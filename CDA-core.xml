@@ -153,6 +153,7 @@
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="cda-rmim" name="Clickable CDA Diagram"/>
+<page key="dt-uml" name="Clickable Datatypes Diagram"/>
 <page key="downloads" name="Downloads"/>
 <page key="index" name="IG Home Page"/>
 <page key="narrative" name="Narrative Block"/>

@@ -1,0 +1,137 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <body>
+    <div>Data types UML.
+    </div>
+    <img src="L-dtUML-Main.gif" usemap="#image-map" />
+
+    <map name="image-map">
+        <area alt="ANY" title="ANY: DataValue" href="StructureDefinition-ANY.html" coords="1142,415,865,245" shape="rect"/>
+        <area alt="Datatype" title="Datatype: Type" href="#Datatype" coords="1070,421,1168,521" shape="rect"/>
+        <area alt="BL" title="BL: Boolean" href="StructureDefinition-BL.html" coords="769,84,871,200" shape="rect"/>
+        <area alt="BN" title="BN: BooleanNonNull" href="#BN" coords="801,10,909,68" shape="rect"/>
+        <area alt="BIN" title="BIN: BinaryData" href="StructureDefinition-bin.html" coords="927,176,1042,233" shape="rect"/>
+        <area alt="ED" title="ED: EncapsulatedData" href="StructureDefinition-ED.html" coords="937,10,1100,164" shape="rect"/>
+        <area alt="ST" title="ST: CharacterString" href="StructureDefinition-ST.html" coords="1138,10,1377,178" shape="rect"/>
+        <area alt="CD" title="CD: ConceptDescriptor" href="StructureDefinition-CD.html" coords="1230,511,1377,687" shape="rect"/>
+        <area alt="CR" title="CR: ConceptRole" href="StructureDefinition-CR.html" coords="1092,549,1176,629" shape="rect"/>
+        <area alt="CS" title="CS: CodedSimpleValue" href="StructureDefinition-CS.html" coords="1489,654,1802,782" shape="rect"/>
+        <area alt="CV" title="CV: CodedValue" href="StructureDefinition-CV.html" coords="1252,728,1471,800" shape="rect"/>
+        <area alt="CO" title="CO: CodedOrdinal" href="StructureDefinition-CO.html" coords="1403,537,1549,641" shape="rect"/>
+        <area alt="CE" title="CE: CodedWithEquivalents" href="StructureDefinition-CE.html" coords="1006,719,1208,775" shape="rect"/>
+        <area alt="SC" title="SC: CharacterStringWithCode" href="StructureDefinition-SC.html" coords="1417,10,1491,66" shape="rect"/>
+        <area alt="UID" title="UID: UniqueIdentifierString" href="StructureDefinition-uid.html" coords="1417,254,1493,278" shape="rect"/>
+        <area alt="OID" title="OID: ISOObjectIdentifier" href="StructureDefinition-oid.html" coords="1417,308,1571,389" shape="rect"/>
+        <area alt="UUID" title="UUID: UniversalUniqueIdentifier" href="StructureDefinition-uuid.html" coords="1611,300,1758,415" shape="rect"/>
+        <area alt="II" title="II: InstanceIdentifier" href="StructureDefinition-II.html" coords="1214,395,1326,480" shape="rect"/>
+        <area alt="URL" title="URL: UniversalResourceLocator" href="StructureDefinition-url.html" coords="935,441,1016,517" shape="rect"/>
+        <area alt="TEL" title="TEL: TelecommunicationAddress" href="StructureDefinition-TEL.html" coords="783,447,909,513" shape="rect"/>
+        <area alt="ADXP" title="ADXP: AddressPart" href="StructureDefinition-ADXP.html" coords="1417,96,1493,148" shape="rect"/>
+        <area alt="AD" title="AD: PostalAddress" href="StructureDefinition-AD.html" coords="1539,198,1667,280" shape="rect"/>
+        <area alt="ENXP" title="ENXP: EntityNamePart" href="StructureDefinition-ENXP.html" coords="1531,2,1645,78" shape="rect"/>
+        <area alt="EN" title="EN: EntityName" href="StructureDefinition-EN.html" coords="1671,10,1790,95" shape="rect"/>
+        <area alt="TN" title="TN: TrivialName" href="StructureDefinition-TN.html" coords="1679,208,1804,279" shape="rect"/>
+        <area alt="PN" title="PN: PersonName" href="StructureDefinition-PN.html" coords="1733,148,1806,168" shape="rect"/>
+        <area alt="ON" title="ON: OrganizationName" href="StructureDefinition-ON.html" coords="1639,140,1713,160" shape="rect"/>
+        <area alt="QTY" title="QTY: Quantity" href="StructureDefinition-QTY.html" coords="512,462,763,634" shape="rect"/>
+        <area alt="INT" title="INT: IntegerNumber" href="StructureDefinition-INT.html" coords="304,601,490,794" shape="rect"/>
+        <area alt="REAL" title="REAL: RealNumber" href="StructureDefinition-REAL.html" coords="516,647,709,792" shape="rect"/>
+        <area alt="RTO" title="RTO: Ratio" href="StructureDefinition-RTO-PQ-PQ.html" coords="687,357,787,437" shape="rect"/>
+        <area alt="PQ" title="PQ: PhysicalQuantity" href="StructureDefinition-PQ.html" coords="795,522,977,785" shape="rect"/>
+        <area alt="PQR" title="PQR: PhysicalQuantityRepresentation" href="StructureDefinition-PQR.html" coords="1018,645,1102,699" shape="rect"/>
+        <area alt="MO" title="MO: MonetaryAmount" href="StructureDefinition-MO.html" coords="508,329,669,444" shape="rect"/>
+        <area alt="TS" title="TS: PointInTime" href="StructureDefinition-TS.html" coords="308,477,496,596" shape="rect"/>
+        <area alt="SET" title="SET: Set" href="#SET" coords="284,218,490,435" shape="rect"/>
+        <area alt="LIST" title="LIST: Sequence" href="#LIST" coords="1212,219,1324,374" shape="rect"/>
+        <area alt="GSLIST" title="GLIST: GeneratedSequence" href="#GSLIST" coords="1549,427,1796,519" shape="rect"/>
+        <area alt="SLIST" title="SLIST: SampledSequence" href="#SLIST" coords="1565,543,1800,635" shape="rect"/>
+        <area alt="BAG" title="BAG: Bag" href="#BAG" coords="600,22,759,150" shape="rect"/>
+        <area alt="IVL" title="IVL: Interval" href="StructureDefinition-IVL-INT.html" coords="13,263,242,433" shape="rect"/>
+        <area alt="IVL_PQ" title="IVL_PQ: Interval" href="StructureDefinition-IVL-PQ.html" coords="11,173,113,242" shape="rect"/>
+        <area alt="IVL_TS" title="IVL_TS: Interval" href="StructureDefinition-IVL-TS.html" coords="268,495,187,469" shape="rect"/>
+        <area alt="HXIT" title="HXIT: HistoryItem" href="#HXIT" coords="689,230,811,308" shape="rect"/>
+        <area alt="HIST" title="HIST: History" href="#HIST" coords="540,162,669,262" shape="rect"/>
+        <area alt="UVP" title="UVP: UncertainValueProbabilistic" href="#UVP" coords="464,70,574,146" shape="rect"/>
+        <area alt="PPD_PQ" title="PPD_PQ: ParametricProbabilityDistribution" href="#PPD_PQ" coords="147,185,260,247" shape="rect"/>
+        <area alt="PPD" title="PPD: ParametricProbabilityDistribution" href="#PPD" coords="9,14,294,154" shape="rect"/>
+        <area alt="NPPD" title="NPPD: NonParametricProbabilityDistribution" href="#NPPD" coords="352,8,530,66" shape="rect"/>
+        <area alt="PIVL" title="PIVL: PeriodicIntervalOfTime" href="StructureDefinition-PIVL-TS.html" coords="11,567,229,679" shape="rect"/>
+        <area alt="EIVL" title="EIVL: EventRelatedPeriodicIntervalOfTime" href="StructureDefinition-EIVL-TS.html" coords="11,691,294,790" shape="rect"/>
+        <area alt="GTS" title="GTS: GeneralTimingSpecification" href="#GTS" coords="11,449,155,559" shape="rect"/>
+    </map>
+        
+    <a name="missing"> </a><h3>Missing Data types</h3>
+    <p>
+     Not all the data types in the abstract data type definitions are described in this definition of CDA, 
+     since not all of the data types feature in CDA, or they are absorbed into the infrastructure in these definitions.
+     This table provides information for each of the types that are not present.
+    </p>    
+    <table class="grid">
+     <tr>
+      <td colspan="2"><b>Collection Types</b></td>
+     </tr>
+     <tr>
+      <td><a name="BAG"> </a>BAG</td>
+      <td>The BAG type is not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="LIST"> </a>LIST</td>
+      <td>All repeating elements are LIST type in these definitions. Whether the order has significance or not depends on definition of the data element</td>
+     </tr>
+     <tr>
+      <td><a name="SET"> </a>SET</td>
+      <td>? not sure what to say</td>
+     </tr>
+     <tr>
+      <td><a name="SLIST"> </a>SLIST</td>
+      <td>Sampled Lists are not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="GSLIST"> </a>GLIST</td>
+      <td>Generated Sequences are not used in CDA</td>
+     </tr>
+     <tr>
+      <td colspan="2"><b>GTS</b></td>
+     </tr>
+     <tr>
+      <td><a name="GTS"> </a>GTS</td>
+      <td>The abstract type General Timing Specification becomes a choice of 	
+<a href="StructureDefinition-SXCM-TS.html">SXCM_TS</a>,
+<a href="StructureDefinition-IVL-TS.html">IVL_TS</a>,	
+<a href="StructureDefinition-EIVL-TS.html">EIVL_TS</a>,	
+<a href="StructureDefinition-PIVL-TS.html">PIVL_TS</a> and 	
+<a href="StructureDefinition-SXPR-TS.html">SXPR_TS</a></td>
+     </tr>
+     <tr>
+      <td colspan="2"><b>Unused types</b></td>
+     </tr>
+     <tr>
+      <td><a name="Datatype"> </a>Datatype</td>
+      <td>The Meta type "Datatype" is not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="BN"> </a>BN</td>
+      <td>The BooleanNonNull type is not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="HXIT"> </a>HXIT</td>
+      <td>The History Item type is not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="HIST"> </a>HIST</td>
+      <td>The History type is not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="UVP"> </a>UVP</td>
+      <td>The Uncertain Value type is not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="PPD"> </a><a name="PPD_PQ"> </a>PPD</td>
+      <td>The History Item type is not used in CDA</td>
+     </tr>
+     <tr>
+      <td><a name="NPPD"> </a>NPPD</td>
+      <td>blah</td>
+     </tr>
+    </table>
+  </body>
+</html>

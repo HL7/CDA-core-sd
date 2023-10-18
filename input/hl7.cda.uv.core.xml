@@ -915,6 +915,12 @@
 					<generation value="html"/>
 				</page>
 				<page>
+					<sourceUrl value="dt-uml.html"/>
+					<name value="dt-uml.html"/>
+					<title value="Clickable Datatypes Diagram"/>
+					<generation value="html"/>
+				</page>
+				<page>
 					<sourceUrl value="narrative.html"/>
 					<name value="narrative.html"/>
 					<title value="Narrative Block"/>
