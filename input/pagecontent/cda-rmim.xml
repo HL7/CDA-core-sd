@@ -52,6 +52,7 @@
       <area target="" alt="Organization6" title="Organization6" href="StructureDefinition-Organization.html" coords="185,1681,315,1635" shape="rect"/>
       <area target="" alt="Person6" title="Person6" href="StructureDefinition-Person.html" coords="250,1685,369,1754" shape="rect"/>
       <area target="" alt="LanguageCommunication" title="LanguageCommunication" href="StructureDefinition-LanguageCommunication.html" coords="664,1221,994,1309" shape="rect"/>
+      <!-- TODO - custodian organization; bottom half of Organization L-shaped box -->
 
       <!-- Header Relationships (Red arrows on right of ClinicalDocument) -->
       <area target="" alt="relatedDocument" title="relatedDocument" href="StructureDefinition-relatedDocument.html" coords="1309,215,1539,242" shape="rect"/>
@@ -70,10 +71,10 @@
 
       <!-- Header Act Participants, Roles, Entities (Center top blue, yellow, green) -->
       <!-- Blue -->
-      <area target="" alt="performer" title="performer" href="StructureDefinition-performer.html" coords="1769,315,2049,361" shape="rect"/>
-      <area target="" alt="responsibleParty" title="responsibleParty" href="StructureDefinition-responsibleParty.html" coords="1780,622,2053,656" shape="rect"/>
+      <area target="" alt="Performer1" title="Performer1" href="StructureDefinition-Performer1.html" coords="1769,315,2049,361" shape="rect"/>
+      <area target="" alt="EncompassingEncounter.responsibleParty" title="EncompassingEncounter.responsibleParty" href="StructureDefinition-EncompassingEncounter.html" coords="1780,622,2053,656" shape="rect"/>
       <area target="" alt="encounterParticipant" title="encounterParticipant" href="StructureDefinition-encounterParticipant.html" coords="1780,691,2053,725" shape="rect"/>
-      <area target="" alt="location" title="location" href="StructureDefinition-location.html" coords="1627,737,1730,783" shape="rect"/>
+      <area target="" alt="EncompassingEncounter.location" title="EncompassingEncounter.location" href="StructureDefinition-EncompassingEncounter.html" coords="1627,737,1730,783" shape="rect"/>
       <!-- Yellow -->
       <area target="" alt="AssignedEntity4" title="AssignedEntity4" href="StructureDefinition-AssignedEntity.html" coords="2049,307,2217,368" shape="rect"/>
       <area target="" alt="AssignedEntity5" title="AssignedEntity5" href="StructureDefinition-AssignedEntity.html" coords="2060,622,2217,745" shape="rect"/>
