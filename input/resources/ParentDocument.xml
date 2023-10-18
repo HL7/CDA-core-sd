@@ -84,7 +84,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
       <binding>
-        <strength value="extensible"/>
+        <strength value="example"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/doc-typecodes"/>
       </binding>
     </element>
