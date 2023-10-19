@@ -1,7 +1,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <body>
-    <div>Data types UML.
-    </div>
+    <style>
+      #segment-content .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100% !important;
+        padding: 0 20px;
+      }
+    </style>
+    <div>Datatypes UML (Unified Modeling Language) diagram. Clicking on various boxes will take you to the CDA Logical Model for that data type.</div>
     <img src="L-dtUML-Main.gif" usemap="#image-map" />
 
     <map name="image-map">

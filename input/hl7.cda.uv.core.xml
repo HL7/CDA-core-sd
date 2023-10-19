@@ -911,13 +911,13 @@
 				<page>
 					<sourceUrl value="cda-rmim.html"/>
 					<name value="cda-rmim.html"/>
-					<title value="Clickable CDA Diagram"/>
+					<title value="Graphical Map of CDA"/>
 					<generation value="html"/>
 				</page>
 				<page>
 					<sourceUrl value="dt-uml.html"/>
 					<name value="dt-uml.html"/>
-					<title value="Clickable Datatypes Diagram"/>
+					<title value="Graphical Map of Datatypes"/>
 					<generation value="html"/>
 				</page>
 				<page>
