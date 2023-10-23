@@ -1,4 +1,4 @@
-## CDA Definition
+### CDA Definition
 
 {% raw %}
 <blockquote class="note-to-balloters">
@@ -168,16 +168,12 @@ This Implementation Guide represents the Clinical Document Architecture (CDA) us
 				<li><a href="StructureDefinition-url.html">url: Universal Resource Locator</a></li>
 				<li><a href="StructureDefinition-uuid.html">uuid: DCE Universal Unique Identifier</a></li>
 			</ul>
-			<h3>XML Data Types</h3>
-			<ul>
-				<li><a href="StructureDefinition-xs-ID.html">xs:ID</a></li>
-			</ul>
 		</td>
 	</tr>
 	</tbody>
 </table>
 
-## Other Information
+### Other Information
 
 {% include ip-statements.xhtml %}
 
