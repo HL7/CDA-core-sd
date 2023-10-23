@@ -50,7 +50,6 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <defaultValueCode value="SBADM"/>
       <fixedCode value="SBADM"/>
       <binding>
         <strength value="required"/>

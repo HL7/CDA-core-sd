@@ -96,6 +96,10 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
       </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ROIOverlayShape|2.0.0"/>
+      </binding>
     </element>
     <element id="RegionOfInterest.value">
       <path value="RegionOfInterest.value"/>

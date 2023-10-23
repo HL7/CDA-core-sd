@@ -48,7 +48,6 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <defaultValueCode value="PROC"/>
       <fixedCode value="PROC"/>
       <binding>
         <strength value="required"/>
@@ -64,6 +63,10 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xDocumentProcedureMood"/>
+      </binding>
     </element>
     <element id="Procedure.id">
       <path value="Procedure.id"/>

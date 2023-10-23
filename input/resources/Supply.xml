@@ -65,6 +65,10 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xDocumentSubstanceMood|2.0.0"/>
+      </binding>
     </element>
     <element id="Supply.id">
       <path value="Supply.id"/>
