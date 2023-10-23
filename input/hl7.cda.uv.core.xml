@@ -976,6 +976,12 @@
       </code>
       <value value="generate"/>
     </parameter>
-		
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="jira-code"/>
+      </code>
+      <value value="cda-sd"/>
+    </parameter>
 	</definition>
 </ImplementationGuide>

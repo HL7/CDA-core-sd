@@ -152,9 +152,9 @@
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
-<page key="cda-rmim" name="Clickable CDA Diagram"/>
-<page key="dt-uml" name="Clickable Datatypes Diagram"/>
 <page key="downloads" name="Downloads"/>
+<page key="cda-rmim" name="Graphical Map of CDA"/>
+<page key="dt-uml" name="Graphical Map of Datatypes"/>
 <page key="index" name="IG Home Page"/>
 <page key="narrative" name="Narrative Block"/>
 <page key="overview" name="Overview"/>
