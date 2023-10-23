@@ -3,7 +3,7 @@
     <id value="BinaryDataEncoding"/>
     <url value="http://hl7.org/cda/stds/core/CodeSystem/BinaryDataEncoding"/>
     <name value="BinaryDataEncoding"/>
-    <title value="Binary Data Encoding"/>
+    <title value="Binary Data Encoding Code System"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="Identifies the representation of binary data in a text field"/>
