@@ -904,6 +904,11 @@
 				<reference value="ValueSet/CDACompressionAlgorithm" />
 			</reference>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDANullFlavor" />
+			</reference>
+		</resource>
 		<page>
 			<sourceUrl value="index.html"/>
 			<name value="index.html"/>
