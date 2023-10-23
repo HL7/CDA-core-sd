@@ -1,4 +1,4 @@
-## CDA FHIR Definition
+## CDA Definition
 
 {% raw %}
 <blockquote class="note-to-balloters">
@@ -12,7 +12,7 @@
 {% endraw %}
 
 
-This FHIR Implementation Guide represents CDA using the FHIR Type Definition Framework
+This Implementation Guide represents the Clinical Document Architecture (CDA) using the FHIR Structure Definition Framework.
 
 <table class="cda-table">
 	<tbody>
