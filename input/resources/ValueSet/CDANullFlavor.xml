@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDANullFlavor"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDANullFlavor"/>
+    <name value="CDANullFlavor"/>
+    <title value="CDANullFlavor"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="CDA NullFlavors - limited to values allowed in original cDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+            <version value="2.1.0"/>
+            <concept>
+                <code value="NP"/>
+            </concept>
+            <concept>
+                <code value="NI"/>
+            </concept>
+            <concept>
+                <code value="MSK"/>
+            </concept>
+            <concept>
+                <code value="NA"/>
+            </concept>
+            <concept>
+                <code value="OTH"/>
+            </concept>
+            <concept>
+                <code value="NINF"/>
+            </concept>
+            <concept>
+                <code value="PINF"/>
+            </concept>
+            <concept>
+                <code value="UNK"/>
+            </concept>
+            <concept>
+                <code value="NASK"/>
+            </concept>
+            <concept>
+                <code value="TRC"/>
+            </concept>
+            <concept>
+                <code value="ASKU"/>
+            </concept>
+            <concept>
+                <code value="NAV"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
