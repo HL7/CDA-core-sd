@@ -103,7 +103,8 @@
 			</encounterParticipant>
 			<location>
 				<healthCareFacility classCode="DSDLOC">
-					<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+					<!-- Note: the original published example had the wrong codeSystem (2.16.840.1.113883.5.10588) here -->
+					<code code="GIM" codeSystem="2.16.840.1.113883.5.111" displayName="General internal medicine clinic"/>
 				</healthCareFacility>
 			</location>
 		</encompassingEncounter>
