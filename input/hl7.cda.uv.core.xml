@@ -994,5 +994,12 @@
       </code>
       <value value="cda-sd"/>
     </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>
+      <value value="ballot"/>
+    </parameter>
 	</definition>
 </ImplementationGuide>
