@@ -158,7 +158,7 @@
 					<reference value="Binary/clinicaldocument-example"/>
 				</reference>
 			<name value="Example CDA document"/>
-			<description value="Example CDA document"/>
+			<description value="Example CDA document from original CDA release"/>
 			<isExample value="true"/>
 			<profile value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
 		</resource>
@@ -633,6 +633,12 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Precondition2" />
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PreconditionBase" />
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
