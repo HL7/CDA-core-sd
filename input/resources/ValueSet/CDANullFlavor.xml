@@ -6,7 +6,7 @@
     <title value="CDANullFlavor"/>
     <status value="draft"/>
     <experimental value="false"/>
-    <description value="CDA NullFlavors - limited to values allowed in original cDA definition"/>
+    <description value="CDA NullFlavors - limited to values allowed in original CDA definition"/>
     <compose>
         <include>
             <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>

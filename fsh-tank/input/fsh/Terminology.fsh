@@ -26,7 +26,7 @@ Description: "Type of compression algorithm used - limited to 4 concepts from or
 Alias: $NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|2.1.0
 ValueSet: CDANullFlavor
 Title: "CDANullFlavor"
-Description: "CDA NullFlavors - limited to values allowed in original cDA definition"
+Description: "CDA NullFlavors - limited to values allowed in original CDA definition"
 * ^experimental = false
 * include $NullFlavor#NP
 * include $NullFlavor#NI
