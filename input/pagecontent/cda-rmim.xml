@@ -82,7 +82,7 @@
       <!-- Blue -->
       <area target="" alt="Performer1" title="Performer1" href="StructureDefinition-Performer1.html" coords="1769,315,2049,361" shape="rect"/>
       <area target="" alt="EncompassingEncounter.responsibleParty" title="EncompassingEncounter.responsibleParty" href="StructureDefinition-EncompassingEncounter.html" coords="1780,622,2053,656" shape="rect"/>
-      <area target="" alt="encounterParticipant" title="encounterParticipant" href="StructureDefinition-encounterParticipant.html" coords="1780,691,2053,725" shape="rect"/>
+      <area target="" alt="encounterParticipant" title="encounterParticipant" href="StructureDefinition-EncounterParticipant.html" coords="1780,691,2053,725" shape="rect"/>
       <area target="" alt="EncompassingEncounter.location" title="EncompassingEncounter.location" href="StructureDefinition-EncompassingEncounter.html" coords="1627,737,1730,783" shape="rect"/>
       <!-- Yellow -->
       <area target="" alt="AssignedEntity4" title="AssignedEntity4" href="StructureDefinition-AssignedEntity.html" coords="2049,307,2217,368" shape="rect"/>
