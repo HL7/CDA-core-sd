@@ -24,7 +24,9 @@
 <artifact id="ValueSet/BinaryDataEncoding" key="ValueSet-BinaryDataEncoding" name="Binary Data Encoding Value Set"/>
 <artifact id="StructureDefinition/Birthplace" key="StructureDefinition-Birthplace" name="Birthplace (CDA Class)"/>
 <artifact id="StructureDefinition/CD" key="StructureDefinition-CD" name="CD: ConceptDescriptor (V3 Data Type)"/>
+<artifact id="ValueSet/CDAEntityNameUse" key="ValueSet-CDAEntityNameUse" name="CDAEntityNameUse"/>
 <artifact id="ValueSet/CDANullFlavor" key="ValueSet-CDANullFlavor" name="CDANullFlavor"/>
+<artifact id="ValueSet/CDAPostalAddressUse" key="ValueSet-CDAPostalAddressUse" name="CDAPostalAddressUse"/>
 <artifact id="StructureDefinition/CE" key="StructureDefinition-CE" name="CE: CodedWithEquivalents (V3 Data Type)"/>
 <artifact id="StructureDefinition/CO" key="StructureDefinition-CO" name="CO: CodedOrdinal (V3 Data Type)"/>
 <artifact id="StructureDefinition/CR" key="StructureDefinition-CR" name="CR: ConceptRole (V3 Data Type)"/>

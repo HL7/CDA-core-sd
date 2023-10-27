@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAEntityNameUse"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAEntityNameUse"/>
+    <name value="CDAEntityNameUse"/>
+    <title value="CDAEntityNameUse"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A set of codes advising a system or user which name in a set of names to select for a given purpose - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-EntityNameUse"/>
+            <version value="2.1.0"/>
+            <concept>
+                <code value="C"/>
+            </concept>
+            <concept>
+                <code value="L"/>
+            </concept>
+            <concept>
+                <code value="I"/>
+            </concept>
+            <concept>
+                <code value="P"/>
+            </concept>
+            <concept>
+                <code value="A"/>
+            </concept>
+            <concept>
+                <code value="R"/>
+            </concept>
+            <concept>
+                <code value="SRCH"/>
+            </concept>
+            <concept>
+                <code value="PHON"/>
+            </concept>
+            <concept>
+                <code value="SNDX"/>
+            </concept>
+            <concept>
+                <code value="ABC"/>
+            </concept>
+            <concept>
+                <code value="SYL"/>
+            </concept>
+            <concept>
+                <code value="IDE"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

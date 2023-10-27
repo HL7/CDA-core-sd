@@ -64,6 +64,10 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAPostalAddressUse"/>
+      </binding>
     </element>
     <element id="AD.item">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-choice-group">

@@ -81,7 +81,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-AddressUse"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-TelecommunicationAddressUse|2.0.0"/>
       </binding>
     </element>
   </differential>

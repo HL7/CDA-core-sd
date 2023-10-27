@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAPostalAddressUse"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAPostalAddressUse"/>
+    <name value="CDAPostalAddressUse"/>
+    <title value="CDAPostalAddressUse"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A set of codes advising a system or user which address in a set of like addresses to select for a given purpose - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AddressUse"/>
+            <version value="2.1.0"/>
+            <concept>
+                <code value="H"/>
+            </concept>
+            <concept>
+                <code value="HP"/>
+            </concept>
+            <concept>
+                <code value="HV"/>
+            </concept>
+            <concept>
+                <code value="WP"/>
+            </concept>
+            <concept>
+                <code value="DIR"/>
+            </concept>
+            <concept>
+                <code value="PUB"/>
+            </concept>
+            <concept>
+                <code value="BAD"/>
+            </concept>
+            <concept>
+                <code value="TMP"/>
+            </concept>
+            <concept>
+                <code value="PHYS"/>
+            </concept>
+            <concept>
+                <code value="PST"/>
+            </concept>
+        </include>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-EntityNameUse"/>
+            <version value="2.1.0"/>
+            <concept>
+                <code value="ABC"/>
+            </concept>
+            <concept>
+                <code value="IDE"/>
+            </concept>
+            <concept>
+                <code value="SYL"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

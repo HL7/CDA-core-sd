@@ -906,6 +906,16 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAEntityNameUse" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAPostalAddressUse" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDANullFlavor" />
 			</reference>
 		</resource>
