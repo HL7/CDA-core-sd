@@ -245,7 +245,7 @@
       <fixedCode value="CSM"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationTargetDirect"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationType"/>
       </binding>
     </element>
     <element id="SubstanceAdministration.consumable.manufacturedProduct">

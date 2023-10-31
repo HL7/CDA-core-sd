@@ -50,10 +50,9 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
       <defaultValueCode value="PRCP"/>
-      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationType"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xInformationRecipient|2.0.0"/>
       </binding>
     </element>
     <element id="InformationRecipient.intendedRecipient">

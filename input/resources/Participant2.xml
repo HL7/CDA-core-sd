@@ -41,7 +41,7 @@
     <element id="Participant2.typeCode">
       <path value="Participant2.typeCode"/>
       <representation value="xmlAttr"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <type>
         <code value="code"/>

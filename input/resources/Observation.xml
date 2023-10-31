@@ -385,7 +385,7 @@
       <fixedCode value="REFV"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActRelationshipPertains"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActRelationshipType|2.0.0"/>
       </binding>
     </element>
     <element id="Observation.referenceRange.observationRange">
