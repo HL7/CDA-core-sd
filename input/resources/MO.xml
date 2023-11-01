@@ -38,6 +38,7 @@
     </element>
     <element id="MO.currency">
       <path value="MO.currency"/>
+      <representation value="xmlAttr"/>
       <label value="Currency"/>
       <definition value="The currency unit as defined in ISO 4217."/>
       <min value="0"/>
@@ -48,6 +49,7 @@
     </element>
     <element id="MO.value">
       <path value="MO.value"/>
+      <representation value="xmlAttr"/>
       <label value="Value"/>
       <definition value="The magnitude of the monetary amount in terms of the currency unit."/>
       <min value="0"/>
