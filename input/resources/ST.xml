@@ -35,6 +35,12 @@
       <definition value="The character string data type stands for text data, primarily intended for machine processing (e.g., sorting, querying, indexing, etc.) Used for names, symbols, and formal expressions."/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="text-null"/>
+        <severity value="error"/>
+        <human value="xmlText and nullFlavor are mutually exclusive (one must be present)"/>
+        <expression value="(xmlText | nullFlavor).count() = 1"/>
+      </constraint>
     </element>
     <element id="ST.representation">
       <path value="ST.representation"/>

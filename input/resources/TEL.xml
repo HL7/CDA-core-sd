@@ -34,6 +34,12 @@
       <path value="TEL"/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="value-null"/>
+        <severity value="error"/>
+        <human value="value and nullFlavor are mutually exclusive (one must be present)"/>
+        <expression value="(value | nullFlavor).count() = 1"/>
+      </constraint>
     </element>
     <element id="TEL.value">
       <path value="TEL.value"/>

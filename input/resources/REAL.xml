@@ -35,6 +35,12 @@
       <definition value="Fractional numbers. Typically used whenever quantities are measured, estimated, or computed from other real numbers. The typical representation is decimal, where the number of significant decimal digits is known as the precision. Real numbers are needed beyond integers whenever quantities of the real world are measured, estimated, or computed from other real numbers. The term &#34;Real number&#34; in this specification is used to mean that fractional values are covered without necessarily implying the full set of the mathematical real numbers."/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="value-null"/>
+        <severity value="error"/>
+        <human value="value and nullFlavor are mutually exclusive (one must be present)"/>
+        <expression value="(value | nullFlavor).count() = 1"/>
+      </constraint>
     </element>
     <element id="REAL.value">
       <path value="REAL.value"/>

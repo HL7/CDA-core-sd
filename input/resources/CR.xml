@@ -35,6 +35,12 @@
       <definition value="A concept qualifier code with optionally named role. Both qualifier role and value codes must be defined by the coding system. For example, if SNOMED RT defines a concept &#34;leg&#34;, a role relation &#34;has-laterality&#34;, and another concept &#34;left&#34;, the concept role relation allows to add the qualifier &#34;has-laterality: left&#34; to a primary code &#34;leg&#34; to construct the meaning &#34;left leg&#34;."/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="value-null-cr"/>
+        <severity value="error"/>
+        <human value="Must contain value or nullFlavor. If nullFlavor is present, name and value must not be present."/>
+        <expression value="(value.exists() or nullFlavor.exists()) and (nullFlavor.exists() implies (name | value).empty())"/>
+      </constraint>
     </element>
     <element id="CR.inverted">
       <path value="CR.inverted"/>

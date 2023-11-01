@@ -35,6 +35,13 @@
       <definition value="A monetary amount is a quantity expressing the amount of money in some currency. Currencies are the units in which monetary amounts are denominated in different economic regions. While the monetary amount is a single kind of quantity (money) the exchange rates between the different units are variable. This is the principle difference between physical quantity and monetary amounts, and the reason why currency units are not physical units."/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="value-null"/>
+        <severity value="error"/>
+        <human value="value and nullFlavor are mutually exclusive (one must be present)"/>
+        <!-- CDA Schema was not(@nullFlavor and (@value or @currency)) so preserving that here -->
+        <expression value="nullFlavor.exists() implies (value | currency).empty()"/>
+      </constraint>
     </element>
     <element id="MO.currency">
       <path value="MO.currency"/>

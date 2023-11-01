@@ -35,6 +35,12 @@
       <definition value="The Boolean type stands for the values of two-valued logic. A Boolean value can be either true or false, or, as any other value may be NULL."/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="value-null"/>
+        <severity value="error"/>
+        <human value="value and nullFlavor are mutually exclusive (one must be present)"/>
+        <expression value="(value | nullFlavor).count() = 1"/>
+      </constraint>
     </element>
     <element id="BL.value">
       <path value="BL.value"/>
