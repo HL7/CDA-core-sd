@@ -85,6 +85,16 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
       </type>
+      <constraint>
+        <key value="signature"/>
+        <severity value="warning"/>
+        <human value="CDA Release One represented either an intended ('X') or actual ('S') authenticator. CDA Release Two only represents an actual authenticator, so has deprecated the value of 'X'."/>
+        <expression value="code.exists() implies code != 'X'" />
+      </constraint>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDASignatureCode"/>
+      </binding>
     </element>
     <element id="LegalAuthenticator.sdtcSignatureText">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">

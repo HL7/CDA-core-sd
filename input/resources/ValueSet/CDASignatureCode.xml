@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDASignatureCode"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDASignatureCode"/>
+    <name value="CDASignatureCode"/>
+    <title value="CDASignatureCode"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A set of codes specifying whether and how the participant has attested his participation through a signature - limited to values allowed in original CDA definition.&#xA;&#xA;**Note:** CDA Release One represented either an intended (`X`) or actual (`S`) authenticator. CDA Release Two only represents an actual authenticator, so has deprecated the value of `X`."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature"/>
+            <version value="2.1.0"/>
+            <concept>
+                <code value="S"/>
+            </concept>
+            <concept>
+                <code value="X"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

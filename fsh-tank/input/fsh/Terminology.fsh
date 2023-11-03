@@ -79,3 +79,13 @@ Description: "CDA NullFlavors - limited to values allowed in original CDA defini
 * include $NullFlavor#TRC
 * include $NullFlavor#ASKU
 * include $NullFlavor#NAV
+
+Alias: $PartSig = http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature|2.1.0
+ValueSet: CDASignatureCode
+Title: "CDASignatureCode"
+Description: """A set of codes specifying whether and how the participant has attested his participation through a signature - limited to values allowed in original CDA definition.
+
+**Note:** CDA Release One represented either an intended (`X`) or actual (`S`) authenticator. CDA Release Two only represents an actual authenticator, so has deprecated the value of `X`."""
+* ^experimental = false
+* include $PartSig#S
+* include $PartSig#X

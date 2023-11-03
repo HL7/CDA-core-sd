@@ -916,6 +916,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDASignatureCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDANullFlavor" />
 			</reference>
 		</resource>
