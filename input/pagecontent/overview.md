@@ -250,3 +250,73 @@ This section describes the types of changes that can be introduced to a new rele
 *   **Change from CWE to CNE** : To preserve roundtrip translation capability, a translation between releases must represent unrecognized components as extensions (e.g. local markup or local namespace). Ideally these situations will surface during a ballot cycle, allowing the CNE domain to be sufficiently inclusive.
 
 These guiding principles have lead to the current approach, defined in this Release Two of the CDA standard. The goal is to ensure that the documents created using Release One can be transformed into minimally compliant Release Two instances and that Release Two documents received can be down-translated to Release One instances using automated means (transformations) with no loss of attested, human-readable content and known limitation on loss of universal processing semantics.
+
+### CDA Context
+
+CDA context is set in the CDA header and applies to the entire document. Context can be overridden at the level of the body, section, and/or CDA entry.
+
+#### Overview of CDA Context
+
+A document, in a sense, is a contextual wrapper for its contents. Assertions in the document header are typically applicable to statements made in the body of the document, unless overridden. For instance, the patient identified in the header is assumed to be the subject of observations described in the body of the document, unless a different subject is explicitly stated, or the author identified in the header is assumed to be the author of the entire document, unless a different author is explicitly identified on a section. The objective of the CDA context rules are to make these practices explicit with relationship to the RIM, such that a computer will understand the context of a portion of a document the same way that a human interprets it.
+
+At the same time, there is no guarantee that machine processing will identify a mistaken application of contextual rules. If a physician records an "outside diagnosis" in narrative but does not nullify the "informant" context, machine processing will not identify the switch in attribution. This is a special case illustrating the limits of automated validation of electronic records and would apply regardless of the context inheritance mechanism. In other words, from some errors of encoding, there is no recovery other than human review.
+
+CDA's approach to context, and the propagation of that context to nested document components, follows these design principles:
+
+*   CDA uses the RIM context mechanism (contextControlCode for Participations; contextConductionInd for ActRelationships), and assigns fixed values to these attributes to accomplish the design objectives below, thus constraining the RIM context model. CDA extends the context propagation property to designated attributes of the CDA Header, which also propagate through any ActRelationship for which contextConductionInd="true".
+*   The CDA Header sets context for the entire document. A propagating value specified in the document header holds true throughout the document, unless explicitly overridden. This principal applies to both Participations and to designated attributes of the CDA Header. Contextual header components (i.e., those that have propagating values) include:
+    *   Author
+    *   Confidentiality
+    *   Data enterer
+    *   Human language
+    *   Informant
+    *   Legal authenticator
+    *   Participant
+    *   Record target
+*   Context components that can be overridden at the level of the document body include:
+    *   Confidentiality
+    *   Human language
+*   Context components that can be overridden at the level of a document section include:
+    *   Author
+    *   Confidentiality
+    *   Human language
+    *   Informant
+    *   Subject
+*   Context components that can be overridden at the level of a CDA entry include:
+    *   Author
+    *   Human language
+    *   Informant
+    *   Participant
+    *   Subject
+*   Context propagates from outer tags to nested tags. Context that is specified on an outer tag holds true for all nested tags, unless overridden on a nested tag. Context specified on a tag within the CDA body always overrides context propagated from an outer tag. For instance, the specification of authorship at a document section level overrides all authorship propagated from outer tags.
+*   Context is sometimes known precisely, and is sometimes unknown, such as in the case where a document is comprised of a large unparsed narrative block that potentially includes statements that contradict outer context. Because CDA context always propagates unless overridden, the representation of unknown context is achieved by overriding with a null value.
+
+#### Technical Aspects of CDA Context
+
+The RIM defines the "context" of an act as those participants of the act that can be propagated to nested acts. In the RIM, whether or not contextual participants do propagate to nested acts depends on whether or not the intervening act relationship between parent and child act allows for conduction of context. The explicit representation of context, and whether or not the context on an act can propagate to nested acts, is expressed via the RIM attributes Participation.contextControlCode and ActRelationship.contextConductionInd. CDA constrains the general RIM context mechanism such that context always overrides and propagates, as shown in the following table.
+
+| RIM attribute           | Cardinality         | Conformance           | Fixed Value         |
+|-------------------------|---------------------|-----------------------|---------------------|
+| Participation.contextControlCode    | 1..1    | Mandatory (NULL values not permitted)   | "OP" (overriding, propagating)   |
+| ActRelationship.contextConductionInd &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1..1    | Mandatory (NULL values not permitted) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| "true"*       |
+	
+\* The one exception to this is entryRelationship.contextConductionInd, which is defaulted to "true", but can be changed to "false"
+
+Where the context of a nested component is unknown, the propagated context must be overridden with a null-valued component, as shown in the following table.
+
+| Context | Null value representation  | |
+|---|---|--|
+| Author| AssignedAuthor.id = NULL |No playing entity; No scoping entity. 
+| Confidentiality &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| confidentialityCode = NULL
+| Human language &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| languageCode = NULL
+| Informant | AssignedEntity.id = NULL |No playing entity;  No scoping entity. 
+| Participant | ParticipantRole.id = NULL |No playing entity;No scoping entity. 
+
+The following exhibit illustrates the CDA context model. ClinicalDocument has an author participant, a confidentialityCode, and a languageCode, all of which will propagate to nested acts. The component act relationship going from ClinicalDocument to bodyChoice has contextConductionInd fixed as "true", thus allowing for the propagation of context. The bodyChoice classes, NonXMLBody and StructuredBody, contain a confidentialityCode and languageCode which can be used to override the value specified in the header. The component act relationship going from StructuredBody to Section has contextConductionInd fixed at "true", thus the context on StructuredBody will propagate through to Section. Section can override confidentialityCode, languageCode, and author. A null value for the Section's author participant indicates that the author for that particular section is unknown.
+
+<a href="L-ContextExample.gif"><img src="L-ContextExample.gif" alt="Context Conduction Example" style="max-width:100%" /></a>
+
+Because context is always overriding and propagating, one can compute the context of a given node by looking for the most proximate assertion. The following example is a sample XPath expression that can be used to identify the `<author>` context of a section or entry:
+
+> `(ancestor-or-self::*/author)[position()=last()]`
+
