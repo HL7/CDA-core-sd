@@ -14,7 +14,7 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics">
@@ -105,10 +105,10 @@
       </type>
     </element>
     <element id="CD.sdtcValueSet">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="valueSet"/>
       </extension>
       <path value="CD.sdtcValueSet"/>
@@ -127,10 +127,10 @@
       </type>
     </element>
     <element id="CD.sdtcValueSetVersion">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="valueSetVersion"/>
       </extension>
       <path value="CD.sdtcValueSetVersion"/>

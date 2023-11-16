@@ -7,7 +7,7 @@
       <p>Primitive type 'xs:ID'</p>
     </div>
   </text>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <!-- Though the ID's type is in namespace http://www.w3.org/2001/XMLSchema, the ID itself remains in v3 -->
     <valueUri value="urn:hl7-org:v3"/>
   </extension>

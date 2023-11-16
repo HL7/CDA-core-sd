@@ -15,10 +15,10 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="person"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Person"/>
@@ -78,10 +78,10 @@
       </type>
     </element>
     <element id="Person.sdtcDesc">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="desc"/>
       </extension>
       <path value="Person.sdtcDesc"/>
@@ -93,10 +93,10 @@
       </type>
     </element>
     <element id="Person.sdtcAsPatientRelationship">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="asPatientRelationship"/>
       </extension>
       <path value="Person.sdtcAsPatientRelationship"/>
@@ -130,7 +130,7 @@
       <fixedCode value="INSTANCE"/>
     </element>
     <element id="Person.sdtcAsPatientRelationship.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Person.sdtcAsPatientRelationship.code"/>

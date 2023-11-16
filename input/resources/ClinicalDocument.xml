@@ -17,10 +17,10 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="ClinicalDocument"/>
   </extension> 
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-style">
@@ -151,10 +151,10 @@
       </type>
     </element>
     <element id="ClinicalDocument.sdtcStatusCode">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="statusCode"/>
       </extension>
       <path value="ClinicalDocument.sdtcStatusCode"/>

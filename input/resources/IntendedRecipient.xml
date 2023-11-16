@@ -8,10 +8,10 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="intendedRecipient"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/IntendedRecipient"/>
@@ -52,10 +52,10 @@
       </type>
     </element>
     <element id="IntendedRecipient.sdtcIdentifiedBy">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="identifiedBy"/>
       </extension>
       <path value="IntendedRecipient.sdtcIdentifiedBy"/>

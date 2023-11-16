@@ -15,10 +15,10 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="encounter"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Encounter"/>
@@ -117,10 +117,10 @@
       </type>
     </element>
     <element id="Encounter.sdtcDischargeDispositionCode">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueUri value="dischargeDispositionCode"/>
       </extension>
       <path value="Encounter.sdtcDischargeDispositionCode"/>
@@ -215,10 +215,10 @@
       </type>
     </element>
     <element id="Encounter.sdtcPrecondition2">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="precondition2"/>
       </extension>
       <path value="Encounter.sdtcPrecondition2"/>
@@ -229,10 +229,10 @@
       </type>
     </element>
     <element id="Encounter.sdtcInFulfillmentOf1">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="inFulfillmentOf1"/>
       </extension>
       <path value="Encounter.sdtcInFulfillmentOf1"/>

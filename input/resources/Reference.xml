@@ -16,10 +16,10 @@
       <p>The reference class contains the attribute reference.seperatableInd, which indicates whether or not the source is intended to be interpreted independently of the target. The indicator cannot prevent an individual or application from separating the source and target, but indicates the author's desire and willingness to attest to the content of the source if separated from the target. Typically, where seperatableInd is "false", the exchanged package should include the target of the reference so that the recipient can render it.</p>
     </div>
   </text>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="reference"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Reference"/>

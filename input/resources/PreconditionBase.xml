@@ -14,7 +14,7 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:sdtc"/>
   </extension>
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/PreconditionBase"/>
@@ -58,7 +58,7 @@
       <fixedCode value="EVN"/>
     </element>
     <element id="PreconditionBase.id">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="PreconditionBase.id"/>
@@ -69,7 +69,7 @@
       </type>
     </element>
     <element id="PreconditionBase.precondition">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="PreconditionBase.precondition"/>

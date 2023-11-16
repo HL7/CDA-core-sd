@@ -15,10 +15,10 @@
       <p>The subject participant can be ascribed to a CDA section or a CDA entry. It propagates to nested components, unless overridden. The subject of a document is presumed to be the patient.</p>
     </div>
   </text>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="subject"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Subject"/>

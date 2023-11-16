@@ -8,10 +8,10 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="observationRange"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/ObservationRange"/>
@@ -167,10 +167,10 @@
       </binding>
     </element>
     <element id="ObservationRange.sdtcPrecondition1">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="precondition1"/>
       </extension>
       <path value="ObservationRange.sdtcPrecondition1"/>
@@ -197,7 +197,7 @@
       <fixedCode value="PRCN" />
     </element>
     <element id="ObservationRange.sdtcPrecondition1.conjunctionCode">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="ObservationRange.sdtcPrecondition1.conjunctionCode"/>
@@ -213,7 +213,7 @@
       </binding>
     </element>
     <element id="ObservationRange.sdtcPrecondition1.criterion1">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="ObservationRange.sdtcPrecondition1.criterion1"/>

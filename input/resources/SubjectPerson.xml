@@ -14,10 +14,10 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="subjectPerson"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/SubjectPerson"/>
@@ -69,10 +69,10 @@
       </binding>
     </element>
     <element id="SubjectPerson.sdtcId">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueUri value="id"/>
       </extension>
       <path value="SubjectPerson.sdtcId"/>
@@ -92,10 +92,10 @@
       </type>
     </element>
     <element id="SubjectPerson.sdtcDesc">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="desc"/>
       </extension>
       <path value="SubjectPerson.sdtcDesc"/>
@@ -127,10 +127,10 @@
       </type>
     </element>
     <element id="SubjectPerson.sdtcDeceasedInd">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="deceasedInd"/>
       </extension>
       <path value="SubjectPerson.sdtcDeceasedInd"/>
@@ -141,10 +141,10 @@
       </type>
     </element>
     <element id="SubjectPerson.sdtcDeceasedTime">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="deceasedTime"/>
       </extension>
       <path value="SubjectPerson.sdtcDeceasedTime"/>
@@ -155,10 +155,10 @@
       </type>
     </element>
     <element id="SubjectPerson.sdtcMultipleBirthInd">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="multipleBirthInd"/>
       </extension>
       <path value="SubjectPerson.sdtcMultipleBirthInd"/>
@@ -169,10 +169,10 @@
       </type>
     </element>
     <element id="SubjectPerson.sdtcMultipleBirthOrderNumber">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="multipleBirthOrderNumber"/>
       </extension>
       <path value="SubjectPerson.sdtcMultipleBirthOrderNumber"/>

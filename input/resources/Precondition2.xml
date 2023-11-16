@@ -14,10 +14,10 @@
       </extension>
     </valueBoolean>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:sdtc"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-xml-name">
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueUri value="precondition"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Precondition2"/>
@@ -70,7 +70,7 @@
       </type>
     </element>
     <element id="Precondition2.conjunctionCode">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.conjunctionCode"/>
@@ -86,7 +86,7 @@
       </binding>
     </element>
     <element id="Precondition2.allTrue">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.allTrue"/>
@@ -97,7 +97,7 @@
       </type>
     </element>
     <element id="Precondition2.allFalse">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.allFalse"/>
@@ -108,7 +108,7 @@
       </type>
     </element>
     <element id="Precondition2.atLeastOneTrue">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.atLeastOneTrue"/>
@@ -119,7 +119,7 @@
       </type>
     </element>
     <element id="Precondition2.atLeastOneFalse">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.atLeastOneFalse"/>
@@ -130,7 +130,7 @@
       </type>
     </element>
     <element id="Precondition2.onlyOneTrue">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.onlyOneTrue"/>
@@ -141,7 +141,7 @@
       </type>
     </element>
     <element id="Precondition2.onlyOneFalse">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.onlyOneFalse"/>
@@ -152,7 +152,7 @@
       </type>
     </element>
     <element id="Precondition2.criterion">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="Precondition2.criterion"/>
