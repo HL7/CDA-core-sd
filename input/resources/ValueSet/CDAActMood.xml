@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAActMood"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-ActMood"/>
+  <name value="CDAActMood"/>
+  <title value="CDAActMood"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="A code distinguishing whether an Act is conceived of as a factual statement or in some other manner as a command, possibility, goal, etc.&#xD;&#xA;&#xD;&#xA;*Constraints:* An Act-instance must have one and only one moodCode value.&#xD;&#xA;&#xD;&#xA;The moodCode of a single Act-instance never changes. Mood is not state.&#xD;&#xA;&#xD;&#xA;To describe the progression of a business activity from defined to planned to executed, etc. one must instantiate different Act-instances in the different moods and link them using ActRelationship of general type &quot;sequel&quot;. (See ActRelationship.type.)"/>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
+	  <concept>
+	    <code value="ORD"/>
+	  </concept>
+	  <concept>
+	    <code value="CRT"/>
+	  </concept>
+	  <concept>
+	    <code value="GOL.CRT"/>
+	  </concept>
+	  <concept>
+	    <code value="INT.CRT"/>
+	  </concept>
+	  <concept>
+	    <code value="PRMS.CRT"/>
+	  </concept>
+	  <concept>
+	    <code value="RQO.CRT"/>
+	  </concept>
+	  <concept>
+	    <code value="RSK.CRT"/>
+	  </concept>
+	  <concept>
+	    <code value="RMD"/>
+	  </concept>
+	  <concept>
+	    <code value="EXPEC"/>
+	  </concept>
+	  <concept>
+	    <code value="RSK"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>

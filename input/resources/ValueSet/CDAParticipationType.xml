@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAParticipationType"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-ParticipationType"/>
+  <name value="CDAParticipationType"/>
+  <title value="CDAParticipationType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation."/>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+    </include>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+	  <concept>
+	    <code value="TRANS"/>
+	  </concept>
+	  <concept>
+	    <code value="NOTARY"/>
+	  </concept>
+	  <concept>
+	    <code value="ALY"/>
+	  </concept>
+	  <concept>
+	    <code value="CAT"/>
+	  </concept>
+	  <concept>
+	    <code value="TPA"/>
+	  </concept>
+	  <concept>
+	    <code value="EXPAGNT"/>
+	  </concept>
+	  <concept>
+	    <code value="EXPART"/>
+	  </concept>
+	  <concept>
+	    <code value="EXPTRGT"/>
+	  </concept>
+	  <concept>
+	    <code value="EXSRC"/>
+	  </concept>
+	  <concept>
+	    <code value="CAGNT"/>
+	  </concept>
+	  <concept>
+	    <code value="GUAR"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>

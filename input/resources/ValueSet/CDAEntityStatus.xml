@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAEntityStatus"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-EntityStatus"/>
+  <name value="CDAEntityStatus"/>
+  <title value="CDAEntityStatus"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Codes representing the defined possible states of an Entity, as defined by the Entity class state machine."/>
+  <compose>
+    <inactive value="false"/>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-EntityStatus"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAConfidentiality"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-Confidentiality"/>
+  <name value="CDAConfidentiality"/>
+  <title value="CDAConfidentiality"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Set of codes used to value Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain &quot;Confidentiality&quot;."/>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
+    </include>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
+	  <concept>
+	    <code value="M"/>
+	<exclude>
+  </compose>
+</ValueSet>

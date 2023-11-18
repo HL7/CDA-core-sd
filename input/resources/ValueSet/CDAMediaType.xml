@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAMediaType"/>
+  <language value="en"/>
+  <url value="http://terminology.hl7.org/ValueSet/v3-MediaType"/>
+  <name value="CDAMediaType"/>
+  <title value="CDAMediaType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Internet Assigned Numbers Authority (IANA) Mime Media Types"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-mediaType"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-mediaType">
+	  <concept>
+	    <code value="multipart/x-hl7-cda-level-one"/>
+	  </concept>
+	  <concept>
+	    <code value="video/mp4"/>
+	  </concept>
+	  </concept>
+	  <concept>
+	    <code value="video/quicktime"/>
+	  </concept>
+	  </concept>
+	  <concept>
+	    <code value="video/webm"/>
+	  </concept>
+	  </concept>
+	  <concept>
+	    <code value="video/x-ms-wmv"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>

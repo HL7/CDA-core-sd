@@ -896,7 +896,47 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDARoleCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/BinaryDataEncoding" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAAcknowledgementCondition" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAAcknowledgementDetailType" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActMood" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActReason" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActRelationshipType" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAAddressUse" />
 			</reference>
 		</resource>
 		<resource>
@@ -906,7 +946,62 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAConfidentiality" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDADocumentCompletion" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAEntityCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAEntityDeterminer" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAEntityNameUse" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAEntityStatus" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAHL7StandardVersionCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDALivingArrangement" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAMaritalStatus" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAMediaType" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDANullFlavor" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAParticipationType" />
 			</reference>
 		</resource>
 		<resource>
@@ -916,12 +1011,47 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAReligiousAffiliation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleClass" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleLinkType" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARouteOfAdministration" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDASignatureCode" />
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDANullFlavor" />
+				<reference value="ValueSet/CDAObservationInterpretation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAObservationMethod" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAParticipationFunction" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAParticipationMode" />
 			</reference>
 		</resource>
 		<page>

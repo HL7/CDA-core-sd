@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAParticipationFunction"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-ParticipationFunction"/>
+  <name value="CDAParticipationFunction"/>
+  <title value="CDAParticipationFunction"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE)."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"/
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_AuthorizedParticipationFunction"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_CoverageParticipationFunction"/>
+	  </filter>
+	</exclude>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"/>
+	  <concept>
+	    <code value="ASSEMBLER"/>
+	  </concept>
+	  <concept>
+	    <code value="COMPOSER"/>
+	  </concept>
+	  <concept>
+	    <code value="REVIEWER"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDARoleLinkType"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-RoleLinkType"/>
+  <name value="CDARoleLinkType"/>
+  <title value="CDARoleLinkType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="A code specifying the meaning and purpose of every RoleLink instance. Each of its values implies specific constraints to what kinds of Role objects can be related and in which way."/>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleLinkType"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-RoleLinkType"/>
+	  <concept>
+	    <code value="CONT"/>
+	  </concept>
+	  <concept>
+	    <code value="IDENT"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>
