@@ -16,7 +16,6 @@
   <experimental value="false"/>
   
   <description value=" A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type &quot;has reason&quot; linking to another Act.  Examples:&#xD;&#xA;Example reasons that might qualify for being coded in this field might be: &quot;routine requirement&quot;, &quot;infectious disease reporting requirement&quot;, &quot;on patient request&quot;, &quot;required by law&quot;."/>
-  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>

@@ -16,7 +16,6 @@
   <experimental value="false"/>
   
   <description value=" A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."/>
-  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>

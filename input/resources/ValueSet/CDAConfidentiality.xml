@@ -9,7 +9,6 @@
   <status value="active"/>
   <experimental value="false"/>
   <description value="Set of codes used to value Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain &quot;Confidentiality&quot;."/>
-  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
