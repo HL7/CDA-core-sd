@@ -935,6 +935,12 @@
 				<title value="Overview"/>
 				<generation value="markdown"/>
 				<page>
+					<sourceUrl value="implementation.html"/>
+					<name value="implementation.html"/>
+					<title value="Implementation Notes"/>
+					<generation value="markdown"/>
+				</page>
+				<page>
 					<sourceUrl value="cda-rmim.html"/>
 					<name value="cda-rmim.html"/>
 					<title value="Graphical Map of CDA"/>
