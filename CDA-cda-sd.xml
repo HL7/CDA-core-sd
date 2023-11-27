@@ -6,7 +6,6 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="ValueSet/CDAActMoodDocumentObservation" key="CodeSystem-BinaryDataEncoding" name=""/>
 <artifact id="StructureDefinition/AD" key="StructureDefinition-AD" name="AD: PostalAddress (V3 Data Type)"/>
 <artifact id="StructureDefinition/ADXP" key="StructureDefinition-ADXP" name="ADXP: CharacterString (V3 Data Type)"/>
 <artifact id="StructureDefinition/ANY" key="StructureDefinition-ANY" name="ANY: DataValue (V3 Data Type)"/>
@@ -28,6 +27,8 @@
 <artifact id="ValueSet/CDAActClass" key="ValueSet-CDAActClass" name="CDAActClass"/>
 <artifact id="ValueSet/CDAActCode" key="ValueSet-CDAActCode" name="CDAActCode"/>
 <artifact id="ValueSet/CDAActEncounterCode" key="ValueSet-CDAActEncounterCode" name="CDAActEncounterCode"/>
+<artifact id="ValueSet/CDAActMoodDocumentObservation" key="ValueSet-CDAActMoodDocumentObservation" name="CDAActMoodDocumentObservation"/>
+<artifact id="ValueSet/CDAEntityNamePartQualifier" key="ValueSet-CDAEntityNamePartQualifier" name="CDAEntityNamePartQualifier"/>
 <artifact id="ValueSet/CDAEntityNameUse" key="ValueSet-CDAEntityNameUse" name="CDAEntityNameUse"/>
 <artifact id="ValueSet/CDANullFlavor" key="ValueSet-CDANullFlavor" name="CDANullFlavor"/>
 <artifact id="ValueSet/CDAPostalAddressUse" key="ValueSet-CDAPostalAddressUse" name="CDAPostalAddressUse"/>

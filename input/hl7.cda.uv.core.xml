@@ -931,6 +931,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAEntityNamePartQualifier" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAEntityNameUse" />
 			</reference>
 		</resource>

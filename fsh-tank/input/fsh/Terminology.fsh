@@ -531,6 +531,22 @@ Description: "Type of compression algorithm used - limited to 4 concepts from or
 * include $CompressionAlgorithm#ZL
 * include $CompressionAlgorithm#Z
 
+Alias: $EntityNamePartQualifier = http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier|2.1.0
+ValueSet: CDAEntityNamePartQualifier
+Title: "CDAEntityNamePartQualifier"
+Description: "A qualifier for part of an entity name - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $EntityNamePartQualifier#LS
+* include $EntityNamePartQualifier#AC
+* include $EntityNamePartQualifier#NB
+* include $EntityNamePartQualifier#PR
+* include $EntityNamePartQualifier#VV
+* include $EntityNamePartQualifier#AD
+* include $EntityNamePartQualifier#BR
+* include $EntityNamePartQualifier#SP
+* include $EntityNamePartQualifier#CL
+* include $EntityNamePartQualifier#IN
+* include $EntityNamePartQualifier#TITLE
 
 Alias: $EntityNameUse = http://terminology.hl7.org/CodeSystem/v3-EntityNameUse|2.1.0
 ValueSet: CDAEntityNameUse
