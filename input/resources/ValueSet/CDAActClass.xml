@@ -9,14 +9,14 @@
     <description value="A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"/>
     <compose>
         <include>
+            <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClassDocumentEntryAct"/>
+        </include>
+        <include>
             <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClassObservation"/>
         </include>
         <include>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
             <version value="3.1.1"/>
-            <concept>
-                <code value="ACT"/>
-            </concept>
             <concept>
                 <code value="CNTRCT"/>
             </concept>
@@ -88,30 +88,6 @@
             </concept>
             <concept>
                 <code value="FOLDER"/>
-            </concept>
-            <concept>
-                <code value="ACCM"/>
-            </concept>
-            <concept>
-                <code value="CONS"/>
-            </concept>
-            <concept>
-                <code value="CTTEVENT"/>
-            </concept>
-            <concept>
-                <code value="INC"/>
-            </concept>
-            <concept>
-                <code value="INFRM"/>
-            </concept>
-            <concept>
-                <code value="PCPR"/>
-            </concept>
-            <concept>
-                <code value="REG"/>
-            </concept>
-            <concept>
-                <code value="SPCTRT"/>
             </concept>
             <concept>
                 <code value="ACCT"/>

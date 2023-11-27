@@ -17,8 +17,8 @@ ValueSet: CDAActClass
 Title: "CDAActClass"
 Description: "A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"
 * ^experimental = false
+* include codes from valueset CDAActClassDocumentEntryAct
 * include codes from valueset CDAActClassObservation
-* include $ActClass#ACT
 * include $ActClass#CNTRCT
 * include $ActClass#FCNTRCT
 * include $ActClass#COV
@@ -43,14 +43,6 @@ Description: "A code specifying the major type of Act that this Act-instance rep
 * include $ActClass#DOCSECT
 * include $ActClass#TOPIC
 * include $ActClass#FOLDER
-* include $ActClass#ACCM
-* include $ActClass#CONS
-* include $ActClass#CTTEVENT
-* include $ActClass#INC
-* include $ActClass#INFRM
-* include $ActClass#PCPR
-* include $ActClass#REG
-* include $ActClass#SPCTRT
 * include $ActClass#ACCT
 * include $ActClass#ACSN
 * include $ActClass#ADJUD
@@ -67,6 +59,21 @@ Description: "A code specifying the major type of Act that this Act-instance rep
 * include $ActClass#TRNS
 * include $ActClass#VERIF
 * include $ActClass#XACT
+
+ValueSet: CDAActClassDocumentEntryAct
+Title: "CDAActClassDocumentEntryAct"
+Description: "The set of Act class codes allowed for the ACT class clone in the CDA Clinical Statement model - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ActClass#ACT
+* include $ActClass#ACCM
+* include $ActClass#CONS
+* include $ActClass#CTTEVENT
+* include $ActClass#INC
+* include $ActClass#INFRM
+* include $ActClass#PCPR
+* include $ActClass#REG
+* include $ActClass#SPCTRT
+
 
 ValueSet: CDAActClassObservation
 Title: "CdaActClassObservation"
