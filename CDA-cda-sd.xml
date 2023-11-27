@@ -34,6 +34,7 @@
 <artifact id="StructureDefinition/CR" key="StructureDefinition-CR" name="CR: ConceptRole (V3 Data Type)"/>
 <artifact id="StructureDefinition/CS" key="StructureDefinition-CS" name="CS: CodedSimpleValue (V3 Data Type)"/>
 <artifact id="StructureDefinition/CV" key="StructureDefinition-CV" name="CV: CodedValue (V3 Data Type)"/>
+<artifact id="ValueSet/CDAActClassObservation" key="ValueSet-CDAActClassObservation" name="CdaActClassObservation"/>
 <artifact id="StructureDefinition/ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
 <artifact id="StructureDefinition/Component" key="StructureDefinition-Component" name="Component (CDA Class)"/>
 <artifact id="StructureDefinition/ComponentOf" key="StructureDefinition-ComponentOf" name="ComponentOf (CDA Class)"/>

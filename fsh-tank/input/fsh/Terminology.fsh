@@ -17,6 +17,7 @@ ValueSet: CDAActClass
 Title: "CDAActClass"
 Description: "A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"
 * ^experimental = false
+* include codes from valueset CDAActClassObservation
 * include $ActClass#ACT
 * include $ActClass#CNTRCT
 * include $ActClass#FCNTRCT
@@ -25,20 +26,6 @@ Description: "A code specifying the major type of Act that this Act-instance rep
 * include $ActClass#ACTN
 * include $ActClass#INFO
 * include $ActClass#STC
-* include $ActClass#OBS
-* include $ActClass#COND
-* include $ActClass#CASE
-* include $ActClass#OUTB
-* include $ActClass#OBSSER
-* include $ActClass#OBSCOR
-* include $ActClass#ROIBND
-* include $ActClass#ROIOVL
-* include $ActClass#ALRT
-* include $ActClass#CLNTRL
-* include $ActClass#CNOD
-* include $ActClass#DGIMG
-* include $ActClass#INVSTG
-* include $ActClass#SPCOBS
 * include $ActClass#SPLY
 * include $ActClass#DIET
 * include $ActClass#COMPOSITION
@@ -80,6 +67,26 @@ Description: "A code specifying the major type of Act that this Act-instance rep
 * include $ActClass#TRNS
 * include $ActClass#VERIF
 * include $ActClass#XACT
+
+ValueSet: CDAActClassObservation
+Title: "CdaActClassObservation"
+Description: "A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ActClass#OBS
+* include $ActClass#COND
+* include $ActClass#CASE
+* include $ActClass#OUTB
+* include $ActClass#OBSSER
+* include $ActClass#OBSCOR
+* include $ActClass#ROIBND
+* include $ActClass#ROIOVL
+* include $ActClass#ALRT
+* include $ActClass#CLNTRL
+* include $ActClass#CNOD
+* include $ActClass#DGIMG
+* include $ActClass#INVSTG
+* include $ActClass#SPCOBS
+
 
 
 Alias: $AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse|2.1.0

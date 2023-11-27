@@ -906,6 +906,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAActClassObservation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDACompressionAlgorithm" />
 			</reference>
 		</resource>

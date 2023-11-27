@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActClassObservation"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActClassObservation"/>
+    <name value="CDAActClassObservation"/>
+    <title value="CdaActClassObservation"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+            <version value="3.1.1"/>
+            <concept>
+                <code value="OBS"/>
+            </concept>
+            <concept>
+                <code value="COND"/>
+            </concept>
+            <concept>
+                <code value="CASE"/>
+            </concept>
+            <concept>
+                <code value="OUTB"/>
+            </concept>
+            <concept>
+                <code value="OBSSER"/>
+            </concept>
+            <concept>
+                <code value="OBSCOR"/>
+            </concept>
+            <concept>
+                <code value="ROIBND"/>
+            </concept>
+            <concept>
+                <code value="ROIOVL"/>
+            </concept>
+            <concept>
+                <code value="ALRT"/>
+            </concept>
+            <concept>
+                <code value="CLNTRL"/>
+            </concept>
+            <concept>
+                <code value="CNOD"/>
+            </concept>
+            <concept>
+                <code value="DGIMG"/>
+            </concept>
+            <concept>
+                <code value="INVSTG"/>
+            </concept>
+            <concept>
+                <code value="SPCOBS"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
