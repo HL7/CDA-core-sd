@@ -941,6 +941,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAObservationInterpretation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAPostalAddressUse" />
 			</reference>
 		</resource>

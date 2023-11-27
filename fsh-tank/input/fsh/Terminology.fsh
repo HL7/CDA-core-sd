@@ -585,6 +585,30 @@ Description: "CDA NullFlavors - limited to values allowed in original CDA defini
 * include $NullFlavor#ASKU
 * include $NullFlavor#NAV
 
+Alias: $ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|2.1.0
+ValueSet: CDAObservationInterpretation
+Title: "CDAObservationInterpretation"
+Description: "One or more codes providing a rough qualitative interpretation of the observation - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ObservationInterpretation#B
+* include $ObservationInterpretation#D
+* include $ObservationInterpretation#U
+* include $ObservationInterpretation#W
+* include $ObservationInterpretation#<
+* include $ObservationInterpretation#>
+* include $ObservationInterpretation#A
+* include $ObservationInterpretation#AA
+* include $ObservationInterpretation#HH
+* include $ObservationInterpretation#LL
+* include $ObservationInterpretation#H
+* include $ObservationInterpretation#L
+* include $ObservationInterpretation#N
+* include $ObservationInterpretation#I
+* include $ObservationInterpretation#MS
+* include $ObservationInterpretation#R
+* include $ObservationInterpretation#S
+* include $ObservationInterpretation#VS
+
 Alias: $PartSig = http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature|2.1.0
 ValueSet: CDASignatureCode
 Title: "CDASignatureCode"
