@@ -911,6 +911,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAActClassDocumentEntryAct" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAActCode" />
 			</reference>
 		</resource>
