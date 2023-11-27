@@ -57,7 +57,7 @@
       <fixedCode value="DOCCLIN"/>      
       <binding>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActClass"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClass"/>
       </binding>
     </element>
     <element id="ClinicalDocument.moodCode">

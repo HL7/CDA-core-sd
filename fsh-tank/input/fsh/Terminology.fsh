@@ -12,6 +12,76 @@ Description: "Identifies the representation of binary data in a text field"
 * ^experimental = false
 * include codes from system BinaryDataEncoding
 
+Alias: $ActClass = http://terminology.hl7.org/CodeSystem/v3-ActClass|3.1.1
+ValueSet: CDAActClass
+Title: "CDAActClass"
+Description: "A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ActClass#ACT
+* include $ActClass#CNTRCT
+* include $ActClass#FCNTRCT
+* include $ActClass#COV
+* include $ActClass#CACT
+* include $ActClass#ACTN
+* include $ActClass#INFO
+* include $ActClass#STC
+* include $ActClass#OBS
+* include $ActClass#COND
+* include $ActClass#CASE
+* include $ActClass#OUTB
+* include $ActClass#OBSSER
+* include $ActClass#OBSCOR
+* include $ActClass#ROIBND
+* include $ActClass#ROIOVL
+* include $ActClass#ALRT
+* include $ActClass#CLNTRL
+* include $ActClass#CNOD
+* include $ActClass#DGIMG
+* include $ActClass#INVSTG
+* include $ActClass#SPCOBS
+* include $ActClass#SPLY
+* include $ActClass#DIET
+* include $ActClass#COMPOSITION
+* include $ActClass#DOC
+* include $ActClass#DOCCLIN
+* include $ActClass#CDALVLONE
+* include $ActClass#ENTRY
+* include $ActClass#BATTERY
+* include $ActClass#CLUSTER
+* include $ActClass#EXTRACT
+* include $ActClass#EHR
+* include $ActClass#ORGANIZER
+* include $ActClass#CATEGORY
+* include $ActClass#DOCBODY
+* include $ActClass#DOCSECT
+* include $ActClass#TOPIC
+* include $ActClass#FOLDER
+* include $ActClass#ACCM
+* include $ActClass#CONS
+* include $ActClass#CTTEVENT
+* include $ActClass#INC
+* include $ActClass#INFRM
+* include $ActClass#PCPR
+* include $ActClass#REG
+* include $ActClass#SPCTRT
+* include $ActClass#ACCT
+* include $ActClass#ACSN
+* include $ActClass#ADJUD
+* include $ActClass#CONTREG
+* include $ActClass#DISPACT
+* include $ActClass#ENC
+* include $ActClass#INVE
+* include $ActClass#LIST
+* include $ActClass#MPROT
+* include $ActClass#PROC
+* include $ActClass#REV
+* include $ActClass#SBADM
+* include $ActClass#SUBST
+* include $ActClass#TRNS
+* include $ActClass#VERIF
+* include $ActClass#XACT
+
+
 Alias: $AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse|2.1.0
 ValueSet: CDAPostalAddressUse
 Title: "CDAPostalAddressUse"
