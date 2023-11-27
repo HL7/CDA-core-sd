@@ -956,6 +956,16 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDARoleClassAssociative" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleClassMutualRelationship" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDASignatureCode" />
 			</reference>
 		</resource>

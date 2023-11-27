@@ -34,6 +34,8 @@
 <artifact id="ValueSet/CDAObservationInterpretation" key="ValueSet-CDAObservationInterpretation" name="CDAObservationInterpretation"/>
 <artifact id="ValueSet/CDAParticipationType" key="ValueSet-CDAParticipationType" name="CDAParticipationType"/>
 <artifact id="ValueSet/CDAPostalAddressUse" key="ValueSet-CDAPostalAddressUse" name="CDAPostalAddressUse"/>
+<artifact id="ValueSet/CDARoleClassAssociative" key="ValueSet-CDARoleClassAssociative" name="CDARoleClassAssociative"/>
+<artifact id="ValueSet/CDARoleClassMutualRelationship" key="ValueSet-CDARoleClassMutualRelationship" name="CDARoleClassMutualRelationship"/>
 <artifact id="ValueSet/CDASignatureCode" key="ValueSet-CDASignatureCode" name="CDASignatureCode"/>
 <artifact id="StructureDefinition/CE" key="StructureDefinition-CE" name="CE: CodedWithEquivalents (V3 Data Type)"/>
 <artifact id="StructureDefinition/CO" key="StructureDefinition-CO" name="CO: CodedOrdinal (V3 Data Type)"/>

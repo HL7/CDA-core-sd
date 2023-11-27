@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDARoleClassAssociative"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDARoleClassAssociative"/>
+    <name value="CDARoleClassAssociative"/>
+    <title value="CDARoleClassAssociative"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A general association between two entities that is neither partitive nor ontological - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDARoleClassMutualRelationship"/>
+        </include>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+            <version value="3.1.0"/>
+            <concept>
+                <code value="DST"/>
+            </concept>
+            <concept>
+                <code value="RET"/>
+            </concept>
+            <concept>
+                <code value="MANU"/>
+            </concept>
+            <concept>
+                <code value="THER"/>
+            </concept>
+            <concept>
+                <code value="SDLOC"/>
+            </concept>
+            <concept>
+                <code value="DSDLOC"/>
+            </concept>
+            <concept>
+                <code value="ISDLOC"/>
+            </concept>
+            <concept>
+                <code value="ACCESS"/>
+            </concept>
+            <concept>
+                <code value="BIRTHPL"/>
+            </concept>
+            <concept>
+                <code value="EXPR"/>
+            </concept>
+            <concept>
+                <code value="HLD"/>
+            </concept>
+            <concept>
+                <code value="HLTHCHRT"/>
+            </concept>
+            <concept>
+                <code value="IDENT"/>
+            </concept>
+            <concept>
+                <code value="MNT"/>
+            </concept>
+            <concept>
+                <code value="OWN"/>
+            </concept>
+            <concept>
+                <code value="RGPR"/>
+            </concept>
+            <concept>
+                <code value="TERR"/>
+            </concept>
+            <concept>
+                <code value="WRTE"/>
+            </concept>
+            <concept>
+                <code value="GEN"/>
+            </concept>
+            <concept>
+                <code value="GRIC"/>
+            </concept>
+            <concept>
+                <code value="INST"/>
+            </concept>
+            <concept>
+                <code value="SUBS"/>
+            </concept>
+            <concept>
+                <code value="SUBY"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

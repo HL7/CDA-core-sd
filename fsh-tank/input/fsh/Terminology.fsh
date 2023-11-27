@@ -662,7 +662,72 @@ Description: "A code specifying the meaning and purpose of every Participation i
 * include $ParticipationType#LA
 * include $ParticipationType#RESP
 
+Alias: $RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass|3.1.0
 
+ValueSet: CDARoleClassAssociative
+Title: "CDARoleClassAssociative"
+Description: "A general association between two entities that is neither partitive nor ontological - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include codes from valueset CDARoleClassMutualRelationship
+* include $RoleClass#DST
+* include $RoleClass#RET
+* include $RoleClass#MANU
+* include $RoleClass#THER
+* include $RoleClass#SDLOC
+* include $RoleClass#DSDLOC
+* include $RoleClass#ISDLOC
+* include $RoleClass#ACCESS
+* include $RoleClass#BIRTHPL
+* include $RoleClass#EXPR
+* include $RoleClass#HLD
+* include $RoleClass#HLTHCHRT
+* include $RoleClass#IDENT
+* include $RoleClass#MNT
+* include $RoleClass#OWN
+* include $RoleClass#RGPR
+* include $RoleClass#TERR
+* include $RoleClass#WRTE
+* include $RoleClass#GEN
+* include $RoleClass#GRIC
+* include $RoleClass#INST
+* include $RoleClass#SUBS
+* include $RoleClass#SUBY
+
+ValueSet: CDARoleClassMutualRelationship
+Title: "CDARoleClassMutualRelationship"
+Description: "A relationship that is based on mutual behavior of the two Entities as being related - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $RoleClass#LIC
+* include $RoleClass#NOT
+* include $RoleClass#PROV
+* include $RoleClass#AGNT
+* include $RoleClass#ASSIGNED
+* include $RoleClass#CON
+* include $RoleClass#ECON
+* include $RoleClass#NOK
+* include $RoleClass#COMPAR
+* include $RoleClass#SGNOFF
+* include $RoleClass#GUARD
+* include $RoleClass#EMP
+* include $RoleClass#MIL
+* include $RoleClass#INVSBJ
+* include $RoleClass#CASESBJ
+* include $RoleClass#RESBJ
+* include $RoleClass#CIT
+* include $RoleClass#COVPTY
+* include $RoleClass#CRINV
+* include $RoleClass#CRSPNSR
+* include $RoleClass#GUAR
+* include $RoleClass#PAT
+* include $RoleClass#PAYEE
+* include $RoleClass#PAYOR
+* include $RoleClass#POLHOLD
+* include $RoleClass#QUAL
+* include $RoleClass#SPNSR
+* include $RoleClass#STD
+* include $RoleClass#UNDWRT
+* include $RoleClass#CAREGIVER
+* include $RoleClass#PRS
 
 Alias: $PartSig = http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature|2.1.0
 ValueSet: CDASignatureCode
