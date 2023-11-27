@@ -6,6 +6,7 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="ValueSet/CDAActMoodDocumentObservation" key="CodeSystem-BinaryDataEncoding" name=""/>
 <artifact id="StructureDefinition/AD" key="StructureDefinition-AD" name="AD: PostalAddress (V3 Data Type)"/>
 <artifact id="StructureDefinition/ADXP" key="StructureDefinition-ADXP" name="ADXP: CharacterString (V3 Data Type)"/>
 <artifact id="StructureDefinition/ANY" key="StructureDefinition-ANY" name="ANY: DataValue (V3 Data Type)"/>

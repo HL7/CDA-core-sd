@@ -72,6 +72,7 @@
       <fixedCode value="EVN"/>      
       <binding>
         <strength value="required"/>
+        <!-- Not creating a CDAActMood value set since every use case of this has a fixedCode -->
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActMood"/>
       </binding>
     </element>

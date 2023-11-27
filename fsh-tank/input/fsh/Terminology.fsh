@@ -487,7 +487,19 @@ Description: "A code specifying the particular kind of Act that the Act-instance
 * include $ActCode#HH
 * include $ActCode#VR
 
-
+// Note: Not creating a full CDAActMood value set since every use case of it has a fixedCode
+Alias: $ActMood = http://terminology.hl7.org/CodeSystem/v3-ActMood|2.1.1
+ValueSet: CDAActMoodDocumentObservation
+Title: "CDAActMoodDocumentObservation"
+Description: "Used to enumerate the moods that an observation can take within the body of a clinical document - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ActMood#INT
+* include $ActMood#DEF
+* include $ActMood#EVN
+* include $ActMood#GOL
+* include $ActMood#PRMS
+* include $ActMood#PRP
+* include $ActMood#RQO
 
 Alias: $AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse|2.1.0
 ValueSet: CDAPostalAddressUse
