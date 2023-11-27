@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAParticipationType"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAParticipationType"/>
+    <name value="CDAParticipationType"/>
+    <title value="CDAParticipationType"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the meaning and purpose of every Participation instance - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+            <version value="4.0.0"/>
+            <concept>
+                <code value="ADM"/>
+            </concept>
+            <concept>
+                <code value="ATND"/>
+            </concept>
+            <concept>
+                <code value="CALLBCK"/>
+            </concept>
+            <concept>
+                <code value="CON"/>
+            </concept>
+            <concept>
+                <code value="DIS"/>
+            </concept>
+            <concept>
+                <code value="ESC"/>
+            </concept>
+            <concept>
+                <code value="REF"/>
+            </concept>
+            <concept>
+                <code value="IND"/>
+            </concept>
+            <concept>
+                <code value="BEN"/>
+            </concept>
+            <concept>
+                <code value="COV"/>
+            </concept>
+            <concept>
+                <code value="HLD"/>
+            </concept>
+            <concept>
+                <code value="RCT"/>
+            </concept>
+            <concept>
+                <code value="RCV"/>
+            </concept>
+            <concept>
+                <code value="AUT"/>
+            </concept>
+            <concept>
+                <code value="ENT"/>
+            </concept>
+            <concept>
+                <code value="INF"/>
+            </concept>
+            <concept>
+                <code value="WIT"/>
+            </concept>
+            <concept>
+                <code value="IRCP"/>
+            </concept>
+            <concept>
+                <code value="NOT"/>
+            </concept>
+            <concept>
+                <code value="PRCP"/>
+            </concept>
+            <concept>
+                <code value="REFB"/>
+            </concept>
+            <concept>
+                <code value="REFT"/>
+            </concept>
+            <concept>
+                <code value="TRC"/>
+            </concept>
+            <concept>
+                <code value="PRF"/>
+            </concept>
+            <concept>
+                <code value="DIST"/>
+            </concept>
+            <concept>
+                <code value="PPRF"/>
+            </concept>
+            <concept>
+                <code value="SPRF"/>
+            </concept>
+            <concept>
+                <code value="DIR"/>
+            </concept>
+            <concept>
+                <code value="DEV"/>
+            </concept>
+            <concept>
+                <code value="NRD"/>
+            </concept>
+            <concept>
+                <code value="RDV"/>
+            </concept>
+            <concept>
+                <code value="SBJ"/>
+            </concept>
+            <concept>
+                <code value="SPC"/>
+            </concept>
+            <concept>
+                <code value="BBY"/>
+            </concept>
+            <concept>
+                <code value="CSM"/>
+            </concept>
+            <concept>
+                <code value="DON"/>
+            </concept>
+            <concept>
+                <code value="PRD"/>
+            </concept>
+            <concept>
+                <code value="LOC"/>
+            </concept>
+            <concept>
+                <code value="DST"/>
+            </concept>
+            <concept>
+                <code value="ELOC"/>
+            </concept>
+            <concept>
+                <code value="ORG"/>
+            </concept>
+            <concept>
+                <code value="RML"/>
+            </concept>
+            <concept>
+                <code value="VIA"/>
+            </concept>
+            <concept>
+                <code value="VRF"/>
+            </concept>
+            <concept>
+                <code value="AUTHEN"/>
+            </concept>
+            <concept>
+                <code value="LA"/>
+            </concept>
+            <concept>
+                <code value="RESP"/>
+            </concept>
+            <concept>
+                <code value="CST"/>
+            </concept>
+            <concept>
+                <code value="ADPPPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADPPPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="SBBLELAT"/>
+            </concept>
+            <concept>
+                <code value="SBBLELCT"/>
+            </concept>
+            <concept>
+                <code value="SBNFELAT"/>
+            </concept>
+            <concept>
+                <code value="SBNFELCT"/>
+            </concept>
+            <concept>
+                <code value="SBPDELAT"/>
+            </concept>
+            <concept>
+                <code value="SBPDELCT"/>
+            </concept>
+            <concept>
+                <code value="COVGE"/>
+            </concept>
+            <concept>
+                <code value="EFORM"/>
+            </concept>
+            <concept>
+                <code value="FAX"/>
+            </concept>
+            <concept>
+                <code value="GFTH"/>
+            </concept>
+            <concept>
+                <code value="LATE"/>
+            </concept>
+            <concept>
+                <code value="MANUAL"/>
+            </concept>
+            <concept>
+                <code value="OOJ"/>
+            </concept>
+            <concept>
+                <code value="ORTHO"/>
+            </concept>
+            <concept>
+                <code value="PAPER"/>
+            </concept>
+            <concept>
+                <code value="PIE"/>
+            </concept>
+            <concept>
+                <code value="PYRDELAY"/>
+            </concept>
+            <concept>
+                <code value="REFNR"/>
+            </concept>
+            <concept>
+                <code value="REPSERV"/>
+            </concept>
+            <concept>
+                <code value="UNRELAT"/>
+            </concept>
+            <concept>
+                <code value="VERBAUTH"/>
+            </concept>
+            <concept>
+                <code value="MEDLIST"/>
+            </concept>
+            <concept>
+                <code value="CURMEDLIST"/>
+            </concept>
+            <concept>
+                <code value="DISCMEDLIST"/>
+            </concept>
+            <concept>
+                <code value="HISTMEDLIST"/>
+            </concept>
+            <concept>
+                <code value="CONDLIST"/>
+            </concept>
+            <concept>
+                <code value="INTOLIST"/>
+            </concept>
+            <concept>
+                <code value="PROBLIST"/>
+            </concept>
+            <concept>
+                <code value="RISKLIST"/>
+            </concept>
+            <concept>
+                <code value="CARELIST"/>
+            </concept>
+            <concept>
+                <code value="GOALLIST"/>
+            </concept>
+            <concept>
+                <code value="CTLSUB"/>
+            </concept>
+            <concept>
+                <code value="ACH"/>
+            </concept>
+            <concept>
+                <code value="CHK"/>
+            </concept>
+            <concept>
+                <code value="DDP"/>
+            </concept>
+            <concept>
+                <code value="NON"/>
+            </concept>
+            <concept>
+                <code value="EM"/>
+            </concept>
+            <concept>
+                <code value="SO"/>
+            </concept>
+            <concept>
+                <code value="FF"/>
+            </concept>
+            <concept>
+                <code value="DF"/>
+            </concept>
+            <concept>
+                <code value="FFC"/>
+            </concept>
+            <concept>
+                <code value="FFP"/>
+            </concept>
+            <concept>
+                <code value="TF"/>
+            </concept>
+            <concept>
+                <code value="UD"/>
+            </concept>
+            <concept>
+                <code value="RF"/>
+            </concept>
+            <concept>
+                <code value="RFC"/>
+            </concept>
+            <concept>
+                <code value="RFF"/>
+            </concept>
+            <concept>
+                <code value="RFP"/>
+            </concept>
+            <concept>
+                <code value="TB"/>
+            </concept>
+            <concept>
+                <code value="FS"/>
+            </concept>
+            <concept>
+                <code value="MS"/>
+            </concept>
+            <concept>
+                <code value="LOAN"/>
+            </concept>
+            <concept>
+                <code value="RENT"/>
+            </concept>
+            <concept>
+                <code value="TRANSFER"/>
+            </concept>
+            <concept>
+                <code value="SALE"/>
+            </concept>
+            <concept>
+                <code value="DILUTION"/>
+            </concept>
+            <concept>
+                <code value="AUTO-HIGH"/>
+            </concept>
+            <concept>
+                <code value="AUTO-LOW"/>
+            </concept>
+            <concept>
+                <code value="PRE"/>
+            </concept>
+            <concept>
+                <code value="RERUN"/>
+            </concept>
+            <concept>
+                <code value="INTFR"/>
+            </concept>
+            <concept>
+                <code value="FIBRIN"/>
+            </concept>
+            <concept>
+                <code value="HEMOLYSIS"/>
+            </concept>
+            <concept>
+                <code value="ICTERUS"/>
+            </concept>
+            <concept>
+                <code value="LIPEMIA"/>
+            </concept>
+            <concept>
+                <code value="VOLUME"/>
+            </concept>
+            <concept>
+                <code value="AVAILABLE"/>
+            </concept>
+            <concept>
+                <code value="CONSUMPTION"/>
+            </concept>
+            <concept>
+                <code value="CURRENT"/>
+            </concept>
+            <concept>
+                <code value="INITIAL"/>
+            </concept>
+            <concept>
+                <code value="ARTBLD"/>
+            </concept>
+            <concept>
+                <code value="EVNFCTS"/>
+            </concept>
+            <concept>
+                <code value="ACID"/>
+            </concept>
+            <concept>
+                <code value="ALK"/>
+            </concept>
+            <concept>
+                <code value="DEFB"/>
+            </concept>
+            <concept>
+                <code value="FILT"/>
+            </concept>
+            <concept>
+                <code value="LDLP"/>
+            </concept>
+            <concept>
+                <code value="NEUT"/>
+            </concept>
+            <concept>
+                <code value="RECA"/>
+            </concept>
+            <concept>
+                <code value="UFIL"/>
+            </concept>
+            <concept>
+                <code value="G"/>
+            </concept>
+            <concept>
+                <code value="TE"/>
+            </concept>
+            <concept>
+                <code value="F"/>
+            </concept>
+            <concept>
+                <code value="CIRCLE"/>
+            </concept>
+            <concept>
+                <code value="ELLIPSE"/>
+            </concept>
+            <concept>
+                <code value="POINT"/>
+            </concept>
+            <concept>
+                <code value="POLY"/>
+            </concept>
+            <concept>
+                <code value="FDACOATING"/>
+            </concept>
+            <concept>
+                <code value="FDACOLOR"/>
+            </concept>
+            <concept>
+                <code value="FDAIMPRINTCD"/>
+            </concept>
+            <concept>
+                <code value="FDALOGO"/>
+            </concept>
+            <concept>
+                <code value="FDASCORING"/>
+            </concept>
+            <concept>
+                <code value="FDASHAPE"/>
+            </concept>
+            <concept>
+                <code value="FDASIZE"/>
+            </concept>
+            <concept>
+                <code value="ADMDX"/>
+            </concept>
+            <concept>
+                <code value="DISDX"/>
+            </concept>
+            <concept>
+                <code value="INTDX"/>
+            </concept>
+            <concept>
+                <code value="NOI"/>
+            </concept>
+            <concept>
+                <code value="TIME_ABSOLUTE"/>
+            </concept>
+            <concept>
+                <code value="TIME_RELATIVE"/>
+            </concept>
+            <concept>
+                <code value="REPRESENTATIVE_BEAT"/>
+            </concept>
+            <concept>
+                <code value="RHYTHM"/>
+            </concept>
+            <concept>
+                <code value="SEV"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
