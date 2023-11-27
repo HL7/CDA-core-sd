@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActCode"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActCode"/>
+    <name value="CDAActCode"/>
+    <title value="CDAActCode"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the particular kind of Act that the Act-instance represents within its class - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActEncounterCode"/>
+        </include>
+        <include>
+            <system value="http://terminology.hl7.org/ValueSet/v3-ActCode"/>
+            <version value="2.0.0"/>
+            <concept>
+                <code value="AE"/>
+            </concept>
+            <concept>
+                <code value="DN"/>
+            </concept>
+            <concept>
+                <code value="DV"/>
+            </concept>
+            <concept>
+                <code value="MC"/>
+            </concept>
+            <concept>
+                <code value="V"/>
+            </concept>
+            <concept>
+                <code value="ACCTRECEIVABLE"/>
+            </concept>
+            <concept>
+                <code value="CASH"/>
+            </concept>
+            <concept>
+                <code value="PBILLACCT"/>
+            </concept>
+            <concept>
+                <code value="AA"/>
+            </concept>
+            <concept>
+                <code value="ANF"/>
+            </concept>
+            <concept>
+                <code value="AR"/>
+            </concept>
+            <concept>
+                <code value="AS"/>
+            </concept>
+            <concept>
+                <code value="CONT"/>
+            </concept>
+            <concept>
+                <code value="DAY"/>
+            </concept>
+            <concept>
+                <code value="LOC"/>
+            </concept>
+            <concept>
+                <code value="MONTH"/>
+            </concept>
+            <concept>
+                <code value="PERIOD"/>
+            </concept>
+            <concept>
+                <code value="PROV"/>
+            </concept>
+            <concept>
+                <code value="WEEK"/>
+            </concept>
+            <concept>
+                <code value="YEAR"/>
+            </concept>
+            <concept>
+                <code value="DISPLAY"/>
+            </concept>
+            <concept>
+                <code value="FORM"/>
+            </concept>
+            <concept>
+                <code value="BLK"/>
+            </concept>
+            <concept>
+                <code value="CAP"/>
+            </concept>
+            <concept>
+                <code value="CONTF"/>
+            </concept>
+            <concept>
+                <code value="FFS"/>
+            </concept>
+            <concept>
+                <code value="FINBILL"/>
+            </concept>
+            <concept>
+                <code value="ROST"/>
+            </concept>
+            <concept>
+                <code value="SESS"/>
+            </concept>
+            <concept>
+                <code value="ROIFS"/>
+            </concept>
+            <concept>
+                <code value="ROIPS"/>
+            </concept>
+            <concept>
+                <code value="ID"/>
+            </concept>
+            <concept>
+                <code value="IP"/>
+            </concept>
+            <concept>
+                <code value="L"/>
+            </concept>
+            <concept>
+                <code value="M"/>
+            </concept>
+            <concept>
+                <code value="O"/>
+            </concept>
+            <concept>
+                <code value="R"/>
+            </concept>
+            <concept>
+                <code value="X"/>
+            </concept>
+            <concept>
+                <code value="AUTO"/>
+            </concept>
+            <concept>
+                <code value="ENDC"/>
+            </concept>
+            <concept>
+                <code value="REFLEX"/>
+            </concept>
+            <concept>
+                <code value="AUTH"/>
+            </concept>
+            <concept>
+                <code value="NAUTH"/>
+            </concept>
+            <concept>
+                <code value="ELG"/>
+            </concept>
+            <concept>
+                <code value="NELG"/>
+            </concept>
+            <concept>
+                <code value="NETAMT"/>
+            </concept>
+            <concept>
+                <code value="UNITPRICE"/>
+            </concept>
+            <concept>
+                <code value="UNITQTY"/>
+            </concept>
+            <concept>
+                <code value="NAT"/>
+            </concept>
+            <concept>
+                <code value="KEY204"/>
+            </concept>
+            <concept>
+                <code value="KEY205"/>
+            </concept>
+            <concept>
+                <code value="TPROD"/>
+            </concept>
+            <concept>
+                <code value="DRG"/>
+            </concept>
+            <concept>
+                <code value="NHP"/>
+            </concept>
+            <concept>
+                <code value="NONRX"/>
+            </concept>
+            <concept>
+                <code value="FOOD"/>
+            </concept>
+            <concept>
+                <code value="OBSA"/>
+            </concept>
+            <concept>
+                <code value="AGE"/>
+            </concept>
+            <concept>
+                <code value="DOSEHINDA"/>
+            </concept>
+            <concept>
+                <code value="DOSELINDA"/>
+            </concept>
+            <concept>
+                <code value="COND"/>
+            </concept>
+            <concept>
+                <code value="LACT"/>
+            </concept>
+            <concept>
+                <code value="PREG"/>
+            </concept>
+            <concept>
+                <code value="REACT"/>
+            </concept>
+            <concept>
+                <code value="ALGY"/>
+            </concept>
+            <concept>
+                <code value="INT"/>
+            </concept>
+            <concept>
+                <code value="RREACT"/>
+            </concept>
+            <concept>
+                <code value="RALG"/>
+            </concept>
+            <concept>
+                <code value="RAR"/>
+            </concept>
+            <concept>
+                <code value="RINT"/>
+            </concept>
+            <concept>
+                <code value="GEN"/>
+            </concept>
+            <concept>
+                <code value="GEND"/>
+            </concept>
+            <concept>
+                <code value="LAB"/>
+            </concept>
+            <concept>
+                <code value="COMPLY"/>
+            </concept>
+            <concept>
+                <code value="DUPTHPY"/>
+            </concept>
+            <concept>
+                <code value="PLYDOC"/>
+            </concept>
+            <concept>
+                <code value="PLYPHRM"/>
+            </concept>
+            <concept>
+                <code value="DOSE"/>
+            </concept>
+            <concept>
+                <code value="DOSEDUR"/>
+            </concept>
+            <concept>
+                <code value="DOSEDURH"/>
+            </concept>
+            <concept>
+                <code value="DOSEDURHIND"/>
+            </concept>
+            <concept>
+                <code value="DOSEDURL"/>
+            </concept>
+            <concept>
+                <code value="DOSEDURLIND"/>
+            </concept>
+            <concept>
+                <code value="DOSEH"/>
+            </concept>
+            <concept>
+                <code value="DOSEHIND"/>
+            </concept>
+            <concept>
+                <code value="DOSEHINDSA"/>
+            </concept>
+            <concept>
+                <code value="DOSEHINDW"/>
+            </concept>
+            <concept>
+                <code value="DOSEIVL"/>
+            </concept>
+            <concept>
+                <code value="DOSEIVLIND"/>
+            </concept>
+            <concept>
+                <code value="DOSEL"/>
+            </concept>
+            <concept>
+                <code value="DOSELIND"/>
+            </concept>
+            <concept>
+                <code value="DOSELINDSA"/>
+            </concept>
+            <concept>
+                <code value="DOSELINDW"/>
+            </concept>
+            <concept>
+                <code value="ENDLATE"/>
+            </concept>
+            <concept>
+                <code value="STRTLATE"/>
+            </concept>
+            <concept>
+                <code value="TOOLATE"/>
+            </concept>
+            <concept>
+                <code value="TOOSOON"/>
+            </concept>
+            <concept>
+                <code value="EMAUTH"/>
+            </concept>
+            <concept>
+                <code value="8"/>
+            </concept>
+            <concept>
+                <code value="10"/>
+            </concept>
+            <concept>
+                <code value="11"/>
+            </concept>
+            <concept>
+                <code value="12"/>
+            </concept>
+            <concept>
+                <code value="13"/>
+            </concept>
+            <concept>
+                <code value="9"/>
+            </concept>
+            <concept>
+                <code value="14"/>
+            </concept>
+            <concept>
+                <code value="15"/>
+            </concept>
+            <concept>
+                <code value="16"/>
+            </concept>
+            <concept>
+                <code value="17"/>
+            </concept>
+            <concept>
+                <code value="18"/>
+            </concept>
+            <concept>
+                <code value="1"/>
+            </concept>
+            <concept>
+                <code value="5"/>
+            </concept>
+            <concept>
+                <code value="6"/>
+            </concept>
+            <concept>
+                <code value="19"/>
+            </concept>
+            <concept>
+                <code value="2"/>
+            </concept>
+            <concept>
+                <code value="3"/>
+            </concept>
+            <concept>
+                <code value="4"/>
+            </concept>
+            <concept>
+                <code value="7"/>
+            </concept>
+            <concept>
+                <code value="BR"/>
+            </concept>
+            <concept>
+                <code value="DM"/>
+            </concept>
+            <concept>
+                <code value="FAST"/>
+            </concept>
+            <concept>
+                <code value="GF"/>
+            </concept>
+            <concept>
+                <code value="LF"/>
+            </concept>
+            <concept>
+                <code value="LP"/>
+            </concept>
+            <concept>
+                <code value="LQ"/>
+            </concept>
+            <concept>
+                <code value="LS"/>
+            </concept>
+            <concept>
+                <code value="N"/>
+            </concept>
+            <concept>
+                <code value="NF"/>
+            </concept>
+            <concept>
+                <code value="PAF"/>
+            </concept>
+            <concept>
+                <code value="PAR"/>
+            </concept>
+            <concept>
+                <code value="RD"/>
+            </concept>
+            <concept>
+                <code value="SCH"/>
+            </concept>
+            <concept>
+                <code value="T"/>
+            </concept>
+            <concept>
+                <code value="VLI"/>
+            </concept>
+            <concept>
+                <code value="I"/>
+            </concept>
+            <concept>
+                <code value="P"/>
+            </concept>
+            <concept>
+                <code value="S"/>
+            </concept>
+            <concept>
+                <code value="SP"/>
+            </concept>
+            <concept>
+                <code value="W"/>
+            </concept>
+            <concept>
+                <code value="CHRG"/>
+            </concept>
+            <concept>
+                <code value="REV"/>
+            </concept>
+            <concept>
+                <code value="MVA"/>
+            </concept>
+            <concept>
+                <code value="SCHOOL"/>
+            </concept>
+            <concept>
+                <code value="SPT"/>
+            </concept>
+            <concept>
+                <code value="WPA"/>
+            </concept>
+            <concept>
+                <code value="AUTOPOL"/>
+            </concept>
+            <concept>
+                <code value="EHCPOL"/>
+            </concept>
+            <concept>
+                <code value="HSAPOL"/>
+            </concept>
+            <concept>
+                <code value="PUBLICPOL"/>
+            </concept>
+            <concept>
+                <code value="WCBPOL"/>
+            </concept>
+            <concept>
+                <code value="INVTYPE"/>
+            </concept>
+            <concept>
+                <code value="PAYEE"/>
+            </concept>
+            <concept>
+                <code value="PAYOR"/>
+            </concept>
+            <concept>
+                <code value="SENDAPP"/>
+            </concept>
+            <concept>
+                <code value="AELEC"/>
+            </concept>
+            <concept>
+                <code value="BONUS"/>
+            </concept>
+            <concept>
+                <code value="CFWD"/>
+            </concept>
+            <concept>
+                <code value="EDU"/>
+            </concept>
+            <concept>
+                <code value="EPYMT"/>
+            </concept>
+            <concept>
+                <code value="GARN"/>
+            </concept>
+            <concept>
+                <code value="INVOICE"/>
+            </concept>
+            <concept>
+                <code value="PINV"/>
+            </concept>
+            <concept>
+                <code value="PPRD"/>
+            </concept>
+            <concept>
+                <code value="PROA"/>
+            </concept>
+            <concept>
+                <code value="RECOV"/>
+            </concept>
+            <concept>
+                <code value="RETRO"/>
+            </concept>
+            <concept>
+                <code value="TRAN"/>
+            </concept>
+            <concept>
+                <code value="COINS"/>
+            </concept>
+            <concept>
+                <code value="COPAYMENT"/>
+            </concept>
+            <concept>
+                <code value="DEDUCTIBLE"/>
+            </concept>
+            <concept>
+                <code value="PAY"/>
+            </concept>
+            <concept>
+                <code value="AFTHRS"/>
+            </concept>
+            <concept>
+                <code value="ISOL"/>
+            </concept>
+            <concept>
+                <code value="OOO"/>
+            </concept>
+            <concept>
+                <code value="CANCAPT"/>
+            </concept>
+            <concept>
+                <code value="DSC"/>
+            </concept>
+            <concept>
+                <code value="ESA"/>
+            </concept>
+            <concept>
+                <code value="FFSTOP"/>
+            </concept>
+            <concept>
+                <code value="FNLFEE"/>
+            </concept>
+            <concept>
+                <code value="FRSTFEE"/>
+            </concept>
+            <concept>
+                <code value="MARKUP"/>
+            </concept>
+            <concept>
+                <code value="MISSAPT"/>
+            </concept>
+            <concept>
+                <code value="PERFEE"/>
+            </concept>
+            <concept>
+                <code value="PERMBNS"/>
+            </concept>
+            <concept>
+                <code value="RESTOCK"/>
+            </concept>
+            <concept>
+                <code value="TRAVEL"/>
+            </concept>
+            <concept>
+                <code value="URGENT"/>
+            </concept>
+            <concept>
+                <code value="FST"/>
+            </concept>
+            <concept>
+                <code value="HST"/>
+            </concept>
+            <concept>
+                <code value="PST"/>
+            </concept>
+            <concept>
+                <code value="CPNDDRGING"/>
+            </concept>
+            <concept>
+                <code value="CPNDINDING"/>
+            </concept>
+            <concept>
+                <code value="CPNDSUPING"/>
+            </concept>
+            <concept>
+                <code value="DRUGING"/>
+            </concept>
+            <concept>
+                <code value="FRAMEING"/>
+            </concept>
+            <concept>
+                <code value="LENSING"/>
+            </concept>
+            <concept>
+                <code value="PRDING"/>
+            </concept>
+            <concept>
+                <code value="CPINV"/>
+            </concept>
+            <concept>
+                <code value="CSINV"/>
+            </concept>
+            <concept>
+                <code value="CSPINV"/>
+            </concept>
+            <concept>
+                <code value="FININV"/>
+            </concept>
+            <concept>
+                <code value="OHSINV"/>
+            </concept>
+            <concept>
+                <code value="PAINV"/>
+            </concept>
+            <concept>
+                <code value="RXCINV"/>
+            </concept>
+            <concept>
+                <code value="RXDINV"/>
+            </concept>
+            <concept>
+                <code value="SBFINV"/>
+            </concept>
+            <concept>
+                <code value="VRXINV"/>
+            </concept>
+            <concept>
+                <code value="ADNFPPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADNFPPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADNFPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADNFPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADNFSPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADNFSPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADNFSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADNFSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADNPPPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADNPPPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADNPPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADNPPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADNPSPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADNPSPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADNPSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADNPSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADPPPPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADPPPPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADPPPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADPPPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADPPSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPELAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPELCT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="ADRFSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNFSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDNPSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPPPMNCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPELAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPELCT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPMNAT"/>
+            </concept>
+            <concept>
+                <code value="PDPPSPMNCT"/>
+            </concept>
+            <concept>
+                <code value="SBBLELAT"/>
+            </concept>
+            <concept>
+                <code value="SBBLELCT"/>
+            </concept>
+            <concept>
+                <code value="SBNFELAT"/>
+            </concept>
+            <concept>
+                <code value="SBNFELCT"/>
+            </concept>
+            <concept>
+                <code value="SBPDELAT"/>
+            </concept>
+            <concept>
+                <code value="SBPDELCT"/>
+            </concept>
+            <concept>
+                <code value="COVGE"/>
+            </concept>
+            <concept>
+                <code value="EFORM"/>
+            </concept>
+            <concept>
+                <code value="FAX"/>
+            </concept>
+            <concept>
+                <code value="GFTH"/>
+            </concept>
+            <concept>
+                <code value="LATE"/>
+            </concept>
+            <concept>
+                <code value="MANUAL"/>
+            </concept>
+            <concept>
+                <code value="OOJ"/>
+            </concept>
+            <concept>
+                <code value="ORTHO"/>
+            </concept>
+            <concept>
+                <code value="PAPER"/>
+            </concept>
+            <concept>
+                <code value="PIE"/>
+            </concept>
+            <concept>
+                <code value="PYRDELAY"/>
+            </concept>
+            <concept>
+                <code value="REFNR"/>
+            </concept>
+            <concept>
+                <code value="REPSERV"/>
+            </concept>
+            <concept>
+                <code value="UNRELAT"/>
+            </concept>
+            <concept>
+                <code value="VERBAUTH"/>
+            </concept>
+            <concept>
+                <code value="MEDLIST"/>
+            </concept>
+            <concept>
+                <code value="CURMEDLIST"/>
+            </concept>
+            <concept>
+                <code value="DISCMEDLIST"/>
+            </concept>
+            <concept>
+                <code value="HISTMEDLIST"/>
+            </concept>
+            <concept>
+                <code value="CONDLIST"/>
+            </concept>
+            <concept>
+                <code value="INTOLIST"/>
+            </concept>
+            <concept>
+                <code value="PROBLIST"/>
+            </concept>
+            <concept>
+                <code value="RISKLIST"/>
+            </concept>
+            <concept>
+                <code value="CARELIST"/>
+            </concept>
+            <concept>
+                <code value="GOALLIST"/>
+            </concept>
+            <concept>
+                <code value="CTLSUB"/>
+            </concept>
+            <concept>
+                <code value="ACH"/>
+            </concept>
+            <concept>
+                <code value="CHK"/>
+            </concept>
+            <concept>
+                <code value="DDP"/>
+            </concept>
+            <concept>
+                <code value="NON"/>
+            </concept>
+            <concept>
+                <code value="EM"/>
+            </concept>
+            <concept>
+                <code value="SO"/>
+            </concept>
+            <concept>
+                <code value="FF"/>
+            </concept>
+            <concept>
+                <code value="DF"/>
+            </concept>
+            <concept>
+                <code value="FFC"/>
+            </concept>
+            <concept>
+                <code value="FFP"/>
+            </concept>
+            <concept>
+                <code value="TF"/>
+            </concept>
+            <concept>
+                <code value="UD"/>
+            </concept>
+            <concept>
+                <code value="RF"/>
+            </concept>
+            <concept>
+                <code value="RFC"/>
+            </concept>
+            <concept>
+                <code value="RFF"/>
+            </concept>
+            <concept>
+                <code value="RFP"/>
+            </concept>
+            <concept>
+                <code value="TB"/>
+            </concept>
+            <concept>
+                <code value="FS"/>
+            </concept>
+            <concept>
+                <code value="MS"/>
+            </concept>
+            <concept>
+                <code value="LOAN"/>
+            </concept>
+            <concept>
+                <code value="RENT"/>
+            </concept>
+            <concept>
+                <code value="TRANSFER"/>
+            </concept>
+            <concept>
+                <code value="SALE"/>
+            </concept>
+            <concept>
+                <code value="DILUTION"/>
+            </concept>
+            <concept>
+                <code value="AUTO-HIGH"/>
+            </concept>
+            <concept>
+                <code value="AUTO-LOW"/>
+            </concept>
+            <concept>
+                <code value="PRE"/>
+            </concept>
+            <concept>
+                <code value="RERUN"/>
+            </concept>
+            <concept>
+                <code value="INTFR"/>
+            </concept>
+            <concept>
+                <code value="FIBRIN"/>
+            </concept>
+            <concept>
+                <code value="HEMOLYSIS"/>
+            </concept>
+            <concept>
+                <code value="ICTERUS"/>
+            </concept>
+            <concept>
+                <code value="LIPEMIA"/>
+            </concept>
+            <concept>
+                <code value="VOLUME"/>
+            </concept>
+            <concept>
+                <code value="AVAILABLE"/>
+            </concept>
+            <concept>
+                <code value="CONSUMPTION"/>
+            </concept>
+            <concept>
+                <code value="CURRENT"/>
+            </concept>
+            <concept>
+                <code value="INITIAL"/>
+            </concept>
+            <concept>
+                <code value="ARTBLD"/>
+            </concept>
+            <concept>
+                <code value="EVNFCTS"/>
+            </concept>
+            <concept>
+                <code value="ACID"/>
+            </concept>
+            <concept>
+                <code value="ALK"/>
+            </concept>
+            <concept>
+                <code value="DEFB"/>
+            </concept>
+            <concept>
+                <code value="FILT"/>
+            </concept>
+            <concept>
+                <code value="LDLP"/>
+            </concept>
+            <concept>
+                <code value="NEUT"/>
+            </concept>
+            <concept>
+                <code value="RECA"/>
+            </concept>
+            <concept>
+                <code value="UFIL"/>
+            </concept>
+            <concept>
+                <code value="G"/>
+            </concept>
+            <concept>
+                <code value="TE"/>
+            </concept>
+            <concept>
+                <code value="F"/>
+            </concept>
+            <concept>
+                <code value="CIRCLE"/>
+            </concept>
+            <concept>
+                <code value="ELLIPSE"/>
+            </concept>
+            <concept>
+                <code value="POINT"/>
+            </concept>
+            <concept>
+                <code value="POLY"/>
+            </concept>
+            <concept>
+                <code value="FDACOATING"/>
+            </concept>
+            <concept>
+                <code value="FDACOLOR"/>
+            </concept>
+            <concept>
+                <code value="FDAIMPRINTCD"/>
+            </concept>
+            <concept>
+                <code value="FDALOGO"/>
+            </concept>
+            <concept>
+                <code value="FDASCORING"/>
+            </concept>
+            <concept>
+                <code value="FDASHAPE"/>
+            </concept>
+            <concept>
+                <code value="FDASIZE"/>
+            </concept>
+            <concept>
+                <code value="ADMDX"/>
+            </concept>
+            <concept>
+                <code value="DISDX"/>
+            </concept>
+            <concept>
+                <code value="INTDX"/>
+            </concept>
+            <concept>
+                <code value="NOI"/>
+            </concept>
+            <concept>
+                <code value="TIME_ABSOLUTE"/>
+            </concept>
+            <concept>
+                <code value="TIME_RELATIVE"/>
+            </concept>
+            <concept>
+                <code value="REPRESENTATIVE_BEAT"/>
+            </concept>
+            <concept>
+                <code value="RHYTHM"/>
+            </concept>
+            <concept>
+                <code value="SEV"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

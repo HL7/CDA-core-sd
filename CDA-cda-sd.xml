@@ -25,6 +25,8 @@
 <artifact id="StructureDefinition/Birthplace" key="StructureDefinition-Birthplace" name="Birthplace (CDA Class)"/>
 <artifact id="StructureDefinition/CD" key="StructureDefinition-CD" name="CD: ConceptDescriptor (V3 Data Type)"/>
 <artifact id="ValueSet/CDAActClass" key="ValueSet-CDAActClass" name="CDAActClass"/>
+<artifact id="ValueSet/CDAActCode" key="ValueSet-CDAActCode" name="CDAActCode"/>
+<artifact id="ValueSet/CDAActEncounterCode" key="ValueSet-CDAActEncounterCode" name="CDAActEncounterCode"/>
 <artifact id="ValueSet/CDAEntityNameUse" key="ValueSet-CDAEntityNameUse" name="CDAEntityNameUse"/>
 <artifact id="ValueSet/CDANullFlavor" key="ValueSet-CDANullFlavor" name="CDANullFlavor"/>
 <artifact id="ValueSet/CDAPostalAddressUse" key="ValueSet-CDAPostalAddressUse" name="CDAPostalAddressUse"/>

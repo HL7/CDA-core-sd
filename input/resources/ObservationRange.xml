@@ -71,7 +71,7 @@
       </type>
       <binding>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActCode"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActCode"/>
       </binding>
     </element>
     <element id="ObservationRange.text">

@@ -911,6 +911,16 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAActCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActEncounterCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDACompressionAlgorithm" />
 			</reference>
 		</resource>
