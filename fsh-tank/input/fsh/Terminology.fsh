@@ -438,6 +438,13 @@ Description: "A relationship that is based on mutual behavior of the two Entitie
 * include $RoleClass#CAREGIVER
 * include $RoleClass#PRS
 
+ValueSet: CDARoleClassInformationRecipientRole
+Title: "CDARoleClassInformationRecipientRole"
+Description: "Used to represent the role(s) of those who should receive a copy of a document - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $RoleClass#ASSIGNED
+* include $RoleClass#HLTHCHRT
+
 Alias: $PartSig = http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature|2.1.0
 ValueSet: CDASignatureCode
 Title: "CDASignatureCode"
