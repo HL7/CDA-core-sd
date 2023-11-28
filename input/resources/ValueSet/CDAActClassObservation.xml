@@ -3,7 +3,7 @@
     <id value="CDAActClassObservation"/>
     <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActClassObservation"/>
     <name value="CDAActClassObservation"/>
-    <title value="CdaActClassObservation"/>
+    <title value="CDAActClassObservation"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"/>

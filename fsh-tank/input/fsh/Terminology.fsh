@@ -76,7 +76,7 @@ Description: "The set of Act class codes allowed for the ACT class clone in the 
 
 
 ValueSet: CDAActClassObservation
-Title: "CdaActClassObservation"
+Title: "CDAActClassObservation"
 Description: "A code specifying the major type of Act that this Act-instance represents - limited to values allowed in original CDA definition"
 * ^experimental = false
 * include $ActClass#OBS
