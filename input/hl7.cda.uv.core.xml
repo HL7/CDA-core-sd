@@ -916,11 +916,6 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAActCode" />
-			</reference>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="ValueSet/CDAActEncounterCode" />
 			</reference>
 		</resource>
