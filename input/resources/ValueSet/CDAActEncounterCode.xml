@@ -9,7 +9,7 @@
     <description value="A code specifying the particular kind of Act that the Act-instance represents within its class - limited to values allowed in original CDA definition"/>
     <compose>
         <include>
-            <system value="http://terminology.hl7.org/ValueSet/v3-ActCode"/>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
             <version value="2.0.0"/>
             <concept>
                 <code value="IMP"/>
