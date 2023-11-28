@@ -931,7 +931,17 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAActMoodDocumentEncounter" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAActMoodDocumentObservation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActMoodDocumentSubstance" />
 			</reference>
 		</resource>
 		<resource>

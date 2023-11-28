@@ -67,7 +67,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xDocumentSubstanceMood|2.0.0"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActMoodDocumentSubstance"/>
       </binding>
     </element>
     <element id="Supply.id">

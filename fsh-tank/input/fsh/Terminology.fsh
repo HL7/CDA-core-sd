@@ -510,6 +510,18 @@ Description: "Used to enumerate the moods that an act can take within the body o
 * include $ActMood#PRP
 * include $ActMood#RQO
 
+ValueSet: CDAActMoodDocumentEncounter
+Title: "CDAActMoodDocumentEncounter"
+Description: "Used to enumerate the moods that an encounter can take within the body of a clinical document - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ActMood#INT
+* include $ActMood#APT
+* include $ActMood#ARQ
+* include $ActMood#EVN
+* include $ActMood#PRMS
+* include $ActMood#PRP
+* include $ActMood#RQO
+
 ValueSet: CDAActMoodDocumentObservation
 Title: "CDAActMoodDocumentObservation"
 Description: "Used to enumerate the moods that an observation can take within the body of a clinical document - limited to values allowed in original CDA definition"
@@ -518,6 +530,16 @@ Description: "Used to enumerate the moods that an observation can take within th
 * include $ActMood#DEF
 * include $ActMood#EVN
 * include $ActMood#GOL
+* include $ActMood#PRMS
+* include $ActMood#PRP
+* include $ActMood#RQO
+
+ValueSet: CDAActMoodDocumentSubstance
+Title: "CDAActMoodDocumentSubstance"
+Description: "Used to enumerate the moods that a substance administration can take within the body of a clinical document - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ActMood#INT
+* include $ActMood#EVN
 * include $ActMood#PRMS
 * include $ActMood#PRP
 * include $ActMood#RQO
