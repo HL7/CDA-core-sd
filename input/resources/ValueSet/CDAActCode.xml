@@ -13,7 +13,7 @@
         </include>
         <include>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
-            <version value="2.0.0"/>
+            <version value="7.0.0"/>
             <concept>
                 <code value="AE"/>
             </concept>

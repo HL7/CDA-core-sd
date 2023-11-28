@@ -94,7 +94,7 @@ Description: "A code specifying the major type of Act that this Act-instance rep
 * include $ActClass#INVSTG
 * include $ActClass#SPCOBS
 
-Alias: $ActCode = http://terminology.hl7.org/ValueSet/v3-ActCode|2.0.0
+Alias: $ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode|7.0.0
 ValueSet: CDAActCode
 Title: "CDAActCode"
 Description: "A code specifying the particular kind of Act that the Act-instance represents within its class - limited to values allowed in original CDA definition"
