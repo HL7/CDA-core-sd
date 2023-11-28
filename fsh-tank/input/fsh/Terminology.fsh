@@ -717,6 +717,33 @@ Description: "A code specifying the meaning and purpose of every Participation i
 
 Alias: $RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass|3.1.0
 
+ValueSet: CDARoleClass
+Title: "CDARoleClass"
+Description: "Represents a Role which is an association or relationship between two entities - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include codes from valueset CDARoleClassAssociative
+* include $RoleClass#ROL
+// RoleClassPartitive
+* include $RoleClass#INGR
+* include $RoleClass#IACT
+* include $RoleClass#COLR
+* include $RoleClass#FLVR
+* include $RoleClass#PRSV
+* include $RoleClass#STBL
+* include $RoleClass#ACTI
+* include $RoleClass#ACTM
+* include $RoleClass#ADTV
+* include $RoleClass#BASE
+* include $RoleClass#LOCE
+* include $RoleClass#STOR
+* include $RoleClass#SPEC
+* include $RoleClass#ALQT
+* include $RoleClass#ISLT
+* include $RoleClass#CONT
+* include $RoleClass#MBR
+* include $RoleClass#PART
+
+
 ValueSet: CDARoleClassAssociative
 Title: "CDARoleClassAssociative"
 Description: "A general association between two entities that is neither partitive nor ontological - limited to values allowed in original CDA definition"

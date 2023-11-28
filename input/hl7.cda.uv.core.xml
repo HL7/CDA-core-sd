@@ -981,6 +981,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDARoleClass" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDARoleClassAssociative" />
 			</reference>
 		</resource>
