@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAServiceDeliveryLocationRoleType"/>
+  <language value="en"/>
+  <url value="http://terminology.hl7.org/ValueSet/CDAServiceDeliveryLocationRoleType"/>
+  <name value="CDAServiceDeliveryLocationRoleType"/>
+  <title value="CDAServiceDeliveryLocationRoleType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="_ServiceDeliveryLocationRoleType"/>
+      </filter>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+	  <concept>
+	    <code value="RADO"/>
+	  </concept>
+	  <concept>
+	    <code value="RNEU"/>
+	  </concept>
+	  <concept>
+	    <code value="RHAT"/>
+	  </concept>
+	  <concept>
+	    <code value="RHII"/>
+	  </concept>
+	  <concept>
+	    <code value="RHMAD"/>
+	  </concept>
+	  <concept>
+	    <code value="RHPI"/>
+	  </concept>
+	  <concept>
+	    <code value="RHPIH"/>
+	  </concept>
+	  <concept>
+	    <code value="RHPIMS"/>
+	  </concept>
+	  <concept>
+	    <code value="RHPIVS"/>
+	  </concept>
+	  <concept>
+	    <code value="RHYAD"/>
+	  </concept>
+	  <concept>
+	    <code value="HLAB"/>
+	  </concept>
+	  <concept>
+	    <code value="INLAB"/>
+	  </concept>
+	  <concept>
+	    <code value="OUTLAB"/>
+	  </concept>
+	  <concept>
+	    <code value="OPTC"/>
+	  </concept>
+	  <concept>
+	    <code value="HRAD"/>
+	  </concept>
+	  <concept>
+	    <code value="HUSCS"/>
+	  </concept>
+	  <concept>
+	    <code value="INPHARM"/>
+	  </concept>
+	  <concept>
+	    <code value="MBL"/>
+	  </concept>
+	  <concept>
+	    <code value="OUTPHARM"/>
+	  </concept>
+  </exclude>
+  </compose>
+</ValueSet>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDADocumentCompletion"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-DocumentCompletion"/>
+  <name value="CDADocumentCompletion"/>
+  <title value="CDADocumentCompletion"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Identifies the current completion state of a clinical document."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion"/>
+	  <concept>
+	    <code value="NU"/>
+	  </concept>
+	  <concept>
+	    <code value="UC"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAActClass"/>
+  <language value="en"/>
+  <url value="http://terminology.hl7.org/ValueSet/CDAActClass"/>
+  <name value="CDAActClass"/>
+  <title value="CDAActClass"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="A code specifying the major type of Act that this Act-instance represents.&#xD;&#xA;&#xD;&#xA;*Constraints:* The classCode domain is a tightly controlled vocabulary, not an external or user-defined vocabulary.&#xD;&#xA;&#xD;&#xA;Every Act-instance must have a classCode. If the act class is not further specified, the most general Act.classCode (ACT) is used.&#xD;&#xA;&#xD;&#xA;The Act.classCode must be a generalization of the specific Act concept (e.g., as expressed in Act.code), in other words, the Act concepts conveyed in an Act must be specializations of the Act.classCode. Especially, Act.code is not a &quot;modifier&quot; that can alter the meaning of a class code. (See Act.code for contrast.)"/>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+    </include>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="EXPOS"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_SubjectPhysicalPosition"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="POS"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="POLICY/>
+	  </filter>
+	</exclude>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+	  <concept>
+	    <code value="CONTAINER"/>
+	  </concept>
+	  <concept>
+	    <code value="GROUPER"/>
+	  </concept>
+	  <concept>
+	    <code value="CONC"/>
+	  </concept>
+	  <concept>
+	    <code value="HCASE"/>
+	  </concept>
+	  <concept>
+	    <code value="OUTBR"/>
+	  </concept>
+	  <concept>
+	    <code value="GEN"/>
+	  </concept>
+	  <concept>
+	    <code value="DETPOL"/>
+	  </concept>
+	  <concept>
+	    <code value="EXP"/>
+	  </concept>
+	  <concept>
+	    <code value="LOC"/>
+	  </concept>
+	  <concept>
+	    <code value="PHN"/>
+	  </concept>
+	  <concept>
+	    <code value="POL"/>
+	  </concept>
+	  <concept>
+	    <code value="SEQ"/>
+	  </concept>
+	  <concept>
+	    <code value="SEQVAR"/>
+	  </concept>
+	  <concept>
+	    <code value="SBEXT"/>
+	  </concept>
+	  <concept>
+	    <code value="SPECCOLLECT"/>
+	  </concept>
+	  <concept>
+	    <code value="STORE"/>
+	  </concept>
+	  <concept>
+	    <code value="TRFR"/>
+	  </concept>
+	  <concept>
+	    <code value="DOCCNTNT"/>
+	  </concept>
+	  <concept>
+	    <code value="DOCLIST"/>
+	  </concept>
+	  <concept>
+	    <code value="DOCLSTITM"/>
+	  </concept>
+	  <concept>
+	    <code value="DOCPARA"/>
+	  </concept>
+	  <concept>
+	    <code value="DOCTBL"/>
+	  </concept>
+	  <concept>
+	    <code value="LINKHTML"/>
+	  </concept>
+	  <concept>
+	    <code value="LOCALATTR"/>
+	  </concept>
+	  <concept>
+	    <code value="LOCALMRKP"/>
+	  </concept>
+	  <concept>
+	    <code value="orderered"/>
+	  </concept>
+	  <concept>
+	    <code value="REFR"/>
+	  </concept>
+	  <concept>
+	    <code value="TBLCOL"/>
+	  </concept>
+	  <concept>
+	    <code value="TBLCOLGP"/>
+	  </concept>
+	  <concept>
+	    <code value="TBLDATA"/>
+	  </concept>
+	  <concept>
+	    <code value="TBLHDR"/>
+	  </concept>
+	  <concept>
+	    <code value="TBLROW"/>
+	  </concept>
+	  <concept>
+	    <code value="tbody"/>
+	  </concept>
+	  <concept>
+	    <code value="tfoot"/>
+	  </concept>
+	  <concept>
+	    <code value="thead"/>
+	  </concept>
+	  <concept>
+	    <code value="unordered"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>

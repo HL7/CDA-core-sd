@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDALivingArrangement"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-LivingArrangement"/>
+  <name value="CDALivingArrangement"/>
+  <title value="CDALivingArrangement"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="A code depicting the living arrangements of a person"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-LivingArrangement"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-LivingArrangement"/>
+	  <concept>
+	    <code value="CS"/>
+	  </concept>
+	  <concept>
+	    <code value="PR"/>
+	  </concept>
+	  <concept>
+	    <code value="SL"/>
+	  </concept>
+	  <concept>
+	    <code value="HL"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>

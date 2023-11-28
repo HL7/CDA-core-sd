@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAActReason"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-ActReason"/>
+  <name value="CDAActReason"/>
+  <title value="CDAv3 Code System ActReason"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <experimental value="false"/>
+  
+  <description value=" A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type &quot;has reason&quot; linking to another Act.  Examples:&#xD;&#xA;Example reasons that might qualify for being coded in this field might be: &quot;routine requirement&quot;, &quot;infectious disease reporting requirement&quot;, &quot;on patient request&quot;, &quot;required by law&quot;."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_ActAccomodationReason"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_ActIneligibilityReason"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_SchedulingActReason"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_SubstanceAdminSubstitutionReason"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_TransferActReason"/>
+	  </filter>
+    </include>
+  </compose>
+</ValueSet>

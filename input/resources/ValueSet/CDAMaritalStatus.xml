@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAMaritalStatus"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-MaritalStatus"/>
+  <name value="CDAMaritalStatus"/>
+  <title value="CDAMaritalStatus"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="The domestic partnership status of a person.&#xD;&#xA;&#xD;&#xA;*Example:*Married, separated, divorced, widowed, common-law marriage."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+    </include>
+  </compose>
+  <exclude>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+	<concept>
+	  <code value="C"/>
+	</concept>
+	<concept>
+	  <code value="U"/>
+	</concept>
+  </exclude>
+</ValueSet>

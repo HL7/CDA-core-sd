@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAPersonalRelationshipRoleType"/>
+  <language value="en"/>
+  <url value="http://terminology.hl7.org/ValueSet/CDAPersonalRelationshipRoleType"/>
+  <name value="CDAPersonalRelationshipRoleType"/>
+  <title value="CDAPersonalRelationshipRoleType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Types of personal relationships between two living subjects.&#xD;&#xA;&#xD;&#xA;*Example:*Parent, sibling, unrelated friend, neighbor"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_PersonalRelationshipRoleType"/>
+      </filter>
+    </include>
+    <exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <concept>
+        <code value="_PersonalRelationshipRoleType"/>
+      </concept>
+	  <concept>
+	    <code value="DAUC"/>
+	  </concept>
+	  <concept>
+	    <code value="SONC"/>
+	  </concept>
+	  <concept>
+	    <code value="EXT"/>
+	  </concept>
+	  <concept>
+	    <code value="MAUNT"/>
+	  </concept>
+	  <concept>
+	    <code value="PAUNT"/>
+	  </concept>
+	  <concept>
+	    <code value="MCOUSN"/>
+	  </concept>
+	  <concept>
+	    <code value="PCOUSN"/>
+	  </concept>
+	  <concept>
+	    <code value="MGGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="PGGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="MGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="PGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="INLAW"/>
+	  </concept>
+	  <concept>
+	    <code value="MTHINLAW"/>
+	  </concept>
+	  <concept>
+	    <code value="SISINLAW"/>
+	  </concept>
+	  <concept>
+	    <code value="MUNCLE"/>
+	  </concept>
+	  <concept>
+	    <code value="PUNCLE"/>
+	  </concept>
+	  <concept>
+	    <code value="PRN"/>
+	  </concept>
+	  <concept>
+	    <code value="ADOPTP"/>
+	  </concept>
+	  <concept>
+	    <code value="ADOPTF"/>
+	  </concept>
+	  <concept>
+	    <code value="ADOPTM"/>
+	  </concept>
+	  <concept>
+	    <code value="FTHFOST"/>
+	  </concept>
+	  <concept>
+	    <code value="NFTHF"/>
+	  </concept>
+	  <concept>
+	    <code value="GESTM"/>
+	  </concept>
+	  <concept>
+	    <code value="MTHFOST"/>
+	  </concept>
+	  <concept>
+	    <code value="NMTHF"/>
+	  </concept>
+	  <concept>
+	    <code value="PRNFOST"/>
+	  </concept>
+	  <concept>
+	    <code value="TWINBRO"/>
+	  </concept>
+	  <concept>
+	    <code value="FTWINBRO"/>
+	  </concept>
+	  <concept>
+	    <code value="ITWINBRO"/>
+	  </concept>
+	  <concept>
+	    <code value="TWINSIS"/>
+	  </concept>
+	  <concept>
+	    <code value="FTWINSIS"/>
+	  </concept>
+	  <concept>
+	    <code value="ITWINSIS"/>
+	  </concept>
+	  <concept>
+	    <code value="TWIN"/>
+	  </concept>
+	  <concept>
+	    <code value="FTWIN"/>
+	  </concept>
+	  <concept>
+	    <code value="ITWIN"/>
+	  </concept>
+	  <concept>
+	    <code value="FMRSPS"/>
+	  </concept>
+	  <concept>
+	    <code value="ONESELF"/>
+	  </concept>
+    </exclude>
+  </compose>
+</ValueSet>

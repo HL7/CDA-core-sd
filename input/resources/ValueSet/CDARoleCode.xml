@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDARoleCode"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-RoleCode"/>
+  <name value="CDARoleCode"/>
+  <title value="CDAv3 Code System RoleCode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <experimental value="false"/>
+  
+  <description value=" A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+    </include>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+	  <concept>
+	    <code value="DAUC"/>
+	  </concept>
+	  <concept>
+	    <code value="SONC"/>
+	  </concept>
+	  <concept>
+	    <code value="EXT"/>
+	  </concept>
+	  <concept>
+	    <code value="MAUNT"/>
+	  </concept>
+	  <concept>
+	    <code value="PAUNT"/>
+	  </concept>
+	  <concept>
+	    <code value="MCOUSN"/>
+	  </concept>
+	  <concept>
+	    <code value="PCOUSN"/>
+	  </concept>
+	  <concept>
+	    <code value="MGGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="PGGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="MGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGRFTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="PGRMTH"/>
+	  </concept>
+	  <concept>
+	    <code value="MGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="PGRPRN"/>
+	  </concept>
+	  <concept>
+	    <code value="INLAW"/>
+	  </concept>
+	  <concept>
+	    <code value="MTHINLAW"/>
+	  </concept>
+	  <concept>
+	    <code value="SISINLAW"/>
+	  </concept>
+	  <concept>
+	    <code value="MUNCLE"/>
+	  </concept>
+	  <concept>
+	    <code value="PUNCLE"/>
+	  </concept>
+	  <concept>
+	    <code value="FTHFOST"/>
+	  </concept>
+	  <concept>
+	    <code value="NFTHF"/>
+	  </concept>
+	  <concept>
+	    <code value="GESTM"/>
+	  </concept>
+	  <concept>
+	    <code value="MTHFOST"/>
+	  </concept>
+	  <concept>
+	    <code value="NMTHF"/>
+	  </concept>
+	  <concept>
+	    <code value="PRNFOST"/>
+	  </concept>
+	  <concept>
+	    <code value="FMRSPS"/>
+	  </concept>
+	  <concept>
+	    <code value="ONESELF"/>
+	  </concept>
+	  <concept>
+	    <code value="RADO"/>
+	  </concept>
+	  <concept>
+	    <code value="RNEU"/>
+	  </concept>
+	  <concept>
+	    <code value="HRAD"/>
+	  </concept>
+	  <concept>
+	    <code value="INPHARM"/>
+	  </concept>
+	  <concept>
+	    <code value="MBL"/>
+	  </concept>
+	  <concept>
+	    <code value="OPTC"/>
+	  </concept>
+	  <concept>
+	    <code value="OUTFARM"/>
+	  </concept>
+	  <concept>
+	    <code value="CSC"/>
+	  </concept>
+	  <concept>
+	    <code value="UPC"/>
+	  </concept>
+	  <concept>
+	    <code value="CLAIM"/>
+	  </concept>
+	  <concept>
+	    <code value="communityLaborartor"/>
+	  </concept>
+	  <concept>
+	    <code value="homeHealth"/>
+	  </concept>
+	  <concept>
+	    <code value="laboratory"/>
+	  </concept>
+	  <concept>
+	    <code value="pathologist"/>
+	  </concept>
+	  <concept>
+	    <code value="phlebotomist"/>
+	  </concept>
+	  <concept>
+	    <code value="PROG"/>
+	  </concept>
+	  <concept>
+	    <code value="subject"/>
+	  </concept>
+	  <concept>
+	    <code value="thirdParty"/>
+	  </concept>
+	  <concept>
+	    <code value="DEP"/>
+	  </concept>
+	  <concept>
+	    <code value="DEPEN"/>
+	  </concept>
+	  <concept>
+	    <code value="NAMED"/>
+	  </concept>
+	  <concept>
+	    <code value="SUBSCR"/>
+	  </concept>
+	</exclude>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+	  <filter>
+	    <property value="concept"/>
+		<op value="descendent-of"/>
+		<value value="RH"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_AffiliationRoleType"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_AssignedNonPersonLivingSubjectRoleType"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_CertifiedEntityType"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_CitizenRoleType"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_IdentifiedEntityType"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_MedicationGeneralizationRoleType"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="ADOPTP"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="TWIN"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_CoveredPartyRoleType"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_ResearchSubjectRoleBasis"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="HLAB"/>
+	  </filter>
+  </compose>
+</ValueSet>

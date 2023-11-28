@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAActCode"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-ActCode"/>
+  <name value="CDAActCode"/>
+  <title value="CDAv3 Code System ActCode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <experimental value="false"/>
+  
+  <description value="A code specifying the particular kind of Act that the Act-instance represents within its class.  Constraints:&#xD;&#xA;The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems.  The coding system will depend on the class of Act, such as LOINC for observations, etc. Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure. Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code &quot;potassium&quot; together with and Act.classCode for &quot;laboratory observation&quot; to somehow mean &quot;potassium laboratory observation&quot; and then use the same Act.code for &quot;potassium&quot; together with Act.classCode for &quot;medication&quot; to mean &quot;substitution of potassium&quot;. This mutually modifying use of Act.code and Act.classCode is not permitted."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <filter> 
+        <property value="concept"/> 
+        <op value="descendent-of"/> 
+        <value value="PUBLICPOL"/> 
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActAdministrativeRuleDetectedIssueCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActBillableModifierCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActCareProvisionCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActExposureCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActInformationAccessCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActInformationCategoryCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActInsuranceTypeCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActMedicationTherapyDurationWorkingListCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActNonObservationIndicationCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActObservationVerificationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActPatientAnnotationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActPolicyType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActSpecimentTransportCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActSubstanceAdministrationCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActTaskCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActTransportationModeCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ClinicalActionDetectedIssueCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_GeneticObservationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ImmunizationObservationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_IndividualCaseSafetyReportType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_LOINCObservationActContextAgeType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_MedicationObservationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ObservationIssueTriggerCodedObservationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ObservationQualityMeasureAttribute"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_PatientImmunizationRelatedObservationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_PopulationInclusionObservationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_PreferenceObservationType"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="FULFIL"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="OINT"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="SECOBS"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActInformationAccessContextCode"/>
+      </filter>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="_ActProgramTypeCode"/>
+      </filter>
+	</exclude>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+	  <concept>
+	    <code value="20"/>
+	  </concept>
+	  <concept>
+	    <code value="21"/>
+	  </concept>
+	  <concept>
+	    <code value="22"/>
+	  </concept>
+	  <concept>
+	    <code value="23"/>
+	  </concept>
+	  <concept>
+	    <code value="ABUSE"/>
+	  </concept>
+	  <concept>
+	    <code value="ADALRT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNPPELAT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNPPELCT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNPPMNAT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNPPMNCT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNSPELAT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNSPELCT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNSPMNAT"/>
+	  </concept>
+	  <concept>
+	    <code value="ADCNSPMNCT"/>
+	  </concept>
+	  <concept>
+	    <code value="ALRTENDLATE"/>
+	  </concept>
+	  <concept>
+	    <code value="ALRTSTRTLATE"/>
+	  </concept>
+	  <concept>
+	    <code value="BUS"/>
+	  </concept>
+	  <concept>
+	    <code value="C"/>
+	  </concept>
+	  <concept>
+	    <code value="CODE_DEPRECT"/>
+	  </concept>
+	  <concept>
+	    <code value="CODE_INVAL"/>
+	  </concept>
+	  <concept>
+	    <code value="COL"/>
+	  </concept>
+	  <concept>
+	    <code value="COVMX"/>
+	  </concept>
+	  <concept>
+	    <code value="COVPRD"/>
+	  </concept>
+	  <concept>
+	    <code value="CP"/>
+	  </concept>
+	  <concept>
+	    <code value="CREACT"/>
+	  </concept>
+	  <concept>
+	    <code value="CS"/>
+	  </concept>
+	  <concept>
+	    <code value="DACT"/>
+	  </concept>
+	  <concept>
+	    <code value="DOSECOND"/>
+	  </concept>
+	  <concept>
+	    <code value="DRUGPRG"/>
+	  </concept>
+	  <concept>
+	    <code value="DUPTHPCLS"/>
+	  </concept>
+	  <concept>
+	    <code value="DUPTHPGEN"/>
+	  </concept>
+	  <concept>
+	    <code value="FFCS"/>
+	  </concept>
+	  <concept>
+	    <code value="FFPS"/>
+	  </concept>
+	  <concept>
+	    <code value="FFSS"/>
+	  </concept>
+	  <concept>
+	    <code value="FORMAT"/>
+	  </concept>
+	  <concept>
+	    <code value="FRAUD"/>
+	  </concept>
+	  <concept>
+	    <code value="GEALRT"/>
+	  </concept>
+	  <concept>
+	    <code value="GISTIER"/>
+	  </concept>
+	  <concept>
+	    <code value="HELD"/>
+	  </concept>
+	  <concept>
+	    <code value="HGHT"/>
+	  </concept>
+	  <concept>
+	    <code value="HHOBS"/>
+	  </concept>
+	  <concept>
+	    <code value="HISTORIC"/>
+	  </concept>
+	  <concept>
+	    <code value="ILLEGAL"/>
+	  </concept>
+	  <concept>
+	    <code value="INV"/>
+	  </concept>
+	  <concept>
+	    <code value="ISSUE"/>
+	  </concept>
+	  <concept>
+	    <code value="KSUBJ"/>
+	  </concept>
+	  <concept>
+	    <code value="KSUBT"/>
+	  </concept>
+	  <concept>
+	    <code value="LEN_LONG"/>
+	  </concept>
+	  <concept>
+	    <code value="LEN_RANGE"/>
+	  </concept>
+	  <concept>
+	    <code value="LEN_SHORT"/>
+	  </concept>
+	  <concept>
+	    <code value="LFEMX"/>
+	  </concept>
+	  <concept>
+	    <code value="LU OTC"/>
+	  </concept>
+	  <concept>
+	    <code value="MAXOCCURS"/>
+	  </concept>
+	  <concept>
+	    <code value="MDOSE"/>
+	  </concept>
+	  <concept>
+	    <code value="MINOCCURS"/>
+	  </concept>
+	  <concept>
+	    <code value="MISSCOND"/>
+	  </concept>
+	  <concept>
+	    <code value="MISSMAND"/>
+	  </concept>
+	  <concept>
+	    <code value="NODUPS"/>
+	  </concept>
+	  <concept>
+	    <code value="NOPERSIST"/>
+	  </concept>
+	  <concept>
+	    <code value="PA"/>
+	  </concept>
+	  <concept>
+	    <code value="PATPREF"/>
+	  </concept>
+	  <concept>
+	    <code value="PATPREFALT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNPPELAT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNPPELCT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNPPMNAT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNPPMNCT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNSPELAT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNSPELCT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNSPMNAT"/>
+	  </concept>
+	  <concept>
+	    <code value="PDCNSPMNCT"/>
+	  </concept>
+	  <concept>
+	    <code value="PEALRT"/>
+	  </concept>
+	  <concept>
+	    <code value="PRDMX"/>
+	  </concept>
+	  <concept>
+	    <code value="PREVINEF"/>
+	  </concept>
+	  <concept>
+	    <code value="PRLMN"/>
+	  </concept>
+	  <concept>
+	    <code value="REP_RANGE"/>
+	  </concept>
+	  <concept>
+	    <code value="RFCS"/>
+	  </concept>
+	  <concept>
+	    <code value="RFFS"/>
+	  </concept>
+	  <concept>
+	    <code value="RFPS"/>
+	  </concept>
+	  <concept>
+	    <code value="RFS"/>
+	  </concept>
+	  <concept>
+	    <code value="RX"/>
+	  </concept>
+	  <concept>
+	    <code value="RXC"/>
+	  </concept>
+	  <concept>
+	    <code value="RXD"/>
+	  </concept>
+	  <concept>
+	    <code value="SA"/>
+	  </concept>
+	  <concept>
+	    <code value="SAC"/>
+	  </concept>
+	  <concept>
+	    <code value="SBBLAT"/>
+	  </concept>
+	  <concept>
+	    <code value="SBBLCT"/>
+	  </concept>
+	  <concept>
+	    <code value="SBCNAT"/>
+	  </concept>
+	  <concept>
+	    <code value="SBCNCT"/>
+	  </concept>
+	  <concept>
+	    <code value="SBPDAT"/>
+	  </concept>
+	  <concept>
+	    <code value="SBPDCT"/>
+	  </concept>
+	  <concept>
+	    <code value="SUBSIDFFSWRKCOMP"/>
+	  </concept>
+	  <concept>
+	    <code value="SUPPLEMENT"/>
+	  </concept>
+	  <concept>
+	    <code value="SUPPRESSED"/>
+	  </concept>
+	  <concept>
+	    <code value="TBS"/>
+	  </concept>
+	  <concept>
+	    <code value="TFS"/>
+	  </concept>
+	  <concept>
+	    <code value="TIME"/>
+	  </concept>
+	  <concept>
+	    <code value="TOOLATE"/>
+	  </concept>
+	  <concept>
+	    <code value="TOOSOON"/>
+	  </concept>
+	  <concept>
+	    <code value="UDE"/>
+	  </concept>
+	  <concept>
+	    <code value="UNINSMOT"/>
+	  </concept>
+	  <concept>
+	    <code value="VALIDAT"/>
+	  </concept>
+	  <concept>
+	    <code value="WGHT"/>
+	  </concept>
+	</exclude>
+  </compose>
+</ValueSet>
