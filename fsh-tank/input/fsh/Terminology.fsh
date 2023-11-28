@@ -544,6 +544,16 @@ Description: "Used to enumerate the moods that a substance administration can ta
 * include $ActMood#PRP
 * include $ActMood#RQO
 
+Alias: $ActRelationshipType = http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType|3.1.0
+ValueSet: CDAActRelationshipHasComponent
+Title: "CDAActRelationshipHasComponent"
+Description: "A collection of sub-services as steps or subtasks performed for the source service - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $ActRelationshipType#COMP
+* include $ActRelationshipType#ARR
+* include $ActRelationshipType#CTRLV
+* include $ActRelationshipType#DEP
+
 Alias: $AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse|2.1.0
 ValueSet: CDAPostalAddressUse
 Title: "CDAPostalAddressUse"

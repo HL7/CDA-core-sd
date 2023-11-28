@@ -946,6 +946,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAActRelationshipHasComponent" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDACompressionAlgorithm" />
 			</reference>
 		</resource>
