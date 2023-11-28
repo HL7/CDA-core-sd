@@ -662,7 +662,7 @@ Description: "One or more codes providing a rough qualitative interpretation of 
 * include $ObservationInterpretation#S
 * include $ObservationInterpretation#VS
 
-Alias: $ParticipationType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType|4.0.0
+Alias: $ParticipationType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType|3.1.1
 ValueSet: CDAParticipationType
 Title: "CDAParticipationType"
 Description: "A code specifying the meaning and purpose of every Participation instance - limited to values allowed in original CDA definition"

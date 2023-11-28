@@ -10,7 +10,7 @@
     <compose>
         <include>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
-            <version value="4.0.0"/>
+            <version value="3.1.1"/>
             <concept>
                 <code value="ADM"/>
             </concept>
