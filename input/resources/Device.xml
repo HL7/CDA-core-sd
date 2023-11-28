@@ -49,10 +49,9 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
       <defaultValueCode value="DEV"/>
-      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-EntityClassDevice"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-EntityClassDevice|2.0.0"/>
       </binding>
     </element>
     <element id="Device.determinerCode">

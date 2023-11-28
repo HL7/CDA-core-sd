@@ -26,18 +26,21 @@
 <artifact id="StructureDefinition/CD" key="StructureDefinition-CD" name="CD: ConceptDescriptor (V3 Data Type)"/>
 <artifact id="ValueSet/CDAActClass" key="ValueSet-CDAActClass" name="CDAActClass"/>
 <artifact id="ValueSet/CDAActClassDocumentEntryAct" key="ValueSet-CDAActClassDocumentEntryAct" name="CDAActClassDocumentEntryAct"/>
+<artifact id="ValueSet/CDAActClassObservation" key="ValueSet-CDAActClassObservation" name="CDAActClassObservation"/>
 <artifact id="ValueSet/CDAActCode" key="ValueSet-CDAActCode" name="CDAActCode"/>
 <artifact id="ValueSet/CDAActEncounterCode" key="ValueSet-CDAActEncounterCode" name="CDAActEncounterCode"/>
 <artifact id="ValueSet/CDAActMoodDocumentAct" key="ValueSet-CDAActMoodDocumentAct" name="CDAActMoodDocumentAct"/>
 <artifact id="ValueSet/CDAActMoodDocumentEncounter" key="ValueSet-CDAActMoodDocumentEncounter" name="CDAActMoodDocumentEncounter"/>
 <artifact id="ValueSet/CDAActMoodDocumentObservation" key="ValueSet-CDAActMoodDocumentObservation" name="CDAActMoodDocumentObservation"/>
 <artifact id="ValueSet/CDAActMoodDocumentSubstance" key="ValueSet-CDAActMoodDocumentSubstance" name="CDAActMoodDocumentSubstance"/>
+<artifact id="ValueSet/CDAActRelationshipHasComponent" key="ValueSet-CDAActRelationshipHasComponent" name="CDAActRelationshipHasComponent"/>
 <artifact id="ValueSet/CDAEntityNamePartQualifier" key="ValueSet-CDAEntityNamePartQualifier" name="CDAEntityNamePartQualifier"/>
 <artifact id="ValueSet/CDAEntityNameUse" key="ValueSet-CDAEntityNameUse" name="CDAEntityNameUse"/>
 <artifact id="ValueSet/CDANullFlavor" key="ValueSet-CDANullFlavor" name="CDANullFlavor"/>
 <artifact id="ValueSet/CDAObservationInterpretation" key="ValueSet-CDAObservationInterpretation" name="CDAObservationInterpretation"/>
 <artifact id="ValueSet/CDAParticipationType" key="ValueSet-CDAParticipationType" name="CDAParticipationType"/>
 <artifact id="ValueSet/CDAPostalAddressUse" key="ValueSet-CDAPostalAddressUse" name="CDAPostalAddressUse"/>
+<artifact id="ValueSet/CDARoleClass" key="ValueSet-CDARoleClass" name="CDARoleClass"/>
 <artifact id="ValueSet/CDARoleClassAssociative" key="ValueSet-CDARoleClassAssociative" name="CDARoleClassAssociative"/>
 <artifact id="ValueSet/CDARoleClassMutualRelationship" key="ValueSet-CDARoleClassMutualRelationship" name="CDARoleClassMutualRelationship"/>
 <artifact id="ValueSet/CDASignatureCode" key="ValueSet-CDASignatureCode" name="CDASignatureCode"/>
@@ -46,7 +49,6 @@
 <artifact id="StructureDefinition/CR" key="StructureDefinition-CR" name="CR: ConceptRole (V3 Data Type)"/>
 <artifact id="StructureDefinition/CS" key="StructureDefinition-CS" name="CS: CodedSimpleValue (V3 Data Type)"/>
 <artifact id="StructureDefinition/CV" key="StructureDefinition-CV" name="CV: CodedValue (V3 Data Type)"/>
-<artifact id="ValueSet/CDAActClassObservation" key="ValueSet-CDAActClassObservation" name="CdaActClassObservation"/>
 <artifact id="StructureDefinition/ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
 <artifact id="StructureDefinition/Component" key="StructureDefinition-Component" name="Component (CDA Class)"/>
 <artifact id="StructureDefinition/ComponentOf" key="StructureDefinition-ComponentOf" name="ComponentOf (CDA Class)"/>
