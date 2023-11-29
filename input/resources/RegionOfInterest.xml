@@ -58,7 +58,6 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <defaultValueCode value="ROIOVL"/>
       <fixedCode value="ROIOVL"/>
       <binding>
         <strength value="required"/>
@@ -74,7 +73,6 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <defaultValueCode value="EVN"/>
       <fixedCode value="EVN"/>
       <binding>
         <strength value="required"/>

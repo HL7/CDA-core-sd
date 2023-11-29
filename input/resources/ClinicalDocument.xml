@@ -57,7 +57,7 @@
       <fixedCode value="DOCCLIN"/>      
       <binding>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActClass"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClass"/>
       </binding>
     </element>
     <element id="ClinicalDocument.moodCode">
@@ -72,6 +72,7 @@
       <fixedCode value="EVN"/>      
       <binding>
         <strength value="required"/>
+        <!-- Not creating a CDAActMood value set since every use case of this has a fixedCode -->
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActMood"/>
       </binding>
     </element>
@@ -166,7 +167,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActStatus"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActStatus|2.0.0"/>
       </binding>
     </element>
     <element id="ClinicalDocument.effectiveTime">

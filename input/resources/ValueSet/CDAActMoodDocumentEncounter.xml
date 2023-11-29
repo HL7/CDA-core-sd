@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActMoodDocumentEncounter"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActMoodDocumentEncounter"/>
+    <name value="CDAActMoodDocumentEncounter"/>
+    <title value="CDAActMoodDocumentEncounter"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Used to enumerate the moods that an encounter can take within the body of a clinical document - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
+            <version value="2.1.1"/>
+            <concept>
+                <code value="INT"/>
+            </concept>
+            <concept>
+                <code value="APT"/>
+            </concept>
+            <concept>
+                <code value="ARQ"/>
+            </concept>
+            <concept>
+                <code value="EVN"/>
+            </concept>
+            <concept>
+                <code value="PRMS"/>
+            </concept>
+            <concept>
+                <code value="PRP"/>
+            </concept>
+            <concept>
+                <code value="RQO"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

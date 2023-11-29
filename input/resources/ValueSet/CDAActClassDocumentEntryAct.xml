@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActClassDocumentEntryAct"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActClassDocumentEntryAct"/>
+    <name value="CDAActClassDocumentEntryAct"/>
+    <title value="CDAActClassDocumentEntryAct"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="The set of Act class codes allowed for the ACT class clone in the CDA Clinical Statement model - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+            <version value="3.1.1"/>
+            <concept>
+                <code value="ACT"/>
+            </concept>
+            <concept>
+                <code value="ACCM"/>
+            </concept>
+            <concept>
+                <code value="CONS"/>
+            </concept>
+            <concept>
+                <code value="CTTEVENT"/>
+            </concept>
+            <concept>
+                <code value="INC"/>
+            </concept>
+            <concept>
+                <code value="INFRM"/>
+            </concept>
+            <concept>
+                <code value="PCPR"/>
+            </concept>
+            <concept>
+                <code value="REG"/>
+            </concept>
+            <concept>
+                <code value="SPCTRT"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

@@ -58,7 +58,7 @@
       <defaultValueCode value="COMP"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xActRelationshipEntry"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xActRelationshipEntry|2.0.0"/>
       </binding>
     </element>
     <element id="Entry.contextConductionInd">

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDARoleClass"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDARoleClass"/>
+    <name value="CDARoleClass"/>
+    <title value="CDARoleClass"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Represents a Role which is an association or relationship between two entities - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDARoleClassAssociative"/>
+        </include>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+            <version value="3.1.0"/>
+            <concept>
+                <code value="ROL"/>
+            </concept>
+            <concept>
+                <code value="INGR"/>
+            </concept>
+            <concept>
+                <code value="IACT"/>
+            </concept>
+            <concept>
+                <code value="COLR"/>
+            </concept>
+            <concept>
+                <code value="FLVR"/>
+            </concept>
+            <concept>
+                <code value="PRSV"/>
+            </concept>
+            <concept>
+                <code value="STBL"/>
+            </concept>
+            <concept>
+                <code value="ACTI"/>
+            </concept>
+            <concept>
+                <code value="ACTM"/>
+            </concept>
+            <concept>
+                <code value="ADTV"/>
+            </concept>
+            <concept>
+                <code value="BASE"/>
+            </concept>
+            <concept>
+                <code value="LOCE"/>
+            </concept>
+            <concept>
+                <code value="STOR"/>
+            </concept>
+            <concept>
+                <code value="SPEC"/>
+            </concept>
+            <concept>
+                <code value="ALQT"/>
+            </concept>
+            <concept>
+                <code value="ISLT"/>
+            </concept>
+            <concept>
+                <code value="CONT"/>
+            </concept>
+            <concept>
+                <code value="MBR"/>
+            </concept>
+            <concept>
+                <code value="PART"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

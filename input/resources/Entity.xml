@@ -50,10 +50,9 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
       <defaultValueCode value="ENT"/>
-      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-EntityClassRoot"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-EntityClassRoot|2.0.0"/>
       </binding>
     </element>
     <element id="Entity.determinerCode">

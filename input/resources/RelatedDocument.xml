@@ -50,7 +50,7 @@
       
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xActRelationshipDocument"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xActRelationshipDocument|2.0.0"/>
       </binding>
     </element>
     <element id="RelatedDocument.parentDocument">

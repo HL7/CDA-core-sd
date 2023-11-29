@@ -901,7 +901,57 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAActClass" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActClassObservation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActClassDocumentEntryAct" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActEncounterCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActMoodDocumentAct" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActMoodDocumentEncounter" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActMoodDocumentObservation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActMoodDocumentSubstance" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAActRelationshipHasComponent" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDACompressionAlgorithm" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAEntityNamePartQualifier" />
 			</reference>
 		</resource>
 		<resource>
@@ -911,7 +961,37 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAObservationInterpretation" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAParticipationType" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAPostalAddressUse" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleClass" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleClassAssociative" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleClassInformationRecipientRole" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleClassMutualRelationship" />
 			</reference>
 		</resource>
 		<resource>
