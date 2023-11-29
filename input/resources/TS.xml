@@ -27,7 +27,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
-  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/QTY"/>
   <derivation value="specialization"/>
   <differential>
     <element id="TS">

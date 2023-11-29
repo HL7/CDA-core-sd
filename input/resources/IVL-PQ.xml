@@ -21,7 +21,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/IVL_PQ"/>
-  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/PQ"/>
   <derivation value="specialization"/>
   <differential>
     <element id="IVL_PQ">
@@ -34,40 +34,6 @@
         <human value="Center cannot co-exist with low or high"/>
         <expression value="center.empty() or (low.empty() and high.empty())"/>
       </constraint>
-    </element>
-    <element id="IVL_PQ.unit">
-      <path value="IVL_PQ.unit"/>
-      <representation value="xmlAttr"/>
-      <label value="Unit of Measure"/>
-      <definition value="The unit of measure specified in the Unified Code for Units of Measure (UCUM) []."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="IVL_PQ.unit"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="code"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-    </element>
-    <element id="IVL_PQ.value">
-      <path value="IVL_PQ.value"/>
-      <representation value="xmlAttr"/>
-      <label value="Maginitude Value"/>
-      <definition value="The magnitude of the quantity measured in terms of the unit."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="PQ.value"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="decimal"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/real-simple"/>
-      </type>
     </element>
     <element id="IVL_PQ.operator">
       <path value="IVL_PQ.operator"/>
