@@ -36,17 +36,17 @@
     <element id="PN">
       <path value="PN"/>
       <definition value="A name for a person. A sequence of name parts, such as given name or family name, prefix, suffix, etc. Examples for person name values are &quot;Jim Bob Walton, Jr.&quot;, &quot;Adam Everyman&quot;, etc. A person name may be as simple as a character string or may consist of several person name parts, such as, &quot;Jim&quot;, &quot;Bob&quot;, &quot;Walton&quot;, and &quot;Jr.&quot;. PN differs from EN because the qualifier type cannot include LS (Legal Status)."/>
+      <constraint>
+        <key value="pn-no-ls"/>
+        <severity value="error"/>
+        <human value="No PN name part may have a qualifier of LS."/>
+        <expression value="(item.delimiter | item.family | item.given | item.prefix | suffix).where(qualifier.where($this = 'LS')).empty()"/>
+      </constraint>
     </element>
     <element id="PN.item">
       <path value="PN.item"/>
       <min value="1"/>
       <max value="*"/>
-      <constraint>
-        <key value="pn-no-ls"/>
-        <severity value="error"/>
-        <human value="No PN name part may have a qualifier of LS."/>
-        <expression value="(delimiter | family | given | prefix | suffix).where(qualifier.where($this = 'LS')).empty()"/>
-      </constraint>
     </element>
   </differential>
 </StructureDefinition>
