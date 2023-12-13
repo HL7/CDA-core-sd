@@ -67,6 +67,16 @@
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-xDocumentActMood|2.0.0"/>
       </binding>
     </element>
+    <element id="Act.negationInd">
+      <path value="Act.negationInd"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="boolean"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/bl-simple"/>
+      </type>
+    </element>
     <element id="Act.id">
       <path value="Act.id"/>
       <min value="0"/>
@@ -86,16 +96,6 @@
         <strength value="example"/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActCode"/>
       </binding>
-    </element>
-    <element id="Act.negationInd">
-      <path value="Act.negationInd"/>
-      <representation value="xmlAttr"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="boolean"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/bl-simple"/>
-      </type>
     </element>
     <element id="Act.text">
       <path value="Act.text"/>

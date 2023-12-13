@@ -4,6 +4,7 @@
     <a data-toggle="dropdown" href="#">Information<b class="caret"></b></a>
     <ul class="dropdown-menu">
       <li><a href="overview.html">CDA Overview</a></li>
+      <li><a href="implementation.html">Implementation Notes</a></li>
       <li><a href="cda-rmim.html">Graphical Map of CDA</a></li>
       <li><a href="dt-uml.html">Graphical Map of Datatypes</a></li>
       <li><a href="narrative.html">Narrative Block</a></li>
