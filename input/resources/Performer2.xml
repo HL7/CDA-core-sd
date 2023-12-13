@@ -18,7 +18,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="performer"/>
+    <valueString value="performer"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Performer2"/>
   <name value="Performer2"/>
@@ -58,7 +58,7 @@
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueUri value="functionCode"/>
+        <valueString value="functionCode"/>
       </extension>
       <path value="Performer2.sdtcFunctionCode"/>
       <min value="0"/>

@@ -15,7 +15,7 @@
     </valueBoolean>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="alternateIdentification"/>
+    <valueString value="alternateIdentification"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/AlternateIdentification"/>
   <name value="AlternateIdentification"/>

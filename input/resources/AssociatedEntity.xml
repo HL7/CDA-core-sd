@@ -18,7 +18,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="associatedEntity"/>
+    <valueString value="associatedEntity"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity"/>
   <name value="AssociatedEntity"/>
@@ -63,7 +63,8 @@
     <element id="AssociatedEntity.sdtcIdentifiedBy">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="urn:hl7-org:sdtc"/>
-      </extension><extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="identifiedBy"/>
       </extension>
       <path value="AssociatedEntity.sdtcIdentifiedBy"/>

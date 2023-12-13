@@ -160,6 +160,7 @@
 <page key="cda-rmim" name="Graphical Map of CDA"/>
 <page key="dt-uml" name="Graphical Map of Datatypes"/>
 <page key="index" name="IG Home Page"/>
+<page key="implementation" name="Implementation Notes"/>
 <page key="narrative" name="Narrative Block"/>
 <page key="overview" name="Overview"/>
 <page key="toc" name="Table of Contents"/>

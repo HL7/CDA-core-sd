@@ -19,7 +19,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="organization"/>
+    <valueString value="organization"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Organization"/>
   <name value="Organization"/>

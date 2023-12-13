@@ -22,7 +22,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="recordTarget"/>
+    <valueString value="recordTarget"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget"/>
   <name value="RecordTarget"/>

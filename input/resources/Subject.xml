@@ -19,7 +19,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
    <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="subject"/>
+    <valueString value="subject"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Subject"/>
   <name value="Subject"/>

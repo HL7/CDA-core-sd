@@ -12,7 +12,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="playingEntity"/>
+    <valueString value="playingEntity"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/PlayingEntity"/>
   <name value="PlayingEntity"/>
@@ -96,7 +96,7 @@
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueUri value="birthTime"/>
+        <valueString value="birthTime"/>
       </extension>
       <path value="PlayingEntity.sdtcBirthTime"/>
       <definition value="The purpose of this extension is to allow the recording of the subscriber or member of a health plan in cases where the health plan eligibility system has different information on file than the provider does for the patient."/>

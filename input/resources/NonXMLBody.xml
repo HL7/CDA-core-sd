@@ -19,7 +19,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueUri value="nonXMLBody"/>
+    <valueString value="nonXMLBody"/>
   </extension> 
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/NonXMLBody"/>
   <name value="NonXMLBody"/>
