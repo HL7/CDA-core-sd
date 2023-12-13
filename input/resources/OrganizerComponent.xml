@@ -28,7 +28,7 @@
   <publisher value="HL7"/>
   <description value="CDA entries represent the structured computer-processable components within a document section. Each section can contain zero to many entries."/>
   <kind value="logical"/>
-  <abstract value="true"/>
+  <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/OrganizerComponent"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
