@@ -17,6 +17,9 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
     <valueUri value="urn:hl7-org:sdtc"/>
   </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
+    <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  </extension>
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/INT-POS"/>
   <name value="INT_POS"/>
   <title value="INT_POS: Positive integer numbers (V3 Data Type)"/>

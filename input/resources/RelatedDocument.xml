@@ -20,6 +20,9 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueString value="relatedDocument"/>
   </extension> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
+    <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  </extension>
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument"/>
   <name value="RelatedDocument"/>
   <title value="RelatedDocument (CDA Class)"/>

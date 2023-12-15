@@ -21,6 +21,9 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueString value="authenticator"/>
   </extension> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
+    <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  </extension>
   <url value="http://hl7.org/cda/stds/core/StructureDefinition/Authenticator"/>
   <name value="Authenticator"/>
   <title value="Authenticator (CDA Class)"/>
