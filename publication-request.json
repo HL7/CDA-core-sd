@@ -1,11 +1,11 @@
 {
   "package-id" : "hl7.cda.uv.core",
-  "version" : "2.0.0-sd-ballot",
-  "path" : "http://hl7.org/cda/stds/core/2023Sep",
+  "version" : "2.0.0-sd-snapshot1",
+  "path" : "http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1",
   "milestone" : false,
   "mode": "working",
-  "status" : "ballot",
+  "status" : "draft",
   "sequence" : "CDA2",
-  "desc" : "A representation of the CDA specification using FHIR Logical Models and Structure Definitions.",
-  "first" : true
+  "desc" : "Minor updates to address discovered issues during CCDA ballot preparation.",
+  "first" : false
 }
