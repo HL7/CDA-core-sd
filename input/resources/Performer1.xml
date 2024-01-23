@@ -52,7 +52,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xServiceEventPerformer"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xServiceEventPerformer|2.0.0"/>
       </binding>
     </element>
     <element id="Performer1.functionCode">

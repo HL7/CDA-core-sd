@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActEncounterCode"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActEncounterCode"/>
+    <name value="CDAActEncounterCode"/>
+    <title value="CDAActEncounterCode"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the particular kind of Act that the Act-instance represents within its class - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <version value="7.0.0"/>
+            <concept>
+                <code value="IMP"/>
+            </concept>
+            <concept>
+                <code value="ACUTE"/>
+            </concept>
+            <concept>
+                <code value="NONAC"/>
+            </concept>
+            <concept>
+                <code value="ALC"/>
+            </concept>
+            <concept>
+                <code value="CARD"/>
+            </concept>
+            <concept>
+                <code value="CHR"/>
+            </concept>
+            <concept>
+                <code value="DNTL"/>
+            </concept>
+            <concept>
+                <code value="DRGRHB"/>
+            </concept>
+            <concept>
+                <code value="GENRL"/>
+            </concept>
+            <concept>
+                <code value="MED"/>
+            </concept>
+            <concept>
+                <code value="OBS"/>
+            </concept>
+            <concept>
+                <code value="ONC"/>
+            </concept>
+            <concept>
+                <code value="PALL"/>
+            </concept>
+            <concept>
+                <code value="PED"/>
+            </concept>
+            <concept>
+                <code value="PHAR"/>
+            </concept>
+            <concept>
+                <code value="PHYRHB"/>
+            </concept>
+            <concept>
+                <code value="PSYCH"/>
+            </concept>
+            <concept>
+                <code value="SURG"/>
+            </concept>
+            <concept>
+                <code value="AMB"/>
+            </concept>
+            <concept>
+                <code value="EMER"/>
+            </concept>
+            <concept>
+                <code value="FLD"/>
+            </concept>
+            <concept>
+                <code value="HH"/>
+            </concept>
+            <concept>
+                <code value="VR"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

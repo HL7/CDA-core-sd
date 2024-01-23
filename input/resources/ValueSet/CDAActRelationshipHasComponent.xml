@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActRelationshipHasComponent"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActRelationshipHasComponent"/>
+    <name value="CDAActRelationshipHasComponent"/>
+    <title value="CDAActRelationshipHasComponent"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A collection of sub-services as steps or subtasks performed for the source service - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"/>
+            <version value="3.1.0"/>
+            <concept>
+                <code value="COMP"/>
+            </concept>
+            <concept>
+                <code value="ARR"/>
+            </concept>
+            <concept>
+                <code value="CTRLV"/>
+            </concept>
+            <concept>
+                <code value="DEP"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

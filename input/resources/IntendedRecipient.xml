@@ -45,6 +45,10 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
       <defaultValueCode value="ASSIGNED"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDARoleClassInformationRecipientRole"/>
+      </binding>
     </element>
     <element id="IntendedRecipient.id">
       <path value="IntendedRecipient.id"/>

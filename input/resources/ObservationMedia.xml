@@ -62,11 +62,10 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <defaultValueCode value="OBS"/>
       <fixedCode value="OBS"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActClassObservation"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClassObservation"/>
       </binding>
     </element>
     <element id="ObservationMedia.moodCode">
@@ -78,7 +77,6 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <defaultValueCode value="EVN"/>
       <fixedCode value="EVN"/>
       <binding>
         <strength value="required"/>
