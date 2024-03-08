@@ -12,7 +12,7 @@ Description: "Identifies the representation of binary data in a text field"
 * ^experimental = false
 * include codes from system BinaryDataEncoding
 
-Alias: $AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse|2.1.0
+Alias: $AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse
 ValueSet: CDAPostalAddressUse
 Title: "CDAPostalAddressUse"
 Description: "A set of codes advising a system or user which address in a set of like addresses to select for a given purpose - limited to values allowed in original CDA definition"
@@ -32,7 +32,7 @@ Description: "A set of codes advising a system or user which address in a set of
 * include $EntityNameUse#SYL
 
 
-Alias: $CompressionAlgorithm = http://terminology.hl7.org/CodeSystem/v3-CompressionAlgorithm|2.1.1
+Alias: $CompressionAlgorithm = http://terminology.hl7.org/CodeSystem/v3-CompressionAlgorithm
 ValueSet: CDACompressionAlgorithm
 Title: "CompressionAlgorithm"
 Description: "Type of compression algorithm used - limited to 4 concepts from original CDA definition"
@@ -43,7 +43,7 @@ Description: "Type of compression algorithm used - limited to 4 concepts from or
 * include $CompressionAlgorithm#Z
 
 
-Alias: $EntityNameUse = http://terminology.hl7.org/CodeSystem/v3-EntityNameUse|2.1.0
+Alias: $EntityNameUse = http://terminology.hl7.org/CodeSystem/v3-EntityNameUse
 ValueSet: CDAEntityNameUse
 Title: "CDAEntityNameUse"
 Description: "A set of codes advising a system or user which name in a set of names to select for a given purpose - limited to values allowed in original CDA definition"
@@ -62,7 +62,7 @@ Description: "A set of codes advising a system or user which name in a set of na
 * include $EntityNameUse#IDE
 
 
-Alias: $NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|2.1.0
+Alias: $NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 ValueSet: CDANullFlavor
 Title: "CDANullFlavor"
 Description: "CDA NullFlavors - limited to values allowed in original CDA definition"
@@ -80,7 +80,7 @@ Description: "CDA NullFlavors - limited to values allowed in original CDA defini
 * include $NullFlavor#ASKU
 * include $NullFlavor#NAV
 
-Alias: $PartSig = http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature|2.1.0
+Alias: $PartSig = http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature
 ValueSet: CDASignatureCode
 Title: "CDASignatureCode"
 Description: """A set of codes specifying whether and how the participant has attested his participation through a signature - limited to values allowed in original CDA definition.

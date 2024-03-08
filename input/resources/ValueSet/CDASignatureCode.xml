@@ -10,7 +10,6 @@
     <compose>
         <include>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature"/>
-            <version value="2.1.0"/>
             <concept>
                 <code value="S"/>
             </concept>
