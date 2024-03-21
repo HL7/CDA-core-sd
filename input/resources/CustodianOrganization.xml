@@ -95,6 +95,20 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>
       </type>
     </element>
+    <element id="CustodianOrganization.sdtcTelecom">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="telecom"/>
+      </extension>
+      <path value="CustodianOrganization.sdtcTelecom"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>
+      </type>
+    </element>
     <element id="CustodianOrganization.addr">
       <path value="CustodianOrganization.addr"/>
       <min value="0"/>
