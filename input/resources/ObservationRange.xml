@@ -204,7 +204,7 @@
         <valueUri value="urn:hl7-org:sdtc"/>
       </extension>
       <path value="ObservationRange.sdtcPrecondition1.conjunctionCode"/>
-      <definition value="A code specifying the logical conjunction of the criteria among all the condition-links of Acts (e.g., and, or, exclusive-or).&#10;All AND criteria must be true.&#10;If OR and AND criteria occur together, one criterion out of the OR-group must be true and all AND criteria must be true also.&#10;If XOR criteria occur together with OR and AND criteria, exactly one of the XOR criteria must be true, and at least one of the OR criteria and all AND criteria must be true.&#10;In other words, the sets of AND, OR, and XOR criteria are in turn combined by a logical AND operator (all AND criteria and at least one OR criterion and exactly one XOR criterion)."/>
+      <definition value="A code specifying the logical conjunction of the criteria among all the condition-links of Acts (e.g., and, or, exclusive-or).&#xA;&#xA;All AND criteria must be true.&#xA;&#xA;If OR and AND criteria occur together, one criterion out of the OR-group must be true and all AND criteria must be true also.&#xA;&#xA;If XOR criteria occur together with OR and AND criteria, exactly one of the XOR criteria must be true, and at least one of the OR criteria and all AND criteria must be true.&#xA;&#xA;In other words, the sets of AND, OR, and XOR criteria are in turn combined by a logical AND operator (all AND criteria and at least one OR criterion and exactly one XOR criterion)."/>
       <min value="1"/>
       <max value="1"/>
       <type>

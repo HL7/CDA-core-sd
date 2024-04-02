@@ -30,7 +30,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
-  <description value="The subject participant represents the primary target of the entries recorded in the document. Most of the time the subject is the same as the recordTarget, but need not be, for instance when the subject is a fetus observed in an obstetrical ultrasound.&#10;&#10;The subject participant can be ascribed to a CDA section or a CDA entry. It propagates to nested components, unless overridden. The subject of a document is presumed to be the patient."/>
+  <description value="The subject participant represents the primary target of the entries recorded in the document. Most of the time the subject is the same as the recordTarget, but need not be, for instance when the subject is a fetus observed in an obstetrical ultrasound.&#xA;&#xA;The subject participant can be ascribed to a CDA section or a CDA entry. It propagates to nested components, unless overridden. The subject of a document is presumed to be the patient."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Subject"/>
