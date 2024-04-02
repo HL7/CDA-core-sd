@@ -1,11 +1,11 @@
 {
   "package-id" : "hl7.cda.uv.core",
-  "version" : "2.0.0-sd-snapshot1",
-  "path" : "http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1",
+  "version" : "2.0.0-sd",
+  "path" : "http://hl7.org/cda/stds/core/2.0.0-sd",
   "milestone" : false,
   "mode": "working",
   "status" : "draft",
   "sequence" : "CDA2",
-  "desc" : "Minor updates to address discovered issues during CCDA ballot preparation.",
+  "desc" : "Published version that is used by CCDA and other guides.",
   "first" : false
 }
