@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAAcknowledgementCondition"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-AcknowledgementCondition"/>
+  <name value="CDAAcknowledgementCondition"/>
+  <title value="CDAAcknowledgementCondition"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Acknowledgement Condition codes describe the conditions under which accept or application level acknowledgements are required to be returned in response to the message send operation."/>
+  <compose>
+	<inactive value="false"/>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementCondition"/>
+    </include>
+  </compose>
+</ValueSet>

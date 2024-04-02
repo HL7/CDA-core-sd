@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAActRelationshipType"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-ActRelationshipType"/>
+  <name value="CDAActRelationshipType"/>
+  <title value="CDAActRelationshipType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="A code specifying the meaning and purpose of every ActRelationship instance. Each of its values implies specific constraints to what kinds of Act objects can be related and in which way.&#xD;&#xA;&#xD;&#xA;*Discussion:* The types of act relationships fall under one of 5 categories:&#xD;&#xA;&#xD;&#xA;1.) (De)-composition, with composite (source) and component (target)&#xD;&#xA;&#xD;&#xA;2.) Sequel which includes follow-up, fulfillment, instantiation, replacement, transformation, etc. that all have in common that source and target are Acts of essentially the same kind but with variances in mood and other attributes, and where the target exists before the source and the source refers to the target that it links back to.&#xD;&#xA;&#xD;&#xA;3.) Pre-condition, trigger, reason, contraindication, with the conditioned Act at the source and the condition or reason at the target.&#xD;&#xA;&#xD;&#xA;4.) Post-condition, outcome, goal and risk, with the Act at the source having the outcome or goal at the target.&#xD;&#xA;&#xD;&#xA;5.) A host of functional relationships including support, cause, derivation, etc. generalized under the notion of &quot;pertinence&quot;."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"/>
+	  	  <concept>
+	    <code value="BLOCK"/>
+	  </concept>
+	  <concept>
+	    <code value="DIAG"/>
+	  </concept>
+	  <concept>
+	    <code value="IMM"/>
+	  </concept>
+	  <concept>
+	    <code value="ACTIMM"/>
+	  </concept>
+	  <concept>
+	    <code value="PASSIMM"/>
+	  </concept>
+	  <concept>
+	    <code value="RCVY"/>
+	  </concept>
+	  <concept>
+	    <code value="PRYLX"/>
+	  </concept>
+	  <concept>
+	    <code value="EAS"/>
+	  </concept>
+	  <concept>
+	    <code value="INDEPENDENT"/>
+	  </concept>
+	  <concept>
+	    <code value="SASORSCW"/>
+	  </concept>
+	  <concept>
+	    <code value="MBR"/>
+	  </concept>
+	  <concept>
+	    <code value="STEP"/>
+	  </concept>
+	  <concept>
+	    <code value="PART"/>
+	  </concept>
+	  <concept>
+	    <code value="EVID"/>
+	  </concept>
+	  <concept>
+	    <code value="EXACBY"/>
+	  </concept>
+	  <concept>
+	    <code value="INTF"/>
+	  </concept>
+	  <concept>
+	    <code value="META"/>
+	  </concept>
+	  <concept>
+	    <code value="USE"/>
+	  </concept>
+	  <concept>
+	    <code value="RELVBY"/>
+	  </concept>
+	  <concept>
+	    <code value="BSLN"/>
+	  </concept>
+	  <concept>
+	    <code value="COMPLY"/>
+	  </concept>
+	  <concept>
+	    <code value="MOD"/>
+	  </concept>
+	  <concept>
+	    <code value="RCHAL"/>
+	  </concept>
+	  <concept>
+	    <code value="QUALF"/>
+	  </concept>
+	  <concept>
+	    <code value="VALUE"/>
+	  </concept>
+	  <concept>
+	    <code value="CURE"/>
+	  </concept>
+	  <concept>
+	    <code value="CURE.ADJ"/>
+	  </concept>
+	  <concept>
+	    <code value="MTGT.ADJ"/>
+	  </concept>
+	  <concept>
+	    <code value="RACT"/>
+	  </concept>
+	  <concept>
+	    <code value="SUGG"/>
+	  </concept>
+	</exclude>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"/>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="TREAT"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="EAE"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="descendent-of"/>
+		<value value="SAS"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="EASORECWS"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="SAEORSCWE"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="SBEORSCWE"/>
+	  </filter>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="_ActRelationshipTemporallyPertainsApproximates"/>
+	  </filter>
+	</exclude>
+  </compose>
+</ValueSet>

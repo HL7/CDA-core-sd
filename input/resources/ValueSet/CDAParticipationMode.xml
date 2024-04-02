@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAParticipationMode"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-ParticipationMode"/>
+  <name value="CDAParticipationMode"/>
+  <title value="CDAParticipationMode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Identifies the primary means by which an Entity participates in an Act."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"/>
+      <concept>
+        <code value="PHYSICAL"/>
+      </concept>
+      <concept>
+        <code value="REMOTE"/>
+      </concept>
+    </include>
+    <include>
+      <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationModeVerbal"/>
+    </include>
+    <include>
+      <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationModeWritten"/>
+    </include>
+    <include>
+      <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationModeElectronicData"/>
+    </include>
+    <include>
+      <valueSet value="http://terminology.hl7.org/ValueSet/v3-xPhysicalVerbalParticipationMode"/>
+    </include>
+	<exclude>
+	  <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"/>
+	  <concept>
+	    <code value="MAILWRIT"/>
+	  </concept>
+	  <concept>
+	    <code value="ONLINEWRIT"/>
+	  </concept>
+	  <concept>
+	    <code value="MSGWRIT"/>
+	  </concept>
+	  <concept>
+	    <code value="SMSWRIT"/>
+	  </concept>
+	  <concept>
+	    <code value="MMSWRIT"/>
+	  </concept>
+	  <concept>
+	    <code value="APPWRIT"/>
+	  </concept>
+
+	</exclude>
+  </compose>
+</ValueSet>

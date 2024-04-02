@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAHL7StandardVersionCode"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-HL7StandardVersionCode"/>
+  <name value="CDAHL7StandardVersionCode"/>
+  <title value="CDAHL7StandardVersionCode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="This is the domain of HL7 version codes for the Version 3 standards. Values are to be determined by HL7 and added with each new version of the HL7 Standard."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"/>
+	  <concept>
+	    <code value="V3-2003-12"/>
+	  </concept>
+	  <concept>
+	    <code value="V3PR1"/>
+	  </concept>
+    </include>
+  </compose>
+</ValueSet>

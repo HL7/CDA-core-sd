@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAEntityDeterminer"/>
+  <language value="en"/>
+  <url value="http://hl7.org/cda/stds/core/ValueSet/cda-EntityDeterminer"/>
+  <name value="CDAEntityDeterminer"/>
+  <title value="CDAEntityDeterminer"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="EntityDeterminer in natural language grammar is the class of words that comprises articles, demonstrative pronouns, and quantifiers. In the RIM, determiner is a structural code in the Entity class to distinguish whether any given Entity object stands for some, any one, or a specific thing."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-EntityDeterminer"/>
+    </include>
+  </compose>
+  <exclude>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-EntityDeterminer"/>
+	<concept>
+	  <code value="GROUP"/>
+	</concept>
+	<concept>
+	  <code value="GROUPKIND"/>
+	</concept>
+  </exclude>
+</ValueSet>

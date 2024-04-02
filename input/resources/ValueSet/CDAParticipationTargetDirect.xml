@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CDAParticipationTargetDirect"/>
+  <language value="en"/>
+  <url value="http://terminology.hl7.org/ValueSet/CDAParticipationTargetDirect"/>
+  <name value="CDAParticipationTargetDirect"/>
+  <title value="CDAParticipationTargetDirect"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <description value="Target that is substantially present in the service and which is directly affected by the service action (includes consumed material, devices, etc.)."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="DIR"/>
+      </filter>
+    </include>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+	  <concept>
+	    <code value="ALY"/>
+	  </concept>
+	  <concept>
+	    <code value="CAT"/>
+	  </concept>
+	  <concept>
+	    <code value="TPA"/>
+	  </concept>
+	  <concept>
+	    <code value="EXPAGNT"/>
+	  </concept>
+	</exclude>
+	<exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+	  <filter>
+	    <property value="concept"/>
+		<op value="is-a"/>
+		<value value="EXPART"/>
+	  </filter>
+	</exclude>
+  </compose>
+</ValueSet>
