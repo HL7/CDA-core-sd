@@ -185,8 +185,8 @@ An [example of a CDA document](Binary-clinicaldocument-example.html) has been pr
 The current specification lists the following people as editors/authors:
 
 * Robert H. Dolin, MD
-* Liora Aischuler
-* Sander Boyer, BSP
+* Liora Alschuler
+* Sandy Boyer, BSP
 * Calvin Beebe
 * Fred M. Behlen, PhD
 * Paul V. Biron
