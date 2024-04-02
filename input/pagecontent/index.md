@@ -1,18 +1,25 @@
 ### CDA Definition
 
-{% raw %}
-<blockquote class="note-to-balloters">
-<p>
-	This Implementation Guide is a representation of the Clinical Document Architecture (CDA) specification using FHIR Logical Models expressed as FHIR StructureDefinition instances.
-</p>
-<p>
-	Any feedback on this Implementation Guide SHALL be restricted to whether the Logical Model and StructureDefinitions accurately represent the CDA specification.  No changes to the CDA specification will be made via JIRA issues against this guide.
-</p>
-</blockquote>
-{% endraw %}
+This Implementation Guide is a representation of the [Clinical Document Architecture (CDA) R2.0 specification](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7) using FHIR Logical Models expressed as FHIR StructureDefinition instances.  The main purpose of the guide is to support the Consolidated CDA specification which defines its templates using these logical structures.  Other CDA-based guides can also use this guide and these structures to create specifications like Consolidated CDA.
+
+This guide does not replace the CDA specification.  It includes the Overview, Implementation Notes, and Narrative Block information from the specification to provide context and guidance.  To understand CDA, readers should consult the actual CDA specification.  If there are any differences found between the specification and this guide, the specification takes precedence and is assumed to be correct.
+
+Any feedback on this Implementation Guide SHALL be restricted to whether the Logical Model and StructureDefinitions accurately represent the CDA specification.  No changes to the CDA specification will be made via JIRA issues against this guide.
+
+### CDA Validation
+
+With the representation of the CDA structures using FHIR StructureDefinitions, there is now an option on how to validate CDA documents.  The CDA schemas are still valid and can be [found here](https://github.com/HL7/CDA-core-2.0/tree/master/schema/normative).  As well, by pointing the FHIR validator at this guide, it can be used to validate CDA documents as well.
+
+### CDA Extensions
+
+This guide also incorporates the [approved SDTC extensions](https://confluence.hl7.org/display/SD/CDA+Extensions).  Elements from the extensions will be found with 'sdtc' before their name.  They also are defined to be in the urn:hl7-org:sdtc namespace and that is visible in the structure pages.  [Custodian Organization](StructureDefinition-CustodianOrganization.html) has an example of an extension element (sdtcTelecom).
+
+### CDA Example
+
+An [example of a CDA document](Binary-clinicaldocument-example.html) has been provided along with a [tranformed version of the example](transformed-example.html) using the [informative CDA stylsheet](https://github.com/HL7/cda-core-xsl).
 
 
-This Implementation Guide represents the Clinical Document Architecture (CDA) using the FHIR Structure Definition Framework.
+### CDA Artifacts
 
 <table class="cda-table">
 	<tbody>
@@ -172,6 +179,35 @@ This Implementation Guide represents the Clinical Document Architecture (CDA) us
 	</tr>
 	</tbody>
 </table>
+
+### Authors
+
+The current specification lists the following people as editors/authors:
+
+* Robert H. Dolin, MD
+* Liora Aischuler
+* Sander Boyer, BSP
+* Calvin Beebe
+* Fred M. Behlen, PhD
+* Paul V. Biron
+* Amnon Shabo (Shvo), PhD
+
+This guide has the following authors:
+
+* Jean Duteau
+* Rosemary Hofstede
+* Benjamin Flessner
+* Susan Rand
+
+The CDA community also benefits from the following people who have contributed to the guide:
+
+* Austin Kreisler
+* John D'Amore
+* Lisa Nelson
+* Brett Marquard
+* Gay Dolin
+* Matt Szczepankiewicz
+
 
 ### Other Information
 

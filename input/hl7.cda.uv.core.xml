@@ -1022,5 +1022,12 @@
       </code>
       <value value="ballot"/>
     </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="html-exempt"/>
+      </code>
+      <value value="transformed-example.html"/>
+    </parameter>
 	</definition>
 </ImplementationGuide>

@@ -129,6 +129,7 @@ Table 1: Evolution of CDA "levels" from CDA, Release One to CDA, Release Two
 |CDA Level One|The unconstrained CDA specification.|
 |CDA Level Two|The CDA specification with section-level templates applied.|
 |CDA Level Three|The CDA specification with entry-level (and optionally section-level) templates applied.|
+{:.grid}
 
 An illustration of one possible hierarchy of CDA plus HL7 Templates is shown here:
 

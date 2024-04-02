@@ -14,3 +14,5 @@ xsi:type is unnecessary at this point
 The code 'COND' is valid but is deprecated
 The code '78615007' is valid but is not active
 A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+The CDA Template 2.16.840.1.113883.10.20.22.2.10 / 2014-06-09 is not known
+The CDA Template 2.16.840.1.113883.10.20.22.1.4 / 2024-05-01 is not known

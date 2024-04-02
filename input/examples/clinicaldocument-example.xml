@@ -7,7 +7,7 @@
 ********************************************************
 -->
 	<typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
-	<templateId root="2.16.840.1.113883.3.27.1776"/>
+	<templateId root="2.16.840.1.113883.10.20.22.1.4" extension="2024-05-01"/>
 	<id extension="c266" root="2.16.840.1.113883.19.4"/>
 	<code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Consultation note"/>
 	<title>Good Health Clinic Consultation Note</title>
@@ -166,7 +166,7 @@
 							<statusCode code="completed"/>
 							<effectiveTime value="1950"/>
 							<reference typeCode="XCRPT">
-								<externalObservation>
+								<externalObservation classCode="OBS">
 									<id root="2.16.840.1.113883.19.1.2765"/>
 								</externalObservation>
 							</reference>
@@ -192,7 +192,7 @@
 								</externalDocument>
 							</reference>
 							<reference typeCode="XCRPT">
-								<externalObservation>
+								<externalObservation classCode="OBS">
 									<id root="2.16.840.1.113883.19.1.2005"/>
 								</externalObservation>
 							</reference>
@@ -216,7 +216,7 @@
 								</qualifier>
 							</targetSiteCode>
 							<reference typeCode="XCRPT">
-								<externalObservation>
+								<externalObservation classCode="OBS">
 									<id root="2.16.840.1.113883.19.1.1805"/>
 								</externalObservation>
 							</reference>
@@ -999,7 +999,7 @@
 -->
 			<component>
 				<section>
-					<templateId root="2.16.840.1.113883.3.27.354"/>
+					<templateId root="2.16.840.1.113883.10.20.22.2.10" extension="2014-06-09"/>
 					<code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>Plan</title>
 					<text>
