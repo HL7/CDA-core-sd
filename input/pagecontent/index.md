@@ -4,23 +4,6 @@ This Implementation Guide is a representation of the [Clinical Document Architec
 
 This guide does not replace the CDA specification.  It includes the Overview, Implementation Notes, and Narrative Block information from the specification to provide context and guidance.  To understand CDA, readers should consult the actual CDA specification.  If there are any differences found between the specification and this guide, the specification takes precedence and is assumed to be correct.
 
-Any feedback on this Implementation Guide SHALL be restricted to whether the Logical Model and StructureDefinitions accurately represent the CDA specification.  No changes to the CDA specification will be made via JIRA issues against this guide.
-
-### CDA Validation
-
-With the representation of the CDA structures using FHIR StructureDefinitions, there is now an option on how to validate CDA documents.  The CDA schemas are still valid and can be [found here](https://github.com/HL7/CDA-core-2.0/tree/master/schema/normative).  As well, by pointing the FHIR validator at this guide, it can be used to validate CDA documents as well.
-
-### CDA Extensions
-
-This guide also incorporates the [approved SDTC extensions](https://confluence.hl7.org/display/SD/CDA+Extensions).  Elements from the extensions will be found with 'sdtc' before their name.  They also are defined to be in the urn:hl7-org:sdtc namespace and that is visible in the structure pages.  [Custodian Organization](StructureDefinition-CustodianOrganization.html) has an example of an extension element (sdtcTelecom).
-
-### CDA Example
-
-An [example of a CDA document](Binary-clinicaldocument-example.html) has been provided along with a [tranformed version of the example](transformed-example.html) using the [informative CDA stylsheet](https://github.com/HL7/cda-core-xsl).
-
-
-### CDA Artifacts
-
 <table class="cda-table">
 	<tbody>
 	<tr>
@@ -179,6 +162,46 @@ An [example of a CDA document](Binary-clinicaldocument-example.html) has been pr
 	</tr>
 	</tbody>
 </table>
+
+### CDA Extensions
+
+This guide also incorporates the [approved SDTC extensions](https://confluence.hl7.org/display/SD/CDA+Extensions).  Elements from the extensions will be found with 'sdtc' before their name.  They also are defined to be in the `urn:hl7-org:sdtc` namespace and that is visible in the structure pages.  [Custodian Organization](StructureDefinition-CustodianOrganization.html) has an example of an extension element (sdtcTelecom).  Note that while extensions are prefixed with 'sdtc', their actual XML name does not include this. Their XML name is displayed in the structure pages as `XML`. For example, the CustodianOrganization's sdtcTelecom would appear in an instance as either `<telecom xmlns="urn:hl7-org:sdtc" value="...." />` or in a document with a defined prefix for sdtc:
+
+```xml
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:v3/voc">
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<sdtc:telecom value="..." />
+	...
+```
+
+### CDA Example
+
+An [example of a CDA document](Binary-clinicaldocument-example.html) has been provided along with a [transformed version of the example](transformed-example.html) using the [informative CDA stylesheet](https://github.com/HL7/cda-core-xsl).
+
+### CDA Validation
+
+With the representation of the CDA structures using FHIR StructureDefinitions, there is now an option on how to validate CDA documents.  The CDA schemas are still valid and can be [found here](https://github.com/HL7/CDA-core-2.0).  Additionally, by pointing the FHIR validator at this guide, CDA instances can be validated using FHIR validators.
+
+#### FHIRPath Supplements
+
+The FHIRPath language defines a set of contexts that get passed into expressions and also allows the definition of additional contexts and functions. CDA provides the following supplemental guidance for evaluating FHIRPath:
+
+* The `%resource` variable when it appears in expressions on CDA profiles will be evaluated as the root `ClinicalDocument`.
+
+* A new function: `hasTemplateIdOf([ProfileUrl])` evaluates to true or false based on whether the XML contains a `<templateId />` element corresponding to the identifier of a particular profile.
+
+For example, if a profile like `http://hl7.org/cda/us/custom/StructureDefinition/ExampleSection` contains an identifier property like `urn:hl7ii:2.16.840.1.113883.10.20.22.99.999:2024-05-01`, then the following XPath:
+
+`%resource.component.structuredBody.component.where(section.hasTemplateIdOf('http://hl7.org/cda/us/custom/StructureDefinition/ExampleSection'))` 
+
+will return true if the document contains a section with the templateId of Example Section. 
+
+It is equivalent to the following, but allows an IG author to easily update the templateId extensions without finding-and-replacing constraint expressions:
+
+`%resource.component.structuredBody.component.where(section.templateId.where(root = '2.16.840.1.113883.10.20.22.99.999' and extension = '2024-05-01'))`
+
 
 ### Authors
 
