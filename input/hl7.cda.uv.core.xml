@@ -911,6 +911,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAInformationRecipientRole" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAPostalAddressUse" />
 			</reference>
 		</resource>
@@ -986,27 +991,6 @@
         <code value="excludejson"/>
       </code>
       <value value="false"/>
-    </parameter>
-    <parameter>
-      <code>
-        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-        <code value="logging"/>
-      </code>
-      <value value="init"/>
-    </parameter>
-    <parameter>
-      <code>
-        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-        <code value="logging"/>
-      </code>
-      <value value="progress"/>
-    </parameter>
-    <parameter>
-      <code>
-        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-        <code value="logging"/>
-      </code>
-      <value value="generate"/>
     </parameter>
     <parameter>
       <code>

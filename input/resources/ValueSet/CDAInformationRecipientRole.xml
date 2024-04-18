@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAInformationRecipientRole"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAInformationRecipientRole"/>
+    <name value="CDAInformationRecipientRole"/>
+    <title value="CDAInformationRecipientRole"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Used to represent the role(s) of those who should receive a copy of a document - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+            <version value="3.1.0"/>
+            <concept>
+                <code value="ASSIGNED"/>
+            </concept>
+            <concept>
+                <code value="HLTHCHRT"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

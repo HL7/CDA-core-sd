@@ -62,6 +62,15 @@ Description: "A set of codes advising a system or user which name in a set of na
 * include $EntityNameUse#IDE
 
 
+Alias: $RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass|3.1.0
+ValueSet: CDAInformationRecipientRole
+Title: "CDAInformationRecipientRole"
+Description: "Used to represent the role(s) of those who should receive a copy of a document - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $RoleClass#ASSIGNED
+* include $RoleClass#HLTHCHRT
+
+
 Alias: $NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|2.1.0
 ValueSet: CDANullFlavor
 Title: "CDANullFlavor"
