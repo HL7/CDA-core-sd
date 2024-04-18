@@ -57,6 +57,7 @@ Description: "A set of codes advising a system or user which name in a set of na
 * include $EntityNameUse#SRCH
 * include $EntityNameUse#PHON
 * include $EntityNameUse#SNDX
+* include $EntityNameUse#ASGN
 * include $EntityNameUse#ABC
 * include $EntityNameUse#SYL
 * include $EntityNameUse#IDE
