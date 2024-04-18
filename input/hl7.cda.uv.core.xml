@@ -965,6 +965,12 @@
 				</page>
 			</page>
 			<page>
+				<sourceUrl value="terminology.html"/>
+				<name value="terminology.html"/>
+				<title value="Terminology"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
 				<sourceUrl value="downloads.html"/>
 				<name value="downloads.html"/>
 				<title value="Downloads"/>
