@@ -46,7 +46,7 @@
     <element id="ServiceEvent.classCode">
       <path value="ServiceEvent.classCode"/>
       <representation value="xmlAttr"/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
         <code value="code"/>
