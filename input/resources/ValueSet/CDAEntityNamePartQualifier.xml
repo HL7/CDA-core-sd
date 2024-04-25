@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAEntityNamePartQualifier"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAEntityNamePartQualifier"/>
+    <name value="CDAEntityNamePartQualifier"/>
+    <title value="CDAEntityNamePartQualifier"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Qualifies parts of names"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier"/>
+            <concept>
+                <code value="LS"/>
+            </concept>
+            <concept>
+                <code value="AC"/>
+            </concept>
+            <concept>
+                <code value="NB"/>
+            </concept>
+            <concept>
+                <code value="PR"/>
+            </concept>
+            <concept>
+                <code value="VV"/>
+            </concept>
+            <concept>
+                <code value="AD"/>
+            </concept>
+            <concept>
+                <code value="BR"/>
+            </concept>
+            <concept>
+                <code value="SP"/>
+            </concept>
+            <concept>
+                <code value="CL"/>
+            </concept>
+            <concept>
+                <code value="IN"/>
+            </concept>
+            <concept>
+                <code value="TITLE"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

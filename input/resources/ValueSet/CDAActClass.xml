@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActClass"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActClass"/>
+    <name value="CDAActClass"/>
+    <title value="CDAActClass"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the major type of Act that this Act-instance represents."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+            <concept>
+                <code value="FCNTRCT"/>
+            </concept>
+            <concept>
+                <code value="COV"/>
+            </concept>
+            <concept>
+                <code value="CNTRCT"/>
+            </concept>
+            <concept>
+                <code value="CACT"/>
+            </concept>
+            <concept>
+                <code value="ACTN"/>
+            </concept>
+            <concept>
+                <code value="INFO"/>
+            </concept>
+            <concept>
+                <code value="STC"/>
+            </concept>
+            <concept>
+                <code value="CASE"/>
+            </concept>
+            <concept>
+                <code value="OUTB"/>
+            </concept>
+            <concept>
+                <code value="COND"/>
+            </concept>
+            <concept>
+                <code value="OBSSER"/>
+            </concept>
+            <concept>
+                <code value="OBSCOR"/>
+            </concept>
+            <concept>
+                <code value="ROIBND"/>
+            </concept>
+            <concept>
+                <code value="ROIOVL"/>
+            </concept>
+            <concept>
+                <code value="OBS"/>
+            </concept>
+            <concept>
+                <code value="ALRT"/>
+            </concept>
+            <concept>
+                <code value="CLNTRL"/>
+            </concept>
+            <concept>
+                <code value="CNOD"/>
+            </concept>
+            <concept>
+                <code value="DGIMG"/>
+            </concept>
+            <concept>
+                <code value="INVSTG"/>
+            </concept>
+            <concept>
+                <code value="SPCOBS"/>
+            </concept>
+            <concept>
+                <code value="SPLY"/>
+            </concept>
+            <concept>
+                <code value="DIET"/>
+            </concept>
+            <concept>
+                <code value="DOCCLIN"/>
+            </concept>
+            <concept>
+                <code value="CDALVLONE"/>
+            </concept>
+            <concept>
+                <code value="DOC"/>
+            </concept>
+            <concept>
+                <code value="COMPOSITION"/>
+            </concept>
+            <concept>
+                <code value="ENTRY"/>
+            </concept>
+            <concept>
+                <code value="BATTERY"/>
+            </concept>
+            <concept>
+                <code value="CLUSTER"/>
+            </concept>
+            <concept>
+                <code value="EXTRACT"/>
+            </concept>
+            <concept>
+                <code value="EHR"/>
+            </concept>
+            <concept>
+                <code value="ORGANIZER"/>
+            </concept>
+            <concept>
+                <code value="CATEGORY"/>
+            </concept>
+            <concept>
+                <code value="DOCBODY"/>
+            </concept>
+            <concept>
+                <code value="DOCSECT"/>
+            </concept>
+            <concept>
+                <code value="TOPIC"/>
+            </concept>
+            <concept>
+                <code value="FOLDER"/>
+            </concept>
+            <concept>
+                <code value="ACT"/>
+            </concept>
+            <concept>
+                <code value="ACCM"/>
+            </concept>
+            <concept>
+                <code value="CONS"/>
+            </concept>
+            <concept>
+                <code value="CTTEVENT"/>
+            </concept>
+            <concept>
+                <code value="INC"/>
+            </concept>
+            <concept>
+                <code value="INFRM"/>
+            </concept>
+            <concept>
+                <code value="PCPR"/>
+            </concept>
+            <concept>
+                <code value="REG"/>
+            </concept>
+            <concept>
+                <code value="SPCTRT"/>
+            </concept>
+            <concept>
+                <code value="ACCT"/>
+            </concept>
+            <concept>
+                <code value="ACSN"/>
+            </concept>
+            <concept>
+                <code value="ADJUD"/>
+            </concept>
+            <concept>
+                <code value="CONTREG"/>
+            </concept>
+            <concept>
+                <code value="DISPACT"/>
+            </concept>
+            <concept>
+                <code value="ENC"/>
+            </concept>
+            <concept>
+                <code value="INVE"/>
+            </concept>
+            <concept>
+                <code value="LIST"/>
+            </concept>
+            <concept>
+                <code value="MPROT"/>
+            </concept>
+            <concept>
+                <code value="PROC"/>
+            </concept>
+            <concept>
+                <code value="REV"/>
+            </concept>
+            <concept>
+                <code value="SBADM"/>
+            </concept>
+            <concept>
+                <code value="SUBST"/>
+            </concept>
+            <concept>
+                <code value="TRNS"/>
+            </concept>
+            <concept>
+                <code value="VERIF"/>
+            </concept>
+            <concept>
+                <code value="XACT"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

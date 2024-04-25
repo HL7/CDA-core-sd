@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActRelationshipType"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActRelationshipType"/>
+    <name value="CDAActRelationshipType"/>
+    <title value="CDAActRelationshipType"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the meaning and purpose of every ActRelationship instance. Each of its values implies specific constraints to what kinds of Act objects can be related and in which way."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"/>
+            <concept>
+                <code value="RSON"/>
+            </concept>
+            <concept>
+                <code value="MITGT"/>
+            </concept>
+            <concept>
+                <code value="CIND"/>
+            </concept>
+            <concept>
+                <code value="PRCN"/>
+            </concept>
+            <concept>
+                <code value="TRIG"/>
+            </concept>
+            <concept>
+                <code value="COMP"/>
+            </concept>
+            <concept>
+                <code value="ARR"/>
+            </concept>
+            <concept>
+                <code value="CTRLV"/>
+            </concept>
+            <concept>
+                <code value="DEP"/>
+            </concept>
+            <concept>
+                <code value="OBJC"/>
+            </concept>
+            <concept>
+                <code value="OBJF"/>
+            </concept>
+            <concept>
+                <code value="OUTC"/>
+            </concept>
+            <concept>
+                <code value="GOAL"/>
+            </concept>
+            <concept>
+                <code value="RISK"/>
+            </concept>
+            <concept>
+                <code value="CHRG"/>
+            </concept>
+            <concept>
+                <code value="COST"/>
+            </concept>
+            <concept>
+                <code value="CREDIT"/>
+            </concept>
+            <concept>
+                <code value="DEBIT"/>
+            </concept>
+            <concept>
+                <code value="SAS"/>
+            </concept>
+            <concept>
+                <code value="SPRT"/>
+            </concept>
+            <concept>
+                <code value="SPRTBND"/>
+            </concept>
+            <concept>
+                <code value="PERT"/>
+            </concept>
+            <concept>
+                <code value="AUTH"/>
+            </concept>
+            <concept>
+                <code value="CAUS"/>
+            </concept>
+            <concept>
+                <code value="COVBY"/>
+            </concept>
+            <concept>
+                <code value="DRIV"/>
+            </concept>
+            <concept>
+                <code value="EXPL"/>
+            </concept>
+            <concept>
+                <code value="ITEMSLOC"/>
+            </concept>
+            <concept>
+                <code value="LIMIT"/>
+            </concept>
+            <concept>
+                <code value="MFST"/>
+            </concept>
+            <concept>
+                <code value="NAME"/>
+            </concept>
+            <concept>
+                <code value="PREV"/>
+            </concept>
+            <concept>
+                <code value="REFR"/>
+            </concept>
+            <concept>
+                <code value="REFV"/>
+            </concept>
+            <concept>
+                <code value="SUBJ"/>
+            </concept>
+            <concept>
+                <code value="SUMM"/>
+            </concept>
+            <concept>
+                <code value="XCRPT"/>
+            </concept>
+            <concept>
+                <code value="VRXCRPT"/>
+            </concept>
+            <concept>
+                <code value="FLFS"/>
+            </concept>
+            <concept>
+                <code value="OCCR"/>
+            </concept>
+            <concept>
+                <code value="OREF"/>
+            </concept>
+            <concept>
+                <code value="SCH"/>
+            </concept>
+            <concept>
+                <code value="RPLC"/>
+            </concept>
+            <concept>
+                <code value="SUCC"/>
+            </concept>
+            <concept>
+                <code value="SEQL"/>
+            </concept>
+            <concept>
+                <code value="APND"/>
+            </concept>
+            <concept>
+                <code value="DOC"/>
+            </concept>
+            <concept>
+                <code value="ELNK"/>
+            </concept>
+            <concept>
+                <code value="GEN"/>
+            </concept>
+            <concept>
+                <code value="GEVL"/>
+            </concept>
+            <concept>
+                <code value="INST"/>
+            </concept>
+            <concept>
+                <code value="MTCH"/>
+            </concept>
+            <concept>
+                <code value="OPTN"/>
+            </concept>
+            <concept>
+                <code value="REV"/>
+            </concept>
+            <concept>
+                <code value="UPDT"/>
+            </concept>
+            <concept>
+                <code value="XFRM"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

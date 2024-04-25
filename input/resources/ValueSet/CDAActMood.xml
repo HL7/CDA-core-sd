@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActMood"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActMood"/>
+    <name value="CDAActMood"/>
+    <title value="CDAActMood"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code distinguishing whether an Act is conceived of as a factual statement or in some other manner as a command, possibility, goal, etc."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
+            <concept>
+                <code value="INT"/>
+            </concept>
+            <concept>
+                <code value="APT"/>
+            </concept>
+            <concept>
+                <code value="ARQ"/>
+            </concept>
+            <concept>
+                <code value="PRMS"/>
+            </concept>
+            <concept>
+                <code value="PRP"/>
+            </concept>
+            <concept>
+                <code value="RQO"/>
+            </concept>
+            <concept>
+                <code value="SLOT"/>
+            </concept>
+            <concept>
+                <code value="DEF"/>
+            </concept>
+            <concept>
+                <code value="EVN"/>
+            </concept>
+            <concept>
+                <code value="EVN.CRT"/>
+            </concept>
+            <concept>
+                <code value="GOL"/>
+            </concept>
+            <concept>
+                <code value="OPT"/>
+            </concept>
+            <concept>
+                <code value="PERM"/>
+            </concept>
+            <concept>
+                <code value="PERMRQ"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
