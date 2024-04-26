@@ -83,7 +83,7 @@
       </type>
       <binding>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-MaterialEntityClassType"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAMaterialEntityClassType"/>
       </binding>
     </element>
     <element id="Material.name">

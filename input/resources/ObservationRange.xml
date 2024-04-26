@@ -47,7 +47,7 @@
       <defaultValueCode value="OBS"/>      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActClassObservation"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClassObservation"/>
       </binding>
     </element>
     <element id="ObservationRange.moodCode">
@@ -166,7 +166,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ObservationInterpretation"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAObservationInterpretation"/>
       </binding>
     </element>
     <element id="ObservationRange.sdtcPrecondition1">
@@ -195,7 +195,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActRelationshipType"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActRelationshipType"/>
       </binding>
       <fixedCode value="PRCN" />
     </element>
