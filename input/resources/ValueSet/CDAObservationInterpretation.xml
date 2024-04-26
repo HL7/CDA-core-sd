@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAObservationInterpretation"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAObservationInterpretation"/>
+    <name value="CDAObservationInterpretation"/>
+    <title value="CDAObservationInterpretation"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="One or more codes providing a rough qualitative interpretation of the observation - limited to values available in original CDA"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+            <concept>
+                <code value="B"/>
+            </concept>
+            <concept>
+                <code value="D"/>
+            </concept>
+            <concept>
+                <code value="U"/>
+            </concept>
+            <concept>
+                <code value="W"/>
+            </concept>
+            <concept>
+                <code value="&lt;"/>
+            </concept>
+            <concept>
+                <code value="&gt;"/>
+            </concept>
+            <concept>
+                <code value="A"/>
+            </concept>
+            <concept>
+                <code value="AA"/>
+            </concept>
+            <concept>
+                <code value="HH"/>
+            </concept>
+            <concept>
+                <code value="LL"/>
+            </concept>
+            <concept>
+                <code value="H"/>
+            </concept>
+            <concept>
+                <code value="L"/>
+            </concept>
+            <concept>
+                <code value="N"/>
+            </concept>
+            <concept>
+                <code value="I"/>
+            </concept>
+            <concept>
+                <code value="MS"/>
+            </concept>
+            <concept>
+                <code value="R"/>
+            </concept>
+            <concept>
+                <code value="S"/>
+            </concept>
+            <concept>
+                <code value="VS"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

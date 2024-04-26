@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActSubstanceAdministrationCode"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActSubstanceAdministrationCode"/>
+    <name value="CDAActSubstanceAdministrationCode"/>
+    <title value="CDAActSubstanceAdministrationCode"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Describes the type of substance administration being performed."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <version value="7.0.0"/>
+            <concept>
+                <code value="DRUG"/>
+            </concept>
+            <concept>
+                <code value="FD"/>
+            </concept>
+            <concept>
+                <code value="IMMUNIZ"/>
+            </concept>
+            <concept>
+                <code value="BOOSTER"/>
+            </concept>
+            <concept>
+                <code value="INITIMMUNIZ"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

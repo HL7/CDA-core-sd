@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAMaterialEntityClassType"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAMaterialEntityClassType"/>
+    <name value="CDAMaterialEntityClassType"/>
+    <title value="CDAMaterialEntityClassType"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Types of Material for EntityClass “MAT”"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-EntityCode"/>
+            <concept>
+                <code value="PKG"/>
+            </concept>
+            <concept>
+                <code value="BAG"/>
+            </concept>
+            <concept>
+                <code value="PACKT"/>
+            </concept>
+            <concept>
+                <code value="PCH"/>
+            </concept>
+            <concept>
+                <code value="SACH"/>
+            </concept>
+            <concept>
+                <code value="AMP"/>
+            </concept>
+            <concept>
+                <code value="MINIM"/>
+            </concept>
+            <concept>
+                <code value="NEBAMP"/>
+            </concept>
+            <concept>
+                <code value="OVUL"/>
+            </concept>
+            <concept>
+                <code value="BOT"/>
+            </concept>
+            <concept>
+                <code value="BOTA"/>
+            </concept>
+            <concept>
+                <code value="BOTD"/>
+            </concept>
+            <concept>
+                <code value="BOTG"/>
+            </concept>
+            <concept>
+                <code value="BOTP"/>
+            </concept>
+            <concept>
+                <code value="BOTPLY"/>
+            </concept>
+            <concept>
+                <code value="BOX"/>
+            </concept>
+            <concept>
+                <code value="CAN"/>
+            </concept>
+            <concept>
+                <code value="CART"/>
+            </concept>
+            <concept>
+                <code value="CNSTR"/>
+            </concept>
+            <concept>
+                <code value="JAR"/>
+            </concept>
+            <concept>
+                <code value="JUG"/>
+            </concept>
+            <concept>
+                <code value="TIN"/>
+            </concept>
+            <concept>
+                <code value="TUB"/>
+            </concept>
+            <concept>
+                <code value="TUBE"/>
+            </concept>
+            <concept>
+                <code value="VIAL"/>
+            </concept>
+            <concept>
+                <code value="BLSTRPK"/>
+            </concept>
+            <concept>
+                <code value="CARD"/>
+            </concept>
+            <concept>
+                <code value="COMPPKG"/>
+            </concept>
+            <concept>
+                <code value="DIALPK"/>
+            </concept>
+            <concept>
+                <code value="DISK"/>
+            </concept>
+            <concept>
+                <code value="DOSET"/>
+            </concept>
+            <concept>
+                <code value="STRIP"/>
+            </concept>
+            <concept>
+                <code value="KIT"/>
+            </concept>
+            <concept>
+                <code value="SYSTM"/>
+            </concept>
+            <concept>
+                <code value="LINE"/>
+            </concept>
+            <concept>
+                <code value="IALINE"/>
+            </concept>
+            <concept>
+                <code value="IVLINE"/>
+            </concept>
+            <concept>
+                <code value="AINJ"/>
+            </concept>
+            <concept>
+                <code value="PEN"/>
+            </concept>
+            <concept>
+                <code value="SYR"/>
+            </concept>
+            <concept>
+                <code value="APLCTR"/>
+            </concept>
+            <concept>
+                <code value="INH"/>
+            </concept>
+            <concept>
+                <code value="DSKS"/>
+            </concept>
+            <concept>
+                <code value="DSKUNH"/>
+            </concept>
+            <concept>
+                <code value="TRBINH"/>
+            </concept>
+            <concept>
+                <code value="PMP"/>
+            </concept>
+            <concept>
+                <code value="ACDA"/>
+            </concept>
+            <concept>
+                <code value="ACDB"/>
+            </concept>
+            <concept>
+                <code value="ACET"/>
+            </concept>
+            <concept>
+                <code value="AMIES"/>
+            </concept>
+            <concept>
+                <code value="BACTM"/>
+            </concept>
+            <concept>
+                <code value="BF10"/>
+            </concept>
+            <concept>
+                <code value="BOR"/>
+            </concept>
+            <concept>
+                <code value="BOUIN"/>
+            </concept>
+            <concept>
+                <code value="BSKM"/>
+            </concept>
+            <concept>
+                <code value="C32"/>
+            </concept>
+            <concept>
+                <code value="C38"/>
+            </concept>
+            <concept>
+                <code value="CARS"/>
+            </concept>
+            <concept>
+                <code value="CARY"/>
+            </concept>
+            <concept>
+                <code value="CHLTM"/>
+            </concept>
+            <concept>
+                <code value="CTAD"/>
+            </concept>
+            <concept>
+                <code value="EDTK15"/>
+            </concept>
+            <concept>
+                <code value="EDTK75"/>
+            </concept>
+            <concept>
+                <code value="EDTN"/>
+            </concept>
+            <concept>
+                <code value="ENT"/>
+            </concept>
+            <concept>
+                <code value="F10"/>
+            </concept>
+            <concept>
+                <code value="FDP"/>
+            </concept>
+            <concept>
+                <code value="FL10"/>
+            </concept>
+            <concept>
+                <code value="FL100"/>
+            </concept>
+            <concept>
+                <code value="HCL6"/>
+            </concept>
+            <concept>
+                <code value="HEPA"/>
+            </concept>
+            <concept>
+                <code value="HEPL"/>
+            </concept>
+            <concept>
+                <code value="HEPN"/>
+            </concept>
+            <concept>
+                <code value="HNO3"/>
+            </concept>
+            <concept>
+                <code value="JKM"/>
+            </concept>
+            <concept>
+                <code value="KARN"/>
+            </concept>
+            <concept>
+                <code value="KOX"/>
+            </concept>
+            <concept>
+                <code value="LIA"/>
+            </concept>
+            <concept>
+                <code value="M4"/>
+            </concept>
+            <concept>
+                <code value="M4RT"/>
+            </concept>
+            <concept>
+                <code value="M5"/>
+            </concept>
+            <concept>
+                <code value="MICHTM"/>
+            </concept>
+            <concept>
+                <code value="MMDTM"/>
+            </concept>
+            <concept>
+                <code value="NAF"/>
+            </concept>
+            <concept>
+                <code value="NONE"/>
+            </concept>
+            <concept>
+                <code value="PAGE"/>
+            </concept>
+            <concept>
+                <code value="PHENOL"/>
+            </concept>
+            <concept>
+                <code value="PVA"/>
+            </concept>
+            <concept>
+                <code value="RLM"/>
+            </concept>
+            <concept>
+                <code value="SILICA"/>
+            </concept>
+            <concept>
+                <code value="SPS"/>
+            </concept>
+            <concept>
+                <code value="SST"/>
+            </concept>
+            <concept>
+                <code value="STUTM"/>
+            </concept>
+            <concept>
+                <code value="THROM"/>
+            </concept>
+            <concept>
+                <code value="THYMOL"/>
+            </concept>
+            <concept>
+                <code value="THYO"/>
+            </concept>
+            <concept>
+                <code value="TOLU"/>
+            </concept>
+            <concept>
+                <code value="URETM"/>
+            </concept>
+            <concept>
+                <code value="VIRTM"/>
+            </concept>
+            <concept>
+                <code value="WEST"/>
+            </concept>
+            <concept>
+                <code value="BLDPRD"/>
+            </concept>
+            <concept>
+                <code value="VCCNE"/>
+            </concept>
+        </include>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-SpecimenType"/>
+            <concept>
+                <code value="ABS"/>
+            </concept>
+            <concept>
+                <code value="AMN"/>
+            </concept>
+            <concept>
+                <code value="ASP"/>
+            </concept>
+            <concept>
+                <code value="BBL"/>
+            </concept>
+            <concept>
+                <code value="BDY"/>
+            </concept>
+            <concept>
+                <code value="BIFL"/>
+            </concept>
+            <concept>
+                <code value="BLD"/>
+            </concept>
+            <concept>
+                <code value="BLDA"/>
+            </concept>
+            <concept>
+                <code value="BLDC"/>
+            </concept>
+            <concept>
+                <code value="BLDCO"/>
+            </concept>
+            <concept>
+                <code value="BLDV"/>
+            </concept>
+            <concept>
+                <code value="BON"/>
+            </concept>
+            <concept>
+                <code value="BPH"/>
+            </concept>
+            <concept>
+                <code value="BPU"/>
+            </concept>
+            <concept>
+                <code value="BRN"/>
+            </concept>
+            <concept>
+                <code value="BRO"/>
+            </concept>
+            <concept>
+                <code value="BRTH"/>
+            </concept>
+            <concept>
+                <code value="EXG"/>
+            </concept>
+            <concept>
+                <code value="CALC"/>
+            </concept>
+            <concept>
+                <code value="STON"/>
+            </concept>
+            <concept>
+                <code value="CDM"/>
+            </concept>
+            <concept>
+                <code value="CNJT"/>
+            </concept>
+            <concept>
+                <code value="CNL"/>
+            </concept>
+            <concept>
+                <code value="COL"/>
+            </concept>
+            <concept>
+                <code value="CRN"/>
+            </concept>
+            <concept>
+                <code value="CSF"/>
+            </concept>
+            <concept>
+                <code value="CTP"/>
+            </concept>
+            <concept>
+                <code value="CUR"/>
+            </concept>
+            <concept>
+                <code value="CVM"/>
+            </concept>
+            <concept>
+                <code value="CVX"/>
+            </concept>
+            <concept>
+                <code value="CYST"/>
+            </concept>
+            <concept>
+                <code value="DIAF"/>
+            </concept>
+            <concept>
+                <code value="DOSE"/>
+            </concept>
+            <concept>
+                <code value="DRN"/>
+            </concept>
+            <concept>
+                <code value="DUFL"/>
+            </concept>
+            <concept>
+                <code value="EAR"/>
+            </concept>
+            <concept>
+                <code value="EARW"/>
+            </concept>
+            <concept>
+                <code value="ELT"/>
+            </concept>
+            <concept>
+                <code value="ENDC"/>
+            </concept>
+            <concept>
+                <code value="ENDM"/>
+            </concept>
+            <concept>
+                <code value="EOS"/>
+            </concept>
+            <concept>
+                <code value="EYE"/>
+            </concept>
+            <concept>
+                <code value="FIB"/>
+            </concept>
+            <concept>
+                <code value="FIST"/>
+            </concept>
+            <concept>
+                <code value="FLT"/>
+            </concept>
+            <concept>
+                <code value="FLU"/>
+            </concept>
+            <concept>
+                <code value="FOOD"/>
+            </concept>
+            <concept>
+                <code value="GAS"/>
+            </concept>
+            <concept>
+                <code value="GAST"/>
+            </concept>
+            <concept>
+                <code value="GEN"/>
+            </concept>
+            <concept>
+                <code value="GENC"/>
+            </concept>
+            <concept>
+                <code value="GENF"/>
+            </concept>
+            <concept>
+                <code value="GENL"/>
+            </concept>
+            <concept>
+                <code value="GENV"/>
+            </concept>
+            <concept>
+                <code value="HAR"/>
+            </concept>
+            <concept>
+                <code value="IHG"/>
+            </concept>
+            <concept>
+                <code value="ISLT"/>
+            </concept>
+            <concept>
+                <code value="IT"/>
+            </concept>
+            <concept>
+                <code value="LAM"/>
+            </concept>
+            <concept>
+                <code value="LIQ"/>
+            </concept>
+            <concept>
+                <code value="LN"/>
+            </concept>
+            <concept>
+                <code value="LNA"/>
+            </concept>
+            <concept>
+                <code value="LNV"/>
+            </concept>
+            <concept>
+                <code value="LYM"/>
+            </concept>
+            <concept>
+                <code value="MAC"/>
+            </concept>
+            <concept>
+                <code value="MAR"/>
+            </concept>
+            <concept>
+                <code value="MBLD"/>
+            </concept>
+            <concept>
+                <code value="MEC"/>
+            </concept>
+            <concept>
+                <code value="MILK"/>
+            </concept>
+            <concept>
+                <code value="MLK"/>
+            </concept>
+            <concept>
+                <code value="NAIL"/>
+            </concept>
+            <concept>
+                <code value="NOS"/>
+            </concept>
+            <concept>
+                <code value="PAFL"/>
+            </concept>
+            <concept>
+                <code value="PAT"/>
+            </concept>
+            <concept>
+                <code value="PLAS"/>
+            </concept>
+            <concept>
+                <code value="PLB"/>
+            </concept>
+            <concept>
+                <code value="PLC"/>
+            </concept>
+            <concept>
+                <code value="PLR"/>
+            </concept>
+            <concept>
+                <code value="PMN"/>
+            </concept>
+            <concept>
+                <code value="PPP"/>
+            </concept>
+            <concept>
+                <code value="PRP"/>
+            </concept>
+            <concept>
+                <code value="PRT"/>
+            </concept>
+            <concept>
+                <code value="PUS"/>
+            </concept>
+            <concept>
+                <code value="RBC"/>
+            </concept>
+            <concept>
+                <code value="SAL"/>
+            </concept>
+            <concept>
+                <code value="SER"/>
+            </concept>
+            <concept>
+                <code value="SKM"/>
+            </concept>
+            <concept>
+                <code value="SKN"/>
+            </concept>
+            <concept>
+                <code value="SMN"/>
+            </concept>
+            <concept>
+                <code value="SMPLS"/>
+            </concept>
+            <concept>
+                <code value="SNV"/>
+            </concept>
+            <concept>
+                <code value="SPRM"/>
+            </concept>
+            <concept>
+                <code value="SPT"/>
+            </concept>
+            <concept>
+                <code value="SPTC"/>
+            </concept>
+            <concept>
+                <code value="SPTT"/>
+            </concept>
+            <concept>
+                <code value="STL"/>
+            </concept>
+            <concept>
+                <code value="SWT"/>
+            </concept>
+            <concept>
+                <code value="TEAR"/>
+            </concept>
+            <concept>
+                <code value="THRB"/>
+            </concept>
+            <concept>
+                <code value="THRT"/>
+            </concept>
+            <concept>
+                <code value="TISG"/>
+            </concept>
+            <concept>
+                <code value="TISPL"/>
+            </concept>
+            <concept>
+                <code value="TISS"/>
+            </concept>
+            <concept>
+                <code value="TISU"/>
+            </concept>
+            <concept>
+                <code value="TLGI"/>
+            </concept>
+            <concept>
+                <code value="TLNG"/>
+            </concept>
+            <concept>
+                <code value="TSMI"/>
+            </concept>
+            <concept>
+                <code value="TUB"/>
+            </concept>
+            <concept>
+                <code value="ULC"/>
+            </concept>
+            <concept>
+                <code value="UMB"/>
+            </concept>
+            <concept>
+                <code value="UMED"/>
+            </concept>
+            <concept>
+                <code value="UR"/>
+            </concept>
+            <concept>
+                <code value="URC"/>
+            </concept>
+            <concept>
+                <code value="URNS"/>
+            </concept>
+            <concept>
+                <code value="URT"/>
+            </concept>
+            <concept>
+                <code value="URTH"/>
+            </concept>
+            <concept>
+                <code value="USUB"/>
+            </concept>
+            <concept>
+                <code value="VOM"/>
+            </concept>
+            <concept>
+                <code value="WAT"/>
+            </concept>
+            <concept>
+                <code value="WBC"/>
+            </concept>
+            <concept>
+                <code value="WICK"/>
+            </concept>
+            <concept>
+                <code value="WND"/>
+            </concept>
+            <concept>
+                <code value="WNDA"/>
+            </concept>
+            <concept>
+                <code value="WNDD"/>
+            </concept>
+            <concept>
+                <code value="WNDE"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

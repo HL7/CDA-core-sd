@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDARoleCode"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDARoleCode"/>
+    <name value="CDARoleCode"/>
+    <title value="CDARoleCode"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <concept>
+                <code value="DX"/>
+            </concept>
+            <concept>
+                <code value="CVDX"/>
+            </concept>
+            <concept>
+                <code value="CATH"/>
+            </concept>
+            <concept>
+                <code value="ECHO"/>
+            </concept>
+            <concept>
+                <code value="GIDX"/>
+            </concept>
+            <concept>
+                <code value="ENDOS"/>
+            </concept>
+            <concept>
+                <code value="RADDX"/>
+            </concept>
+            <concept>
+                <code value="RADO"/>
+            </concept>
+            <concept>
+                <code value="RNEU"/>
+            </concept>
+            <concept>
+                <code value="HOSP"/>
+            </concept>
+            <concept>
+                <code value="CHR"/>
+            </concept>
+            <concept>
+                <code value="GACH"/>
+            </concept>
+            <concept>
+                <code value="MHSP"/>
+            </concept>
+            <concept>
+                <code value="PSYCHF"/>
+            </concept>
+            <concept>
+                <code value="RH"/>
+            </concept>
+            <concept>
+                <code value="RHAT"/>
+            </concept>
+            <concept>
+                <code value="RHII"/>
+            </concept>
+            <concept>
+                <code value="RHMAD"/>
+            </concept>
+            <concept>
+                <code value="RHPI"/>
+            </concept>
+            <concept>
+                <code value="RHPIH"/>
+            </concept>
+            <concept>
+                <code value="RHPIMS"/>
+            </concept>
+            <concept>
+                <code value="RHPIVS"/>
+            </concept>
+            <concept>
+                <code value="RHYAD"/>
+            </concept>
+            <concept>
+                <code value="HU"/>
+            </concept>
+            <concept>
+                <code value="BMTU"/>
+            </concept>
+            <concept>
+                <code value="CCU"/>
+            </concept>
+            <concept>
+                <code value="CHEST"/>
+            </concept>
+            <concept>
+                <code value="EPIL"/>
+            </concept>
+            <concept>
+                <code value="ER"/>
+            </concept>
+            <concept>
+                <code value="ETU"/>
+            </concept>
+            <concept>
+                <code value="HD"/>
+            </concept>
+            <concept>
+                <code value="HLAB"/>
+            </concept>
+            <concept>
+                <code value="INLAB"/>
+            </concept>
+            <concept>
+                <code value="OUTLAB"/>
+            </concept>
+            <concept>
+                <code value="HRAD"/>
+            </concept>
+            <concept>
+                <code value="HUSCS"/>
+            </concept>
+            <concept>
+                <code value="ICU"/>
+            </concept>
+            <concept>
+                <code value="PEDICU"/>
+            </concept>
+            <concept>
+                <code value="PEDNICU"/>
+            </concept>
+            <concept>
+                <code value="INPHARM"/>
+            </concept>
+            <concept>
+                <code value="MBL"/>
+            </concept>
+            <concept>
+                <code value="NCCS"/>
+            </concept>
+            <concept>
+                <code value="NS"/>
+            </concept>
+            <concept>
+                <code value="OUTPHARM"/>
+            </concept>
+            <concept>
+                <code value="PEDU"/>
+            </concept>
+            <concept>
+                <code value="PHU"/>
+            </concept>
+            <concept>
+                <code value="RHU"/>
+            </concept>
+            <concept>
+                <code value="SLEEP"/>
+            </concept>
+            <concept>
+                <code value="NCCF"/>
+            </concept>
+            <concept>
+                <code value="SNF"/>
+            </concept>
+            <concept>
+                <code value="OF"/>
+            </concept>
+            <concept>
+                <code value="ALL"/>
+            </concept>
+            <concept>
+                <code value="AMPUT"/>
+            </concept>
+            <concept>
+                <code value="BMTC"/>
+            </concept>
+            <concept>
+                <code value="BREAST"/>
+            </concept>
+            <concept>
+                <code value="CANC"/>
+            </concept>
+            <concept>
+                <code value="CAPC"/>
+            </concept>
+            <concept>
+                <code value="CARD"/>
+            </concept>
+            <concept>
+                <code value="PEDCARD"/>
+            </concept>
+            <concept>
+                <code value="COAG"/>
+            </concept>
+            <concept>
+                <code value="CRS"/>
+            </concept>
+            <concept>
+                <code value="DERM"/>
+            </concept>
+            <concept>
+                <code value="ENDO"/>
+            </concept>
+            <concept>
+                <code value="PEDE"/>
+            </concept>
+            <concept>
+                <code value="ENT"/>
+            </concept>
+            <concept>
+                <code value="FMC"/>
+            </concept>
+            <concept>
+                <code value="GI"/>
+            </concept>
+            <concept>
+                <code value="PEDGI"/>
+            </concept>
+            <concept>
+                <code value="GIM"/>
+            </concept>
+            <concept>
+                <code value="GYN"/>
+            </concept>
+            <concept>
+                <code value="HEM"/>
+            </concept>
+            <concept>
+                <code value="PEDHEM"/>
+            </concept>
+            <concept>
+                <code value="HTN"/>
+            </concept>
+            <concept>
+                <code value="IEC"/>
+            </concept>
+            <concept>
+                <code value="INFD"/>
+            </concept>
+            <concept>
+                <code value="PEDID"/>
+            </concept>
+            <concept>
+                <code value="INV"/>
+            </concept>
+            <concept>
+                <code value="LYMPH"/>
+            </concept>
+            <concept>
+                <code value="MGEN"/>
+            </concept>
+            <concept>
+                <code value="NEPH"/>
+            </concept>
+            <concept>
+                <code value="PEDNEPH"/>
+            </concept>
+            <concept>
+                <code value="NEUR"/>
+            </concept>
+            <concept>
+                <code value="OB"/>
+            </concept>
+            <concept>
+                <code value="OMS"/>
+            </concept>
+            <concept>
+                <code value="ONCL"/>
+            </concept>
+            <concept>
+                <code value="PEDHO"/>
+            </concept>
+            <concept>
+                <code value="OPH"/>
+            </concept>
+            <concept>
+                <code value="OPTC"/>
+            </concept>
+            <concept>
+                <code value="ORTHO"/>
+            </concept>
+            <concept>
+                <code value="HAND"/>
+            </concept>
+            <concept>
+                <code value="PAINCL"/>
+            </concept>
+            <concept>
+                <code value="PC"/>
+            </concept>
+            <concept>
+                <code value="PEDC"/>
+            </concept>
+            <concept>
+                <code value="PEDRHEUM"/>
+            </concept>
+            <concept>
+                <code value="POD"/>
+            </concept>
+            <concept>
+                <code value="PREV"/>
+            </concept>
+            <concept>
+                <code value="PROCTO"/>
+            </concept>
+            <concept>
+                <code value="PROFF"/>
+            </concept>
+            <concept>
+                <code value="PROS"/>
+            </concept>
+            <concept>
+                <code value="PSI"/>
+            </concept>
+            <concept>
+                <code value="PSY"/>
+            </concept>
+            <concept>
+                <code value="RHEUM"/>
+            </concept>
+            <concept>
+                <code value="SPMED"/>
+            </concept>
+            <concept>
+                <code value="SU"/>
+            </concept>
+            <concept>
+                <code value="PLS"/>
+            </concept>
+            <concept>
+                <code value="URO"/>
+            </concept>
+            <concept>
+                <code value="TR"/>
+            </concept>
+            <concept>
+                <code value="TRAVEL"/>
+            </concept>
+            <concept>
+                <code value="WND"/>
+            </concept>
+            <concept>
+                <code value="RTF"/>
+            </concept>
+            <concept>
+                <code value="PRC"/>
+            </concept>
+            <concept>
+                <code value="SURF"/>
+            </concept>
+            <concept>
+                <code value="DADDR"/>
+            </concept>
+            <concept>
+                <code value="MOBL"/>
+            </concept>
+            <concept>
+                <code value="AMB"/>
+            </concept>
+            <concept>
+                <code value="PHARM"/>
+            </concept>
+            <concept>
+                <code value="ACC"/>
+            </concept>
+            <concept>
+                <code value="COMM"/>
+            </concept>
+            <concept>
+                <code value="CSC"/>
+            </concept>
+            <concept>
+                <code value="PTRES"/>
+            </concept>
+            <concept>
+                <code value="SCHOOL"/>
+            </concept>
+            <concept>
+                <code value="UPC"/>
+            </concept>
+            <concept>
+                <code value="WORK"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
