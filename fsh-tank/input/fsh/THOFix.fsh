@@ -1,11 +1,11 @@
-// Value Sets from THO that were improperly defined without filtering "not selectable"
+// Value Sets from THO that were haven't yet filtered "not selectable" codes
 // There are two sets of ValueSets defind here - one created by parsing the CDA schema, 
 // and the other by processing the HTML tables from the original CDA web publication
 
 // The following code systems are not included due to various reasons
-// 'ActCode' - 1299 concepts. Even worth expanding here?
-// 'ActSite' - Big difference between THO and CDA... ??
-// 'DrugEntity' - Skipped because there were no codes
+// 'ActCode' - large; only used as example
+// 'ActSite' - Big difference between THO and CDA... ?? - also only used as example
+// 'DrugEntity' - Skipped because there were no non-_ codes
 // 'ObservationType - broken due to ObservationActContextAgeType.... which includes all of v3ActCode
 // 'RoleCode' - large; only used as example
 // 'RouteOfAdministration' - large; only used as example
