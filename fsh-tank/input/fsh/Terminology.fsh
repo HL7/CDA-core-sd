@@ -7,7 +7,7 @@ Description: "Identifies the representation of binary data in a text field"
 * #TXT "Plain text"
 
 ValueSet: BinaryDataEncoding
-Title: "Binary Data Encoding Value Set"
+Title: "CDABinaryDataEncoding"
 Description: "Identifies the representation of binary data in a text field"
 * ^experimental = false
 * include codes from system BinaryDataEncoding
@@ -34,7 +34,7 @@ Description: "A set of codes advising a system or user which address in a set of
 
 Alias: $CompressionAlgorithm = http://terminology.hl7.org/CodeSystem/v3-CompressionAlgorithm|2.1.1
 ValueSet: CDACompressionAlgorithm
-Title: "CompressionAlgorithm"
+Title: "CDACompressionAlgorithm"
 Description: "Type of compression algorithm used - limited to 4 concepts from original CDA definition"
 * ^experimental = false
 * include $CompressionAlgorithm#DF
