@@ -54,7 +54,7 @@
       
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-RoleClassRoot"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDARoleClassRoot"/>
       </binding>
     </element>
     <element id="ParticipantRole.id">
@@ -88,7 +88,7 @@
       </type>
       <binding>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-RoleCode"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDARoleCode"/>
       </binding>
     </element>
     <element id="ParticipantRole.addr">

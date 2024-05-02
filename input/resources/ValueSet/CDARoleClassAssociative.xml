@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDARoleClassAssociative"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDARoleClassAssociative"/>
+    <name value="CDARoleClassAssociative"/>
+    <title value="CDARoleClassAssociative"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A general association between two entities that is neither partitive nor ontological."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+            <concept>
+                <code value="LIC"/>
+            </concept>
+            <concept>
+                <code value="NOT"/>
+            </concept>
+            <concept>
+                <code value="PROV"/>
+            </concept>
+            <concept>
+                <code value="CON"/>
+            </concept>
+            <concept>
+                <code value="ECON"/>
+            </concept>
+            <concept>
+                <code value="NOK"/>
+            </concept>
+            <concept>
+                <code value="ASSIGNED"/>
+            </concept>
+            <concept>
+                <code value="COMPAR"/>
+            </concept>
+            <concept>
+                <code value="SGNOFF"/>
+            </concept>
+            <concept>
+                <code value="AGNT"/>
+            </concept>
+            <concept>
+                <code value="GUARD"/>
+            </concept>
+            <concept>
+                <code value="EMP"/>
+            </concept>
+            <concept>
+                <code value="MIL"/>
+            </concept>
+            <concept>
+                <code value="INVSBJ"/>
+            </concept>
+            <concept>
+                <code value="CASESBJ"/>
+            </concept>
+            <concept>
+                <code value="RESBJ"/>
+            </concept>
+            <concept>
+                <code value="CIT"/>
+            </concept>
+            <concept>
+                <code value="COVPTY"/>
+            </concept>
+            <concept>
+                <code value="CRINV"/>
+            </concept>
+            <concept>
+                <code value="CRSPNSR"/>
+            </concept>
+            <concept>
+                <code value="GUAR"/>
+            </concept>
+            <concept>
+                <code value="PAT"/>
+            </concept>
+            <concept>
+                <code value="PAYEE"/>
+            </concept>
+            <concept>
+                <code value="PAYOR"/>
+            </concept>
+            <concept>
+                <code value="POLHOLD"/>
+            </concept>
+            <concept>
+                <code value="QUAL"/>
+            </concept>
+            <concept>
+                <code value="SPNSR"/>
+            </concept>
+            <concept>
+                <code value="STD"/>
+            </concept>
+            <concept>
+                <code value="UNDWRT"/>
+            </concept>
+            <concept>
+                <code value="CAREGIVER"/>
+            </concept>
+            <concept>
+                <code value="PRS"/>
+            </concept>
+            <concept>
+                <code value="DST"/>
+            </concept>
+            <concept>
+                <code value="RET"/>
+            </concept>
+            <concept>
+                <code value="MANU"/>
+            </concept>
+            <concept>
+                <code value="THER"/>
+            </concept>
+            <concept>
+                <code value="SDLOC"/>
+            </concept>
+            <concept>
+                <code value="DSDLOC"/>
+            </concept>
+            <concept>
+                <code value="ISDLOC"/>
+            </concept>
+            <concept>
+                <code value="ACCESS"/>
+            </concept>
+            <concept>
+                <code value="BIRTHPL"/>
+            </concept>
+            <concept>
+                <code value="EXPR"/>
+            </concept>
+            <concept>
+                <code value="HLD"/>
+            </concept>
+            <concept>
+                <code value="HLTHCHRT"/>
+            </concept>
+            <concept>
+                <code value="IDENT"/>
+            </concept>
+            <concept>
+                <code value="MNT"/>
+            </concept>
+            <concept>
+                <code value="OWN"/>
+            </concept>
+            <concept>
+                <code value="RGPR"/>
+            </concept>
+            <concept>
+                <code value="TERR"/>
+            </concept>
+            <concept>
+                <code value="WRTE"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

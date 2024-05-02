@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActCode"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActCode"/>
+    <name value="CDAActCode"/>
+    <title value="CDAActCode"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the particular kind of Act that the Act-instance represents within its class."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <version value="8.0.1"/>
+            <filter>
+                <property value="notSelectable"/>
+                <op value="="/>
+                <value value="false"/>
+            </filter>
+        </include>
+    </compose>
+</ValueSet>

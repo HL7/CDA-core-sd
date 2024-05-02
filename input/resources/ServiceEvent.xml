@@ -55,7 +55,7 @@
       <defaultValueCode value="ACT"/>      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActClass"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClass"/>
       </binding>
     </element>
     <element id="ServiceEvent.moodCode">
@@ -70,7 +70,7 @@
       <fixedCode value="EVN"/>      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActMood"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActMood"/>
       </binding>
     </element>
     <element id="ServiceEvent.id">

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAEntityCode"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAEntityCode"/>
+    <name value="CDAEntityCode"/>
+    <title value="CDAEntityCode"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A value representing the specific kind of Entity the instance represents."/>
+    <compose>
+        <include>
+            <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAMaterialEntityClassType"/>
+        </include>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-EntityCode"/>
+            <concept>
+                <code value="BED"/>
+            </concept>
+            <concept>
+                <code value="BLDG"/>
+            </concept>
+            <concept>
+                <code value="FLOOR"/>
+            </concept>
+            <concept>
+                <code value="ROOM"/>
+            </concept>
+            <concept>
+                <code value="WING"/>
+            </concept>
+            <concept>
+                <code value="HHOLD"/>
+            </concept>
+            <concept>
+                <code value="NAT"/>
+            </concept>
+            <concept>
+                <code value="RELIG"/>
+            </concept>
+            <concept>
+                <code value="PRAC"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

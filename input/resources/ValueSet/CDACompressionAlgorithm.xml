@@ -3,7 +3,7 @@
     <id value="CDACompressionAlgorithm"/>
     <url value="http://hl7.org/cda/stds/core/ValueSet/CDACompressionAlgorithm"/>
     <name value="CDACompressionAlgorithm"/>
-    <title value="CompressionAlgorithm"/>
+    <title value="CDACompressionAlgorithm"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="Type of compression algorithm used - limited to 4 concepts from original CDA definition"/>

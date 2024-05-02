@@ -78,10 +78,6 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-DrugEntity"/>
-      </binding>
     </element>
     <element id="LabeledDrug.name">
       <path value="LabeledDrug.name"/>

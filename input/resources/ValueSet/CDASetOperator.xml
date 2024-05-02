@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDASetOperator"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDASetOperator"/>
+    <name value="CDASetOperator"/>
+    <title value="CDASetOperator"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Determins the intersectionality of multiple sets"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-SetOperator"/>
+            <concept>
+                <code value="A"/>
+            </concept>
+            <concept>
+                <code value="E"/>
+            </concept>
+            <concept>
+                <code value="H"/>
+            </concept>
+            <concept>
+                <code value="I"/>
+            </concept>
+            <concept>
+                <code value="P"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

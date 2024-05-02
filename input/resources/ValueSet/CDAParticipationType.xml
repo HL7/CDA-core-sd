@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAParticipationType"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAParticipationType"/>
+    <name value="CDAParticipationType"/>
+    <title value="CDAParticipationType"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+            <concept>
+                <code value="ADM"/>
+            </concept>
+            <concept>
+                <code value="ATND"/>
+            </concept>
+            <concept>
+                <code value="CALLBCK"/>
+            </concept>
+            <concept>
+                <code value="CON"/>
+            </concept>
+            <concept>
+                <code value="DIS"/>
+            </concept>
+            <concept>
+                <code value="ESC"/>
+            </concept>
+            <concept>
+                <code value="REF"/>
+            </concept>
+            <concept>
+                <code value="IND"/>
+            </concept>
+            <concept>
+                <code value="BEN"/>
+            </concept>
+            <concept>
+                <code value="COV"/>
+            </concept>
+            <concept>
+                <code value="HLD"/>
+            </concept>
+            <concept>
+                <code value="RCT"/>
+            </concept>
+            <concept>
+                <code value="RCV"/>
+            </concept>
+            <concept>
+                <code value="AUT"/>
+            </concept>
+            <concept>
+                <code value="ENT"/>
+            </concept>
+            <concept>
+                <code value="INF"/>
+            </concept>
+            <concept>
+                <code value="WIT"/>
+            </concept>
+            <concept>
+                <code value="IRCP"/>
+            </concept>
+            <concept>
+                <code value="NOT"/>
+            </concept>
+            <concept>
+                <code value="PRCP"/>
+            </concept>
+            <concept>
+                <code value="REFB"/>
+            </concept>
+            <concept>
+                <code value="REFT"/>
+            </concept>
+            <concept>
+                <code value="TRC"/>
+            </concept>
+            <concept>
+                <code value="PRF"/>
+            </concept>
+            <concept>
+                <code value="DIST"/>
+            </concept>
+            <concept>
+                <code value="PPRF"/>
+            </concept>
+            <concept>
+                <code value="SPRF"/>
+            </concept>
+            <concept>
+                <code value="DEV"/>
+            </concept>
+            <concept>
+                <code value="NRD"/>
+            </concept>
+            <concept>
+                <code value="RDV"/>
+            </concept>
+            <concept>
+                <code value="SBJ"/>
+            </concept>
+            <concept>
+                <code value="SPC"/>
+            </concept>
+            <concept>
+                <code value="DIR"/>
+            </concept>
+            <concept>
+                <code value="BBY"/>
+            </concept>
+            <concept>
+                <code value="CSM"/>
+            </concept>
+            <concept>
+                <code value="DON"/>
+            </concept>
+            <concept>
+                <code value="PRD"/>
+            </concept>
+            <concept>
+                <code value="LOC"/>
+            </concept>
+            <concept>
+                <code value="DST"/>
+            </concept>
+            <concept>
+                <code value="ELOC"/>
+            </concept>
+            <concept>
+                <code value="ORG"/>
+            </concept>
+            <concept>
+                <code value="RML"/>
+            </concept>
+            <concept>
+                <code value="VIA"/>
+            </concept>
+            <concept>
+                <code value="VRF"/>
+            </concept>
+            <concept>
+                <code value="AUTHEN"/>
+            </concept>
+            <concept>
+                <code value="LA"/>
+            </concept>
+            <concept>
+                <code value="RESP"/>
+            </concept>
+            <concept>
+                <code value="CST"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

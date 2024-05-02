@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDAActMoodIntent"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDAActMoodIntent"/>
+    <name value="CDAActMoodIntent"/>
+    <title value="CDAActMoodIntent"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="An intention or plan to perform a service."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
+            <concept>
+                <code value="INT"/>
+            </concept>
+            <concept>
+                <code value="APT"/>
+            </concept>
+            <concept>
+                <code value="ARQ"/>
+            </concept>
+            <concept>
+                <code value="PRMS"/>
+            </concept>
+            <concept>
+                <code value="PRP"/>
+            </concept>
+            <concept>
+                <code value="RQO"/>
+            </concept>
+            <concept>
+                <code value="SLOT"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

@@ -74,7 +74,7 @@
       </type>
       <binding>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-EntityCode"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAEntityCode"/>
       </binding>
     </element>
     <element id="PlayingEntity.quantity">
