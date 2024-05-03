@@ -42,8 +42,9 @@ Value Set Sources:
   {% assign uses = item.Uses | split: ',' %}
   {% for use in uses %}
     {% assign parts = use | split: '/' %}
+	{% assign definitionType = parts | first %}
     {% assign definitionName = parts | last %}
-    {% assign url = "StructureDefinition-" | append: definitionName | append: ".html" %}
+    {% assign url = definitionType | append: "-" | append: definitionName | append: ".html" %}
     <a href="{{ url }}">{{ definitionName }}</a>{% unless forloop.last %}, {% endunless %}
   {% endfor %}
 </td>
