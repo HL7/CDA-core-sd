@@ -90,6 +90,60 @@ Description: "CDA NullFlavors - limited to values allowed in original CDA defini
 * include $NullFlavor#ASKU
 * include $NullFlavor#NAV
 
+Alias:       $ParticipationType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType|4.0.0
+ValueSet:    CDAParticipationType
+Title:       "CDAParticipationType"
+Description: "A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation. Limited to values allowed in original CDA definition"
+* ^experimental = false
+* include ParticipationType#ADM
+* include ParticipationType#ATND
+* include ParticipationType#CALLBCK
+* include ParticipationType#CON
+* include ParticipationType#DIS
+* include ParticipationType#ESC
+* include ParticipationType#REF
+* include ParticipationType#IND
+* include ParticipationType#BEN
+* include ParticipationType#COV
+* include ParticipationType#HLD
+* include ParticipationType#RCT
+* include ParticipationType#RCV
+* include ParticipationType#AUT
+* include ParticipationType#ENT
+* include ParticipationType#INF
+* include ParticipationType#WIT
+* include ParticipationType#IRCP
+* include ParticipationType#NOT
+* include ParticipationType#PRCP
+* include ParticipationType#REFB
+* include ParticipationType#REFT
+* include ParticipationType#TRC
+* include ParticipationType#PRF
+* include ParticipationType#DIST
+* include ParticipationType#PPRF
+* include ParticipationType#SPRF
+* include ParticipationType#DEV
+* include ParticipationType#NRD
+* include ParticipationType#RDV
+* include ParticipationType#SBJ
+* include ParticipationType#SPC
+* include ParticipationType#DIR
+* include ParticipationType#BBY
+* include ParticipationType#CSM
+* include ParticipationType#DON
+* include ParticipationType#PRD
+* include ParticipationType#LOC
+* include ParticipationType#DST
+* include ParticipationType#ELOC
+* include ParticipationType#ORG
+* include ParticipationType#RML
+* include ParticipationType#VIA
+* include ParticipationType#VRF
+* include ParticipationType#AUTHEN
+* include ParticipationType#LA
+* include ParticipationType#RESP
+* include ParticipationType#CST
+
 Alias: $PartSig = http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature|2.1.0
 ValueSet: CDASignatureCode
 Title: "CDASignatureCode"

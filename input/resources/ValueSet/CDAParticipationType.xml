@@ -6,7 +6,7 @@
     <title value="CDAParticipationType"/>
     <status value="draft"/>
     <experimental value="false"/>
-    <description value="A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation."/>
+    <description value="A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation. Limited to values allowed in original CDA definition"/>
     <compose>
         <include>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
