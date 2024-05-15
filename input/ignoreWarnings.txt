@@ -9,6 +9,9 @@ Rule eld-20: 'The first component of the path should be UpperCamelCase.%
 # We want to fix a bunch of coded fields
 Rule eld-24: 'pattern[x] should be used rather than fixed[x]' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 
+# CASESBJ is the actual code.  CASEBJ is what is in THO but that has been verified to be wrong.
+The code 'CASESBJ' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-RoleClass%
+
 # Warnings from the example CDA document
 xsi:type is unnecessary at this point
 The code 'COND' is valid but is deprecated
