@@ -1,6 +1,6 @@
 ### CDA Definition
 
-This Implementation Guide is a representation of the [Clinical Document Architecture (CDA) R2.0 specification](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7) using FHIR Logical Models expressed as FHIR StructureDefinition instances.  The main purpose of the guide is to support the Consolidated CDA specification which defines its templates using these logical structures.  Other CDA-based guides can also use this guide and these structures to create specifications like Consolidated CDA.
+This Implementation Guide is a representation of the [Clinical Document Architecture (CDA) R2.0 specification](https://hl7.org/cda/stds/online-navigation/index.html) using FHIR Logical Models expressed as FHIR StructureDefinition instances.  The main purpose of the guide is to support the Consolidated CDA specification which defines its templates using these logical structures.  Other CDA-based guides can also use this guide and these structures to create specifications like Consolidated CDA.
 
 This guide does not replace the CDA specification.  It includes the Overview, Implementation Notes, and Narrative Block information from the specification to provide context and guidance.  To understand CDA, readers should consult the actual CDA specification.  If there are any differences found between the specification and this guide, the specification takes precedence and is assumed to be correct.
 
