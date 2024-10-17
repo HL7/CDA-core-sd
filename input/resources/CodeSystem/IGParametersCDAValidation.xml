@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="IGParametersCDAValidation"/>
+    <url value="http://hl7.org/cda/stds/core/CodeSystem/IGParametersCDAValidation"/>
+    <name value="IGParametersCDAValidation"/>
+    <title value="IG Parameters CDA Validation"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Code system for CDA validation parameters in the IG."/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <count value="2"/>
+    <concept>
+        <code value="parent-template-id"/>
+        <display value="Parent TemplateId"/>
+        <definition value="TemplateId from which all templates in this IG descend. A schematron warning will detect any teplateIds starting with this value that are not defined in the IG."/>
+    </concept>
+    <concept>
+        <code value="value-set-limit"/>
+        <display value="ValueSet Limit"/>
+        <definition value="Maximum number of values to include in value set lookups."/>
+    </concept>
+</CodeSystem>

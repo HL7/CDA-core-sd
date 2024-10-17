@@ -202,6 +202,9 @@ It is equivalent to the following, but allows an IG author to easily update the 
 
 `%resource.component.structuredBody.component.where(section.templateId.where(root = '2.16.840.1.113883.10.20.22.99.999' and extension = '2024-05-01'))`
 
+#### Implementation Guide Parameters
+
+Parameters from the [IG Parameters CDA Validation Code System](CodeSystem-IGParametersCDAValidation.html) may be included to control the behavior of Schematron generation in CDA implementation guides written in FHIR StructureDefinition format.
 
 ### Authors
 

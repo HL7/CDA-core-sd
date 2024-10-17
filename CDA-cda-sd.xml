@@ -82,6 +82,7 @@
 <artifact id="StructureDefinition/ExternalProcedure" key="StructureDefinition-ExternalProcedure" name="ExternalProcedure (CDA Class)"/>
 <artifact id="StructureDefinition/Guardian" key="StructureDefinition-Guardian" name="Guardian (CDA Class)"/>
 <artifact id="StructureDefinition/HealthCareFacility" key="StructureDefinition-HealthCareFacility" name="HealthCareFacility (CDA Class)"/>
+<artifact id="CodeSystem/IGParametersCDAValidation" key="CodeSystem-IGParametersCDAValidation" name="IG Parameters CDA Validation"/>
 <artifact id="StructureDefinition/II" key="StructureDefinition-II" name="II: InstanceIdentifier (V3 Data Type)"/>
 <artifact id="StructureDefinition/INT" key="StructureDefinition-INT" name="INT: IntegerNumber (V3 Data Type)"/>
 <artifact id="StructureDefinition/INT-POS" key="StructureDefinition-INT-POS" name="INT_POS: Positive integer numbers (V3 Data Type)"/>

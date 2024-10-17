@@ -888,6 +888,12 @@
 			</reference>
 			<groupingId value="datatypes-xml"/>
 		</resource>
+		<!-- Validation -->
+		<resource>
+			<reference>
+				<reference value="CodeSystem/IGParametersCDAValidation" />
+			</reference>
+		</resource>
 		<!-- Vocabulary -->
 		<resource>
 			<reference>
