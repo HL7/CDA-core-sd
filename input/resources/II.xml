@@ -38,6 +38,12 @@
       <definition value="An identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="II-1"/>
+        <severity value="error"/>
+        <human value="An II instance must have either a root or an nullFlavor."/>
+        <expression value="root.exists() or nullFlavor.exists()"/>
+      </constraint>
     </element>
     <element id="II.assigningAuthorityName">
       <path value="II.assigningAuthorityName"/>
