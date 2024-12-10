@@ -1,12 +1,11 @@
 {
   "package-id" : "hl7.cda.uv.core",
-  "version" : "2.0.0-sd",
-  "path" : "http://hl7.org/cda/stds/core/2.0.0-sd",
-  "milestone" : false,
+  "version" : "2.0.0-sd-dec2024",
+  "path" : "http://hl7.org/cda/stds/core/2.0.0-sd-dec2024",
   "mode": "milestone",
   "milestone": true,
   "status" : "informative",
   "sequence" : "CDA2",
-  "desc" : "Published version that is used by CCDA and other guides.",
+  "desc" : "Dec 2024 Published version that is used by CCDA and other guides.",
   "first" : false
 }
