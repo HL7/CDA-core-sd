@@ -19,3 +19,15 @@ The code '78615007' is valid but is not active
 A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 The CDA Template 2.16.840.1.113883.10.20.22.2.10 / 2014-06-09 is not known
 The CDA Template 2.16.840.1.113883.10.20.22.1.4 / 2024-05-01 is not known
+
+# Ignore duplicate anchor ids for now
+The html source has duplicate anchor Ids:%
+
+# Experimental value sets that we are using
+The definition for the element 'AuthoringDevice.manufacturerModelName' binds to the value set 'http://terminology.hl7.org/ValueSet/v3-ManufacturerModelNameExample' which is experimental, but this structure is not labeled as experimental
+The definition for the element 'AuthoringDevice.softwareName' binds to the value set 'http://terminology.hl7.org/ValueSet/v3-SoftwareNameExample' which is experimental, but this structure is not labeled as experimental
+The definition for the element 'Device.manufacturerModelName' binds to the value set 'http://terminology.hl7.org/ValueSet/v3-ManufacturerModelNameExample' which is experimental, but this structure is not labeled as experimental
+The definition for the element 'Device.softwareName' binds to the value set 'http://terminology.hl7.org/ValueSet/v3-SoftwareNameExample' which is experimental, but this structure is not labeled as experimental
+
+# This is an auto-include that we don't control
+This IG is version 5.0.0, while the IG 'hl7.terminology' is from version 4.0.1
