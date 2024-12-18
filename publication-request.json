@@ -5,7 +5,7 @@
   "mode": "milestone",
   "milestone": true,
   "status" : "informative",
-  "sequence" : "CDA2",
+  "sequence" : "CDA 2.0",
   "desc" : "Dec 2024 Published version that is used by CCDA and other guides.",
   "first" : false
 }
