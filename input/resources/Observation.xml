@@ -189,23 +189,21 @@
       <representation value="typeAttr"/>
       <min value="0"/>
       <max value="*"/>
+      <!-- Common types first; then the rest alphabetical -->
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
-      </type>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/PQ"/>
       </type>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/AD"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CV"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
       </type>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
@@ -214,34 +212,53 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CO"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/SC"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CV"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>
-      </type>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/AD"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
       </type>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/EN"/>
       </type>
       <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
+      </type>
+      <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/REAL"/>
-      </type>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/PQ"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT-POS"/>
       </type>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/MO"/>
       </type>
       <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ON"/>
+      </type>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/PN"/>
+      </type>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/REAL"/>
+      </type>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/SC"/>
+      </type>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>
+      </type>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TN"/>
+      </type>
+      <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
+      </type>
+      <!-- Intervals / other compound things at the end to avoid clutter -->
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-INT"/>
       </type>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-PQ"/>
