@@ -29,45 +29,45 @@
   <description value="A restriction of entity name that is effectively a simple string used for a simple name for things and places."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://hl7.org/cda/stds/core/StructureDefinition/EN"/>
+  <type value="http://hl7.org/cda/stds/core/StructureDefinition/TN"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/EN"/>
-  <derivation value="constraint"/>
+  <derivation value="specialization"/>
   <differential>
-    <element id="EN">
-      <path value="EN"/>
+    <element id="TN">
+      <path value="TN"/>
       <definition value="A restriction of entity name that is effectively a simple string used for a simple name for things and places."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="EN.use">
-      <path value="EN.use"/>
+    <element id="TN.use">
+      <path value="TN.use"/>
       <binding>
         <strength value="required"/>
         <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAEntityNameUse"/>
       </binding>
     </element>
-    <element id="EN.item.delimiter">
-      <path value="EN.item.delimiter"/>
+    <element id="TN.item.delimiter">
+      <path value="TN.item.delimiter"/>
       <min value="0"/>
       <max value="0"/>
     </element>
-    <element id="EN.item.family">
-      <path value="EN.item.family"/>
+    <element id="TN.item.family">
+      <path value="TN.item.family"/>
       <min value="0"/>
       <max value="0"/>
     </element>
-    <element id="EN.item.given">
-      <path value="EN.item.given"/>
+    <element id="TN.item.given">
+      <path value="TN.item.given"/>
       <min value="0"/>
       <max value="0"/>
     </element>
-    <element id="EN.item.prefix">
-      <path value="EN.item.prefix"/>
+    <element id="TN.item.prefix">
+      <path value="TN.item.prefix"/>
       <min value="0"/>
       <max value="0"/>
     </element>
-    <element id="EN.item.suffix">
-      <path value="EN.item.suffix"/>
+    <element id="TN.item.suffix">
+      <path value="TN.item.suffix"/>
       <min value="0"/>
       <max value="0"/>
     </element>
