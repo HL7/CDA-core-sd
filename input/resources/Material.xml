@@ -102,5 +102,21 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>
       </type>
     </element>
+    <element id="Material.sdtcExpirationTime">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="expirationTime"/>
+      </extension>
+      <path value="Material.sdtcExpirationTime"/>
+      <definition value="The date and time the manufacturer no longer ensures the safety, quality, and/or proper functioning of the material."/>
+      <requirements value="There is a need in many situations that the materials used are of a specific quality or potency or functional status. The ending date for this guarantee is specified by the manufacturer. After that date, while the material may still provide the same characteristics, the manufacturer no longer takes responsibility that the product will perform as specified and denies responsibility for failure of the material after that date."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL_TS"/>
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
