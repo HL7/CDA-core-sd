@@ -30,7 +30,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
-  <description value="Document sections can nest, can override context propagated from the header (See CDA Context), and can contain narrative and CDA entries.&#xA;&#xA;An XML attribute &quot;ID&quot; of type XML ID, is added to Section within the CDA Schema. This attribute serves as the target of a linkHtml reference (see linkHtml). All values of attributes of type XML ID must be unique within the document (per the W3C XML specification)."/>
+  <description value="Document sections can nest, can override context propagated from the header (See CDA Context), and can contain narrative and CDA entries.&#xA;&#xA;An XML attribute &quot;ID&quot; of type XML ID, is added to Section within the CDA Schema. This attribute serves as the target of a linkHtml reference (see [linkHtml](narrative.html#linkhtml)). All values of attributes of type XML ID must be unique within the document (per the W3C XML specification).&#xA;&#xA;&#xA;&#xA;The narrative of each Section, together with the multimedia content referenced in the narrative, comprises the complete authenticated content of the Section. This multimedia content consists of ObservationMedia and RegionOfInterest entries referenced by &lt;renderMultimedia> tags in the Section.text. This is the only case where the entries contain authenticated content that must be rendered with the narrative.&#xA;&#xA;&#xA;&#xA;**'COMP' vs 'DRIV' Entries**&#xA;&#xA;In terms of the relationship between a section and its entries, CDA defines a default general case, and a more specific case that can be used when applicable.&#xA;&#xA;The entry relationship is defaulted to &quot;COMP&quot; (component), for the general case where the only assertion is that the related entries are contained within the source section and no other semantics are implied. In this case, the narrative is the original authenticated content. The CDA entries are created by various techniques (e.g., natural language processing, a human coder, a structured data entry tool that outputs both entries and a text report). The method of entry creation may be indicated by the entry participants (e.g., by identifying the algorithm or person that generated them). Relationships between various entries (such as two Observations or an Observation and an ObservationMedia) are encoded using the relationship types defined in [EntryRelationship](StructureDefinition-EntryRelationship.html).&#xA;&#xA;A section may also have no narrative content in the case where the entries represent information that is not part of the clinical content of the document. A report may embed information referencing evidence data, reagents, calibration or other information that may be used for later processing but is not part of the clinical content. Such entries are also linked to the Section with ActRelationships possessing typeCode=&quot;COMP&quot;.&#xA;&#xA;The entry relationship &quot;DRIV&quot; (is derived from) can be used in the special case where the narrative is fully derived from CDA Entries. When a report consisting entirely of structured entries is transformed into CDA, the encoding application must ensure that the authenticated content (narrative plus multimedia) is a faithful and complete rendering of the clinical content of the structured source data. This ensures that the narrative plus multimedia represents, as in all CDA documents, the complete authenticated content of the Section. In this case, narrative plus multimedia does not contain any clinical content that is not present in the Entries. An example of this case is a DICOM Structured Reporting document of obstetrical measurements made by ultrasound, rendered into a tabular report by a program converting it to CDA narrative block. If the typeCode of the ActRelationship linking these Entries to the Section was &quot;DRIV&quot;, it would indicate to a receiving application: 1) the source of the narrative block is the Entries; 2) the contents of the two are equivalent.&#xA;&#xA;The entries sourced from a Section may have a mix of ActRelationship typeCodes. In such a case, the union of the targets with a &quot;DRIV&quot; relationship are those used to generate the narrative block, and are those that, taken in total, are equivalent to the narrative block. Additional entries with &quot;COMP&quot; relationships are contained within the same section, with no implied semantics."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
@@ -45,6 +45,7 @@
     <element id="Section.ID">
       <path value="Section.ID"/>
       <representation value="xmlAttr"/>
+      <short value="Can serve as a target of a linkHtml reference"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -84,6 +85,7 @@
     </element>
     <element id="Section.id">
       <path value="Section.id"/>
+      <short value="Unique instance identifier of a particular document section"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -92,6 +94,7 @@
     </element>
     <element id="Section.code">
       <path value="Section.code"/>
+      <short value="Kind of section"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -100,6 +103,8 @@
     </element>
     <element id="Section.title">
       <path value="Section.title"/>
+      <short value="Label of a section"/>
+      <requirements value="If valued, it is to be rendered as part of the narrative content of the clinical document body."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -109,6 +114,8 @@
     <element id="Section.text">
       <path value="Section.text"/>
       <representation value="cdaText"/>
+      <short value="Narrative to be rendered"/>
+      <comment value="Also referred to as the CDA Narrative Block" />
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -117,6 +124,8 @@
     </element>
     <element id="Section.confidentialityCode">
       <path value="Section.confidentialityCode"/>
+      <short value="Controls the disclosure of information in this section"/>
+      <requirements value="A value for Section.confidentialityCode overrides the value propagated from StructuredBody."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -125,6 +134,8 @@
     </element>
     <element id="Section.languageCode">
       <path value="Section.languageCode"/>
+      <short value="Human language of character data"/>
+      <requirements value="A value for Section.languageCode overrides the value propagated from StructuredBody."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -137,6 +148,9 @@
     </element>
     <element id="Section.subject">
       <path value="Section.subject"/>
+      <short value="Primary target of the entries recorded in a section"/>
+      <comment value="Most of the time the subject is the same as the recordTarget, but need not be, for instance when the subject is a fetus observed in an obstetrical ultrasound."/>
+      <requirements value="The subject participant can be ascribed to a CDA section or a CDA entry. It propagates to nested components, unless overridden. The subject of a document is presumed to be the patient."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -145,6 +159,7 @@
     </element>
     <element id="Section.author">
       <path value="Section.author"/>
+      <requirements value="The author participant can be ascribed to a CDA section, where it overrides the value(s) propagated from the CDA header."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -153,6 +168,7 @@
     </element>
     <element id="Section.informant">
       <path value="Section.informant"/>
+      <requirements value="The informant participant can be ascribed to a CDA section where it overrides the value(s) propagated from the CDA header."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -169,6 +185,8 @@
     </element>
     <element id="Section.component">
       <path value="Section.component"/>
+      <short value="Used to nest a Section within a Section"/>
+      <requirements value="Context propagates to nested sections"/>
       <min value="0"/>
       <max value="*"/>
       <type>
