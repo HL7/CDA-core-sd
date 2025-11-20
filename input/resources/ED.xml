@@ -163,6 +163,12 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
       </type>
+      <constraint>
+        <key value="ED-1"/>
+        <severity value="error"/>
+        <human value="Thumbnails cannot contain their own thumbnails"/>
+        <expression value="thumbnail.empty()"/>
+      </constraint>
     </element>
   </differential>
 </StructureDefinition>
