@@ -4,7 +4,7 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>A Patient's birthplace is represented as a relationship between a patient and a place. The Birthplace class is played by a place (Place class), and scoped by the patient (Patient class).</p>
+      <p>A Patient's birthplace is represented as a relationship between a patient and a place.</p>
     </div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
@@ -29,7 +29,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
-  <description value="A Patient's birthplace is represented as a relationship between a patient and a place. The Birthplace class is played by a place (Place class), and scoped by the patient (Patient class)."/>
+  <description value="A Patient's birthplace is represented as a relationship between a patient and a place."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Birthplace"/>

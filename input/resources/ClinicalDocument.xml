@@ -124,6 +124,7 @@
     </element>
     <element id="ClinicalDocument.id">
       <path value="ClinicalDocument.id"/>
+      <definition value="Represents the unique instance identifier of a clinical document."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -146,6 +147,8 @@
     </element>
     <element id="ClinicalDocument.code">
       <path value="ClinicalDocument.code"/>
+      <short value="Kind of document"/>
+      <definition value="The code specifying the particular kind of document (e.g. History and Physical, Discharge Summary, Progress Note)."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -158,6 +161,7 @@
     </element>
     <element id="ClinicalDocument.title">
       <path value="ClinicalDocument.title"/>
+      <comment value="It's commonly the case that clinical documents do not have a title, and are collectively referred to by the display name of ClinicalDocument.code (e.g. a 'consultation' or 'progress note'). Where these display names are rendered to the clinician, or where the document has a unique title, the ClinicalDocument.title component should be used."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -185,6 +189,9 @@
     </element>
     <element id="ClinicalDocument.effectiveTime">
       <path value="ClinicalDocument.effectiveTime"/>
+      <short value="Document creation time"/>
+      <definition value="Signifies the document creation time, when the document first came into being."/>
+      <comment value="Where the CDA document is a transform from an original document in some other format, the ClinicalDocument.effectiveTime is the time the original document is created. The time when the transform occurred is not currently represented in CDA."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -193,6 +200,8 @@
     </element>
     <element id="ClinicalDocument.confidentialityCode">
       <path value="ClinicalDocument.confidentialityCode"/>
+      <short value="Controls the disclosure of information in this document"/>
+      <comment value="Confidentiality is a required contextual component of CDA, where the value expressed in the header holds true for the entire document, unless overridden by a nested value."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -201,6 +210,9 @@
     </element>
     <element id="ClinicalDocument.languageCode">
       <path value="ClinicalDocument.languageCode"/>
+      <short value="Human language of character data"/>
+      <definition value="Specifies the human language of character data (whether they be in contents or attribute values)."/>
+      <comment value="Language is a contextual component of CDA, where the value expressed in the header holds true for the entire document, unless overridden by a nested value."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -213,6 +225,7 @@
     </element>
     <element id="ClinicalDocument.setId">
       <path value="ClinicalDocument.setId"/>
+      <short value="An identifier that is common across all document revisions"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -221,6 +234,7 @@
     </element>
     <element id="ClinicalDocument.versionNumber">
       <path value="ClinicalDocument.versionNumber"/>
+      <short value="An integer value used to version successive replacement documents"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -229,6 +243,9 @@
     </element>
     <element id="ClinicalDocument.copyTime">
       <path value="ClinicalDocument.copyTime"/>
+      <short value="Deprecated - use is discouraged" />
+      <definition value="Represents the time a document is released (i.e. copied or sent to a display device) from a document management system that maintains revision control over the document. Once valued, it cannot be changed. The intent is to give the viewer of the document some notion as to how long the document has been out of the safe context of its document management system."/>
+      <requirements value="Included for backwards compatibility with CDA, Release One. ClinicalDocument.copyTime has been deprecated because it is not part of the document at the time it is authenticated, but instead represents metadata about the document, applied at some variable time after authentication. Further use is discouraged."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -237,6 +254,9 @@
     </element>
     <element id="ClinicalDocument.recordTarget">
       <path value="ClinicalDocument.recordTarget"/>
+      <short value="Medical record that this document belongs to"/>
+      <comment value="A clinical document typically has exactly one recordTarget participant. In the uncommon case where a clinical document (such as a group encounter note) is placed into more than one patient chart, more than one recordTarget participants can be stated."/>
+      <requirements value="The recordTarget(s) of a document are stated in the header and propagate to nested content, where they cannot be overridden."/>
       <min value="1"/>
       <max value="*"/>
       <type>
@@ -245,6 +265,8 @@
     </element>
     <element id="ClinicalDocument.author">
       <path value="ClinicalDocument.author"/>
+      <short value="Humans and/or machines that authored the document"/>
+      <comment value="In some cases, the role or function of the author is inherent in the ClinicalDocument.code, such as where ClinicalDocument.code is 'Medical Student Progress Note'. The role of the author can also be recorded in the Author.functionCode or AssignedAuthor.code attribute. If either of these attributes is included, they should be equivalent to or further specialize the role inherent in the ClinicalDocument.code (such as where the ClinicalDocument.code is simply 'Physician Progress Note' and the value of Author.functionCode is 'rounding physician'), and shall not conflict with the role inherent in the ClinicalDocument.code, as such a conflict would constitute an ambiguous situation."/>
       <min value="1"/>
       <max value="*"/>
       <type>
@@ -253,6 +275,8 @@
     </element>
     <element id="ClinicalDocument.dataEnterer">
       <path value="ClinicalDocument.dataEnterer"/>
+      <short value="Participant who has transformed a dictated note into text"/>
+      <alias value="Transcriptionist"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -261,6 +285,8 @@
     </element>
     <element id="ClinicalDocument.informant">
       <path value="ClinicalDocument.informant"/>
+      <short value="Person that provides relevant information"/>
+      <definition value="An informant (or source of information) is a person that provides relevant information, such as the parent of a comatose patient who describes the patient's behavior prior to the onset of coma."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -269,6 +295,9 @@
     </element>
     <element id="ClinicalDocument.custodian">
       <path value="ClinicalDocument.custodian"/>
+      <short value="Organization that is in charge of maintaining the document"/>
+      <definition value="Represents the organization that is in charge of maintaining the document. The custodian is the steward that is entrusted with the care of the document. Every CDA document has exactly one custodian."/>
+      <requirements value="The custodian participation satisfies the CDA definition of Stewardship. Because CDA is an exchange standard and may not represent the original form of the authenticated document, the custodian represents the steward of the original source document."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -277,6 +306,8 @@
     </element>
     <element id="ClinicalDocument.informationRecipient">
       <path value="ClinicalDocument.informationRecipient"/>
+      <short value="A recipient who should receive a copy of the document"/>
+      <comment value="The information recipient is an entity to whom a copy of a document is directed, at the time of document authorship. It is not the same as the cumulative set of persons to whom the document has subsequently been disclosed, over the life-time of the patient. Such a disclosure list would not be contained within the document, and it outside the scope of CDA."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -285,6 +316,9 @@
     </element>
     <element id="ClinicalDocument.legalAuthenticator">
       <path value="ClinicalDocument.legalAuthenticator"/>
+      <short value="Participant who has legally authenticated the document"/>
+      <comment value="The CDA is a standard that specifies the structure of exchanged clinical documents. In the case where a local document is transformed into a CDA document for exchange, authentication occurs on the local document, and that fact is reflected in the exchanged CDA document. A CDA document can reflect the unauthenticated, authenticated, or legally authenticated state. The unauthenticated state exists when no authentication information has been recorded (i.e., it is the absence of being either authenticated or legally authenticated)."/>
+      <requirements value="While electronic signatures are not captured in a CDA document, both authentication and legal authentication require that a document has been signed manually or electronically by the responsible individual. A legalAuthenticator has a required legalAuthenticator.time indicating the time of authentication, and a required legalAuthenticator.signatureCode, indicating that a signature has been obtained and is on file."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -293,6 +327,9 @@
     </element>
     <element id="ClinicalDocument.authenticator">
       <path value="ClinicalDocument.authenticator"/>
+      <short value="Participant who has attested to the accuracy of the document, but who does not have privileges to legally authenticate the document"/>
+      <definition value="Represents a participant who has attested to the accuracy of the document, but who does not have privileges to legally authenticate the document. An example would be a resident physician who sees a patient and dictates a note, then later signs it."/>
+      <comment value="A clinical document can have zero to many authenticators. While electronic signatures are not captured in a CDA document, both authentication and legal authentication require that a document has been signed manually or electronically by the responsible individual. An authenticator has a required authenticator.time indicating the time of authentication, and a required authenticator.signatureCode, indicating that a signature has been obtained and is on file."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -301,6 +338,8 @@
     </element>
     <element id="ClinicalDocument.participant">
       <path value="ClinicalDocument.participant"/>
+      <short value="Other participants not explicitly mentioned by other classes"/>
+      <definition value="Used to represent other participants not explicitly mentioned by other classes, that were somehow involved in the documented acts."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -309,6 +348,8 @@
     </element>
     <element id="ClinicalDocument.inFulfillmentOf">
       <path value="ClinicalDocument.inFulfillmentOf"/>
+      <short value="Orders that are fulfilled by this document"/>
+      <comment value="For instance, a provider orders an X-Ray. The X-Ray is performed. A radiologist reads the X-Ray and generates a report. The X-Ray order identifier is transmitted in the Order class, the performed X-Ray procedure is transmitted in the ServiceEvent class, and the ClinicalDocument.code would be valued with 'Diagnostic Imaging Report'."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -317,6 +358,8 @@
     </element>
     <element id="ClinicalDocument.documentationOf">
       <path value="ClinicalDocument.documentationOf"/>
+      <short value="The main Act being documented"/>
+      <comment value="In some cases, the ServiceEvent is inherent in the ClinicalDocument.code, such as where ClinicalDocument.code is 'History and Physical Report' and the procedure being documented is a 'History and Physical' act. A ServiceEvent can further specialize the act inherent in the ClinicalDocument.code, such as where the ClinicalDocument.code is simply 'Procedure Report' and the procedure was a 'colonoscopy'. If ServiceEvent is included, it must be equivalent to or further specialize the value inherent in the ClinicalDocument.code, and shall not conflict with the value inherent in the ClinicalDocument.code, as such a conflict would constitute an ambiguous situation."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -325,6 +368,8 @@
     </element>
     <element id="ClinicalDocument.relatedDocument">
       <path value="ClinicalDocument.relatedDocument"/>
+      <short value="Source of a document revision, addenda, or transformation"/>
+      <requirements value="A conformant CDA document can have a single relatedDocument with typeCode 'APND'; a single relatedDocument with typeCode 'RPLC'; a single relatedDocument with typeCode 'XFRM'; a combination of two relatedDocuments with typeCodes 'XFRM' and 'RPLC'; or a combination of two relatedDocuments with typeCodes 'XFRM' and 'APND'. No other combinations are allowed."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -333,6 +378,8 @@
     </element>
     <element id="ClinicalDocument.authorization">
       <path value="ClinicalDocument.authorization"/>
+      <short value="Consents associated with this document"/>
+      <comment value="The type of consent (e.g. a consent to perform the related ServiceEvent, a consent for the information contained in the document to be released to a third party) is conveyed in Consent.code. Consents referenced in the CDA Header have been finalized (Consent.statusCode must equal 'completed') and should be on file."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -341,6 +388,9 @@
     </element>
     <element id="ClinicalDocument.componentOf">
       <path value="ClinicalDocument.componentOf"/>
+      <short value="Setting of the clinical encounter during which the documented act(s) or ServiceEvent occurred."/>
+      <definition value="This optional class represents the setting of the clinical encounter during which the documented act(s) or ServiceEvent occurred. Documents are not necessarily generated during an encounter, such as when a clinician, in response to an abnormal lab result, attempts to contact the patient but can't, and writes a Progress Note."/>
+      <comment value="In some cases, the setting of the encounter is inherent in the ClinicalDocument.code, such as where ClinicalDocument.code is 'Diabetes Clinic Progress Note'. The setting of an encounter can also be transmitted in the HealthCareFacility.code attribute. If HealthCareFacility.code is sent, it should be equivalent to or further specialize the value inherent in the ClinicalDocument.code (such as where the ClinicalDocument.code is simply 'Clinic Progress Note' and the value of HealthCareFacility.code is 'cardiology clinic'), and shall not conflict with the value inherent in the ClinicalDocument.code, as such a conflict would constitute an ambiguous situation."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -349,6 +399,7 @@
     </element>
     <element id="ClinicalDocument.component">
       <path value="ClinicalDocument.component"/>
+      <short value="Body of the document"/>
       <min value="1"/>
       <max value="1"/>
       <type>

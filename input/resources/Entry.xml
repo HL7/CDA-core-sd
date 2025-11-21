@@ -31,7 +31,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
-  <description value="CDA entries represent the structured computer-processable components within a document section. Each section can contain zero to many entries."/>
+  <description value="CDA entries represent the structured computer-processable components within a document section. Each section can contain zero to many entries.&#xA;&#xA;Clinical documents contain a wide breadth of content, requiring much of the RIM to enable a full and complete encoding. The current set of CDA entries have been developed in response to identified requirements and scenarios that are in CDA's scope. Rather than creating specific entries for each scenario, similar requirements are merged to create broader entries, which can then be constrained within a particular realm or implementation. This approach is consistent with the approach taken by CEN, DICOM, and OpenEHR.&#xA;&#xA;The model for CDA entries is derived from the shared HL7 Clinical Statement model, which is a collaborative project between several committees striving to provide a consistent representation of clinical observations and acts across various V3 specifications."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Entry"/>
