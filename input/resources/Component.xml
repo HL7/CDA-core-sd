@@ -4,7 +4,7 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>Component (Document body)</p>
+      <p>The CDA body can be either an unstructured blob, or can be comprised of structured markup. Every CDA document has exactly one body, associated with the ClinicalDocument class through the component relationship.</p>
     </div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
@@ -29,7 +29,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
-  <description value="Component (CDA Class)"/>
+  <description value="The CDA body can be either an unstructured blob, or can be comprised of structured markup. Every CDA document has exactly one body, associated with the ClinicalDocument class through the component relationship."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Component"/>
@@ -75,6 +75,7 @@
     </element>
     <element id="Component.nonXMLBody">
       <path value="Component.nonXMLBody"/>
+      <short value="A body in some format other than XML."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -83,6 +84,7 @@
     </element>
     <element id="Component.structuredBody">
       <path value="Component.structuredBody"/>
+      <short value="A body comprised of one or more document sections."/>
       <min value="0"/>
       <max value="1"/>
       <type>
