@@ -51,8 +51,37 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CV"/>
       </type>
+    </element>
+    <element id="EIVL_TS.event.code">
+      <path value="EIVL_TS.event.code"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDATimingEvent"/>
+      </binding>
+    </element>
+    <element id="EIVL_TS.event.codeSystem">
+      <path value="EIVL_TS.event.codeSystem"/>
+      <min value="0"/>
+      <max value="1"/>
+      <fixedString value="2.16.840.1.113883.5.139"/>
+    </element>
+    <element id="EIVL_TS.event.codeSystemName">
+      <path value="EIVL_TS.event.codeSystemName"/>
+      <min value="0"/>
+      <max value="1"/>
+      <fixedString value="TimingEvent"/>
+    </element>
+    <element id="EIVL_TS.event.originalText">
+      <path value="EIVL_TS.event.originalText"/>
+      <min value="0"/>
+      <max value="0"/>
     </element>
     <element id="EIVL_TS.offset">
       <path value="EIVL_TS.offset"/>

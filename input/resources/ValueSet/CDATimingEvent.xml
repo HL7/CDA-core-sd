@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="CDATimingEvent"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/CDATimingEvent"/>
+    <name value="CDATimingEvent"/>
+    <title value="CDATimingEvent"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="A set of codes for common (periodical) activity of daily living - limited to values allowed in original CDA definition"/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"/>
+            <version value="2.1.0"/>
+            <concept>
+                <code value="AC"/>
+            </concept>
+            <concept>
+                <code value="ACD"/>
+            </concept>
+            <concept>
+                <code value="ACM"/>
+            </concept>
+            <concept>
+                <code value="ACV"/>
+            </concept>
+            <concept>
+                <code value="HS"/>
+            </concept>
+            <concept>
+                <code value="IC"/>
+            </concept>
+            <concept>
+                <code value="ICD"/>
+            </concept>
+            <concept>
+                <code value="ICM"/>
+            </concept>
+            <concept>
+                <code value="ICV"/>
+            </concept>
+            <concept>
+                <code value="PC"/>
+            </concept>
+            <concept>
+                <code value="PCD"/>
+            </concept>
+            <concept>
+                <code value="PCM"/>
+            </concept>
+            <concept>
+                <code value="PCV"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

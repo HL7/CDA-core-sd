@@ -922,6 +922,11 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDANullFlavor" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAPostalAddressUse" />
 			</reference>
 		</resource>
@@ -932,7 +937,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDANullFlavor" />
+				<reference value="ValueSet/CDATimingEvent" />
 			</reference>
 		</resource>
 		<!-- Fixing THO ValueSets -->

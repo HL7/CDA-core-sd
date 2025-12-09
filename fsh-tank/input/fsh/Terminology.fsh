@@ -153,3 +153,22 @@ Description: """A set of codes specifying whether and how the participant has at
 * ^experimental = false
 * include $PartSig#S
 * include $PartSig#X
+
+Alias: $TimingEvent = http://terminology.hl7.org/CodeSystem/v3-TimingEvent|2.1.0
+ValueSet: CDATimingEvent
+Title: "CDATimingEvent"
+Description: "A set of codes for common (periodical) activity of daily living - limited to values allowed in original CDA definition"
+* ^experimental = false
+* include $TimingEvent#AC
+* include $TimingEvent#ACD
+* include $TimingEvent#ACM
+* include $TimingEvent#ACV
+* include $TimingEvent#HS
+* include $TimingEvent#IC
+* include $TimingEvent#ICD
+* include $TimingEvent#ICM
+* include $TimingEvent#ICV
+* include $TimingEvent#PC
+* include $TimingEvent#PCD
+* include $TimingEvent#PCM
+* include $TimingEvent#PCV

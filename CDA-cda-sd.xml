@@ -52,6 +52,7 @@
 <artifact id="ValueSet/CDARoleCode" key="ValueSet-CDARoleCode" name="CDARoleCode"/>
 <artifact id="ValueSet/CDASetOperator" key="ValueSet-CDASetOperator" name="CDASetOperator"/>
 <artifact id="ValueSet/CDASignatureCode" key="ValueSet-CDASignatureCode" name="CDASignatureCode"/>
+<artifact id="ValueSet/CDATimingEvent" key="ValueSet-CDATimingEvent" name="CDATimingEvent"/>
 <artifact id="StructureDefinition/CE" key="StructureDefinition-CE" name="CE: CodedWithEquivalents (V3 Data Type)"/>
 <artifact id="StructureDefinition/CO" key="StructureDefinition-CO" name="CO: CodedOrdinal (V3 Data Type)"/>
 <artifact id="StructureDefinition/CR" key="StructureDefinition-CR" name="CR: ConceptRole (V3 Data Type)"/>
