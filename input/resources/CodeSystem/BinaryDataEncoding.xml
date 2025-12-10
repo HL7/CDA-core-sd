@@ -13,9 +13,11 @@
     <concept>
         <code value="B64"/>
         <display value="Base64-encoded text"/>
+        <definition value="Base64-encoded text"/>
     </concept>
     <concept>
         <code value="TXT"/>
         <display value="Plain text"/>
+        <definition value="Plain text"/>
     </concept>
 </CodeSystem>
