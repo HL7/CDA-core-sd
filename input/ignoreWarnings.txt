@@ -28,8 +28,8 @@ The concept 'CASE' is deprecated and its use should be reviewed
 The concept 'OUTB' is deprecated and its use should be reviewed
 The concept 'CNOD' is deprecated and its use should be reviewed
 The concept 'DIET' is deprecated and its use should be reviewed
-The concept 'ENTRY' is retired and its use should be reviewed
-The concept 'ORGANIZER' is retired and its use should be reviewed
+The concept 'ENTRY' has a status of retired and its use should be reviewed
+The concept 'ORGANIZER' has a status of retired and its use should be reviewed
 The concept 'EVN.CRT' is deprecated and its use should be reviewed
 The concept 'NP' has a status of retired and its use should be reviewed
 The concept 'MS' is deprecated and its use should be reviewed
