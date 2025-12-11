@@ -1,11 +1,11 @@
 {
   "package-id" : "hl7.cda.uv.core",
-  "version" : "2.1.0-sd",
-  "path" : "http://hl7.org/cda/stds/core/2.1.0-sd",
+  "version" : "2.0.2-sd",
+  "path" : "http://hl7.org/cda/stds/core/2.0.2-sd",
   "mode": "milestone",
   "milestone": true,
   "status" : "informative",
   "sequence" : "CDA 2.0",
-  "desc" : "Dec 2025 Published version that is used by CCDA and other guides - incorporates new sdtc templates.",
+  "desc" : "Dec 2025 Published version that is used by CCDA and other guides - incorporates fixes and new sdtc extensions.",
   "first" : false
 }
