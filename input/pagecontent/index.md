@@ -4,6 +4,9 @@ This Implementation Guide is a representation of the [Clinical Document Architec
 
 This guide does not replace the CDA specification.  It includes the Overview, Implementation Notes, and Narrative Block information from the specification to provide context and guidance.  To understand CDA, readers should consult the actual CDA specification.  If there are any differences found between the specification and this guide, the specification takes precedence and is assumed to be correct.
 
+#### Versioning of this guide
+This guide takes its version from the underlying CDA specification, i.e. 2.0.  It also includes the tag '-sd' to make it clear that it is a StructureDefinition representation of the CDA 2.0 specification.  It is currently versioned at 2.0.2 as this is the 3rd version of this guide.  2.0.0-sd was the original guide, 2.0.1-sd was published in 2024, and 2.0.2-sd was published in 2025.  Each version of this guide includes any errata fixes that have been found since the previous version, as well as any new sdtc schema extensions that have been introduced since the previous version.
+
 <table class="cda-table">
 	<tbody>
 	<tr>
