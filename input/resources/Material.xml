@@ -115,7 +115,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL_TS"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
       </type>
     </element>
   </differential>
