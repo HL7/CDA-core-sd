@@ -40,7 +40,7 @@ The concept 'NP' has a status of retired and its use should be reviewed
 
 # We are using versions of a code system from an older version of THO that tx.fhir.org does not support
 The concepts in the value set include have not been validated because the code system 'http://terminology.hl7.org/CodeSystem/v3-ActCode' is not known, and no terminology service supports it
-Error from https://tx.fhir.org/r5: Error: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-ActCode' version '7.0.0' could not be found, so the value set cannot be expanded. Valid versions: 10.0.0 or 9.0.0
+Error from https://tx.fhir.org/r5: Error: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-ActCode' version '7.0.0' could not be found, so the value set cannot be expanded. Valid versions: 10.0.0
 
 # Ignore duplicate anchor ids for now
 The html source has duplicate anchor Ids:%
